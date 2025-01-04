@@ -1,7 +1,7 @@
 <template>
   <Widget :config="config" move-handles="corners" :inline-edit="false">
     <div
-      class="widget-default-style p-1 flex flex-col overflow-y-auto min-h-0"
+      class="widget-default-style p-1 flex flex-col overflow-y-auto min-h-0 w-72"
       style="min-width: 5rem"
     >
       <div class="text-gray-100 p-1 flex items-center justify-between gap-4">
@@ -20,7 +20,7 @@
         >
           {{ t("filter_generator.regenerate_filter") }}
         </button>
-        <span>After you updating it, remember to refresh <br/> the filter in Settings > Game <br/> </span>
+        <span>{{ t("filter_generator.regenerate_disclaimer") }}</span>
       </div>
     </div>
   </Widget>
