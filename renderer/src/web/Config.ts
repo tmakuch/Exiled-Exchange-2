@@ -6,6 +6,7 @@ import type * as widget from "./overlay/widgets";
 import type { StashSearchWidget } from "./stash-search/widget";
 import type { ItemCheckWidget } from "./item-check/widget";
 import type { ItemSearchWidget } from "./item-search/widget";
+import type {FilterGeneratorWidget} from "./filter-generator/widget";
 
 const _config = shallowRef<Config | null>(null);
 let _lastSavedConfig: Config | null = null;
@@ -352,6 +353,60 @@ export const defaultConfig = (): Config => ({
       },
       images: [{ id: 1, url: "syndicate.jpg" }],
     } as widget.ImageStripWidget,
+    {
+      wmId: 104,
+      wmType: "filter-generator",
+      wmTitle: "Filter generator",
+      wmWants: "hide",
+      wmZorder: 104,
+      wmFlags: ["invisible-on-blur"],
+      anchor: {
+        pos: "tl",
+        x: 34,
+        y: 56,
+      },
+      entries: [
+        {
+          id: 1,
+          name: "Low level area items",
+          identifiers: [
+            { key: "AreaLevel", value: "< 10" },
+            { key: "Rarity", value: "Normal,Magic,Rare" },
+            { key: "Quality", value: "= 0" },
+            { key: "Sockets", value: "= 0" },
+          ],
+          hide: true,
+        },
+        {
+          id: 2,
+          name: "Flasks",
+          identifiers: [
+            { key: "BaseType", value: "Life Flask,Mana Flask" },
+          ],
+          hide: true,
+        },
+        {
+          id: 3,
+          name: "People get those for Headhunter unique",
+          identifiers: [
+            { key: "Class", value: "Belts" },
+            { key: "BaseType", value: "Heavy Belt" },
+            { key: "Rarity", value: "Normal" },
+          ],
+          hide: false,
+        },
+        {
+          id: 4,
+          name: "People get those for Astramentis unique",
+          identifiers: [
+            { key: "Class", value: "Amulets" },
+            { key: "BaseType", value: "Stellar Amulet" },
+            { key:  "Rarity", value: "Normal" },
+          ],
+          hide: false,
+        },
+      ],
+    } as FilterGeneratorWidget,
   ],
 });
 
@@ -610,6 +665,16 @@ function upgradeConfig(_config: Config): Config {
 
   if (config.logKeys === undefined) {
     config.logKeys = false;
+  }
+
+  if (config.configVersion < 18) {
+    config.widgets.push({
+      ...defaultConfig().widgets.find((w) => w.wmType === "filter-generator")!,
+      wmId: Math.max(0, ...config.widgets.map((_) => _.wmId)) + 1,
+      wmZorder: null,
+    });
+
+    config.configVersion = 18;
   }
 
   const priceCheck = config.widgets.find(

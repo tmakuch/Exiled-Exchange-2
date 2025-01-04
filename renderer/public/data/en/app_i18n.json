@@ -236,6 +236,16 @@
     "search_text": "search text or regex",
     "friendly_name": "friendly name"
   },
+  "filter_generator": {
+    "name": "Filter Generator",
+    "open_settings": "Edit rules",
+    "regenerate_filter": "Update filter",
+    "friendly_name": "friendly name",
+    "identifier": "identifier",
+    "identifier_key": "Key",
+    "identifier_value": "Value",
+    "identifier_add": "Add identifier"
+  },
   "image_strip": {
     "name": "Image strip"
   },
