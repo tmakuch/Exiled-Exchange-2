@@ -30,7 +30,7 @@ export class FilterGenerator {
   }
 
   generateFilterFile(customFilters: Array<IRawFilter>) {
-    this.logger.write("Received filter");
+    this.logger.write("Received filter generation request");
 
     let filterFileContent: string;
     try {
