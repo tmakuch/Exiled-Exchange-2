@@ -368,18 +368,6 @@ export const defaultConfig = (): Config => ({
       entries: [
         {
           id: 1,
-          name: "Low level area items",
-          identifiers: [
-            { key: "Class", value: "Body Armours,Helmets,Boots,Gloves,Shields,Foci,One Hand Maces,Two Hand Maces,Quarterstaves,Bows,Crossbows" },
-            { key: "AreaLevel", value: "< 65" },
-            { key: "Rarity", value: "Normal,Magic,Rare" },
-            { key: "Quality", value: "= 0" },
-            { key: "Sockets", value: "= 0" },
-          ],
-          action: "hide",
-        },
-        {
-          id: 2,
           name: "Scroll of Wisdom",
           identifiers: [
             { key: "BaseType", value: "Scroll of Wisdom" },
@@ -387,7 +375,7 @@ export const defaultConfig = (): Config => ({
           action: "hide"
         },
         {
-          id: 3,
+          id: 2,
           name: "Flasks",
           identifiers: [
             { key: "BaseType", value: "Life Flask,Mana Flask" },
@@ -395,7 +383,7 @@ export const defaultConfig = (): Config => ({
           action: "hide"
         },
         {
-          id: 4,
+          id: 3,
           name: "People get those for Headhunter unique",
           identifiers: [
             { key: "Class", value: "Belts" },
@@ -405,7 +393,7 @@ export const defaultConfig = (): Config => ({
           action: "interesting"
         },
         {
-          id: 5,
+          id: 4,
           name: "People get those for Astramentis unique",
           identifiers: [
             { key: "Class", value: "Amulets" },
@@ -413,6 +401,18 @@ export const defaultConfig = (): Config => ({
             { key:  "Rarity", value: "Normal" },
           ],
           action: "interesting"
+        },
+        {
+          id: 5,
+          name: "Low level area items",
+          identifiers: [
+            { key: "Class", value: "Body Armours,Helmets,Boots,Gloves,Shields,Foci,One Hand Maces,Two Hand Maces,Quarterstaves,Bows,Crossbows" },
+            { key: "AreaLevel", value: "< 65" },
+            { key: "Rarity", value: "Normal,Magic,Rare" },
+            { key: "Quality", value: "= 0" },
+            { key: "Sockets", value: "= 0" },
+          ],
+          action: "hide",
         },
       ],
     } as FilterGeneratorWidget,
