@@ -78,6 +78,7 @@ import WidgetItemSearch from "../item-search/WidgetItemSearch.vue";
 import WidgetSettings from "../settings/SettingsWindow.vue";
 import { AppConfig, saveConfig, pushHostConfig } from "@/web/Config";
 import LoadingAnimation from "./LoadingAnimation.vue";
+import WidgetFilterGenerator from "../filter-generator/WidgetFilterGenerator.vue";
 // ---
 import { usePoeninja } from "@/web/background/Prices";
 import { useLeagues } from "@/web/background/Leagues";
@@ -97,6 +98,7 @@ export default defineComponent({
     WidgetItemSearch,
     WidgetSettings,
     LoadingAnimation,
+    WidgetFilterGenerator
   },
   setup() {
     usePoeninja();
