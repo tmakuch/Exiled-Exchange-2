@@ -1,6 +1,5 @@
 <template>
   <div class="p-2">
-    <div> testing shit</div>
     <dnd-container
       tag="div"
       class="flex flex-col gap-y-2"
@@ -81,7 +80,7 @@ import { configProp, configModelValue } from "../settings/utils.js";
 import type { FilterGeneratorWidget } from "./widget.js";
 
 export default defineComponent({
-  name: "filter_generator.name",
+  name: "filter_generator.editor",
   components: { DndContainer, HotkeyInput },
   props: configProp<FilterGeneratorWidget>(),
   setup(props) {

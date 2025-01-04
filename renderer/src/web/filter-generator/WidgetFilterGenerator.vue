@@ -20,6 +20,7 @@
         >
           {{ t("filter_generator.regenerate_filter") }}
         </button>
+        <span>After you updating it, remember to refresh <br/> the filter in Settings > Game <br/> </span>
       </div>
     </div>
   </Widget>
