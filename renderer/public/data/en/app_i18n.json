@@ -237,6 +237,7 @@
   },
   "filter_generator": {
     "name": "Filter Generator",
+    "editor": "Editor",
     "open_settings": "Edit rules",
     "regenerate_filter": "Update filter",
     "friendly_name": "friendly name",
