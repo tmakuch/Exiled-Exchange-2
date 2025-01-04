@@ -250,7 +250,7 @@
     "about_start1": "This plugin lets you generate a item filter for the game. It modifies how items are displayed for you when they're on the ground.",
     "about_start2": "In addition to default modification, we've provided you an option to define your custom filters to hide selected items or make them more visible if you're looking for them.",
     "about_start3": "Read the docs what filters are available to you and head to editor tab.",
-    "about_start4": "Filter is based on one created by CYBERION. Go give him some love at",
+    "about_start4": "Filter is based on one created by CYBERION (it's 1.3 version). Go give him some love at",
     "about_disclaimer_header": "Disclaimer regarding early access",
     "about_disclaimer_text1": "As of day of writing this PoE2 developers did not provide us PoE2 dedicated filter instructions.",
     "about_disclaimer_text2": "All working filters are based on PoE1 filter instructions. You can find them at",
