@@ -9,6 +9,6 @@ export interface FilterGeneratorWidget extends Widget {
       key: string;
       value: string;
     }>,
-    hide: true,
+    hide: boolean;
   }>;
 }
