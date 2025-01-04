@@ -161,13 +161,6 @@ export default function getFilters(extraFilters: Array<IRawFilter>): Array<IFilt
     },
     // Currency
     {
-      name: "Scroll of Wisdom",
-      hide: true,
-      identifiers: {
-        BaseType: "Scroll of Wisdom",
-      },
-    },
-    {
       name: "Currency t5",
       identifiers: {
         Class: "Stackable Currency",

@@ -371,6 +371,14 @@ export const defaultConfig = (): Config => ({
         },
         {
           id: 2,
+          name: "Scroll of Wisdom",
+          identifiers: [
+            { key: "BaseType", value: "Scroll of Wisdom" },
+          ],
+          hide: true,
+        },
+        {
+          id: 3,
           name: "Flasks",
           identifiers: [
             { key: "BaseType", value: "Life Flask,Mana Flask" },
@@ -378,7 +386,7 @@ export const defaultConfig = (): Config => ({
           hide: true,
         },
         {
-          id: 3,
+          id: 4,
           name: "People get those for Headhunter unique",
           identifiers: [
             { key: "Class", value: "Belts" },
@@ -388,7 +396,7 @@ export const defaultConfig = (): Config => ({
           hide: false,
         },
         {
-          id: 4,
+          id: 5,
           name: "People get those for Astramentis unique",
           identifiers: [
             { key: "Class", value: "Amulets" },
