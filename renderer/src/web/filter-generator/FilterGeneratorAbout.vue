@@ -61,12 +61,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style lang="postcss" module>
-.identifiers {
-  @apply grid;
-  @apply gap-0.5;
-  @apply col-start-2;
-  grid-template-columns: 1fr 1fr auto;
-}
-</style>
