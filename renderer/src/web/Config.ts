@@ -370,7 +370,8 @@ export const defaultConfig = (): Config => ({
           id: 1,
           name: "Low level area items",
           identifiers: [
-            { key: "AreaLevel", value: "< 10" },
+            { key: "Class", value: "Body Armours,Helmets,Boots,Gloves,Shields,Foci,One Hand Maces,Two Hand Maces,Quarterstaves,Bows,Crossbows" },
+            { key: "AreaLevel", value: "< 65" },
             { key: "Rarity", value: "Normal,Magic,Rare" },
             { key: "Quality", value: "= 0" },
             { key: "Sockets", value: "= 0" },
