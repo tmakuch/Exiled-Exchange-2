@@ -107,13 +107,13 @@ export default defineComponent({
           hide: false
         });
       },
-      addIdentifier(entry: FilterGeneratorWidget["identifiers"][number]) {
+      addIdentifier(entry: FilterGeneratorWidget["entries"][number]) {
         entry.identifiers.push({
           key: "",
           value: "",
         })
       },
-      removeIdentifier(entry: FilterGeneratorWidget["identifiers"][number], identifierIdx: number) {
+      removeIdentifier(entry: FilterGeneratorWidget["entries"][number], identifierIdx: number) {
         entry.identifiers.splice(identifierIdx, 1)
       }
     };
