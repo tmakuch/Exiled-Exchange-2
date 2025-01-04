@@ -15,6 +15,7 @@ import { OverlayVisibility } from "./windowing/OverlayVisibility";
 import { GameLogWatcher } from "./host-files/GameLogWatcher";
 import { HttpProxy } from "./proxy";
 import { installExtension, VUEJS_DEVTOOLS } from "electron-devtools-installer";
+import {FilterGenerator} from "./filter-generator/FilterGenerator";
 
 if (!app.requestSingleInstanceLock()) {
   app.exit();
@@ -57,6 +58,7 @@ app.on("ready", async () => {
         gameConfig,
         eventPipe
       );
+      await FilterGenerator.register(logger, eventPipe);
       eventPipe.onEventAnyClient("CLIENT->MAIN::update-host-config", (cfg) => {
         overlay.updateOpts(cfg.overlayKey, cfg.windowTitle);
         shortcuts.updateActions(
