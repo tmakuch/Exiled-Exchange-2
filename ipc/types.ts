@@ -172,7 +172,7 @@ type IpcUserAction =
   Event<'CLIENT->MAIN::user-action', {
     action: 'check-for-update' | 'update-and-restart' | 'quit'
   } | {
-    action: 'stash-search'
+    action: 'stash-search' | 'filter-generate'
     text: string
   }>
 

@@ -66,7 +66,7 @@ function openSettings() {
 function regenerateFilter() {
   MainProcess.sendEvent({
     name: "CLIENT->MAIN::user-action",
-    payload: { action: "filter-regenerate", text },
+    payload: { action: "filter-generate", text: JSON.stringify(props.config.entries) },
   });
 }
 
