@@ -31,9 +31,10 @@
           >
             <i class="fas fa-times text-gray-400" />
           </button>
-          <select v-model="entry.hide" class="p-1 rounded bg-gray-700 col-start-2">
-            <option value="false">Show as interesting item</option>
-            <option value="true">Hide</option>
+          <select v-model="entry.action" class="p-1 rounded bg-gray-700 col-start-2">
+            <option value="interesting">Show as interesting item</option>
+            <option value="exalt">Show as Exalted Orb</option>
+            <option value="hide">Hide</option>
           </select>
           <div
               v-for="(identifier, identifierIdx) in entry.identifiers"
@@ -104,7 +105,7 @@ export default defineComponent({
           identifiers: [
             { key: "", value: ""}
           ],
-          hide: false
+          action: "interesting"
         });
       },
       addIdentifier(entry: FilterGeneratorWidget["entries"][number]) {

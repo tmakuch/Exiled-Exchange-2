@@ -12,5 +12,5 @@ export interface IFilter {
 export interface IRawFilter {
   name: string;
   identifiers: Array<{ key: string; value: string }>;
-  hide: boolean;
+  action: "interesting" | "exalt" | "hide";
 }

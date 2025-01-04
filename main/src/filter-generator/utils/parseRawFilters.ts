@@ -1,10 +1,20 @@
 import { type IFilter, type IRawFilter} from "../data/IFilter";
-import { RGBA } from "../data/vars";
+import {FONT_SIZE, RGBA} from "../data/vars";
 
-const customFilterModifiers = {
-  SetTextColor: RGBA.WHITE(150),
-  SetBackgroundColor: RGBA.EXALT(150),
-  SetBorderColor: RGBA.EXALT(),
+const modifiers = {
+  "exalt": {
+    SetFontSize: FONT_SIZE.T2,
+    SetTextColor: RGBA.BLACK(),
+    SetBorderColor: RGBA.BLACK(),
+    SetBackgroundColor: RGBA.EXALT(),
+    PlayEffect: "White",
+    MinimapIcon: "2 Orange Circle",
+  },
+  "interesting": {
+    SetTextColor: RGBA.WHITE(150),
+    SetBackgroundColor: RGBA.EXALT(150),
+    SetBorderColor: RGBA.EXALT(),
+  }
 };
 
 export default function parseRawFilters(rawFilters: Array<IRawFilter>): Array<IFilter> {
@@ -24,7 +34,7 @@ export default function parseRawFilters(rawFilters: Array<IRawFilter>): Array<IF
         }
         return result;
       }, {} as Record<string, string | Array<string>>),
-      hide: filter.hide,
-      modifiers: !filter.hide ? customFilterModifiers : undefined,
+      hide: filter.action === "hide",
+      modifiers: filter.action !== "hide" ? modifiers[filter.action] : undefined,
     }));
 }

@@ -376,7 +376,7 @@ export const defaultConfig = (): Config => ({
             { key: "Quality", value: "= 0" },
             { key: "Sockets", value: "= 0" },
           ],
-          hide: true,
+          action: "hide",
         },
         {
           id: 2,
@@ -384,7 +384,7 @@ export const defaultConfig = (): Config => ({
           identifiers: [
             { key: "BaseType", value: "Scroll of Wisdom" },
           ],
-          hide: true,
+          action: "hide"
         },
         {
           id: 3,
@@ -392,7 +392,7 @@ export const defaultConfig = (): Config => ({
           identifiers: [
             { key: "BaseType", value: "Life Flask,Mana Flask" },
           ],
-          hide: true,
+          action: "hide"
         },
         {
           id: 4,
@@ -402,7 +402,7 @@ export const defaultConfig = (): Config => ({
             { key: "BaseType", value: "Heavy Belt" },
             { key: "Rarity", value: "Normal" },
           ],
-          hide: false,
+          action: "interesting"
         },
         {
           id: 5,
@@ -412,7 +412,7 @@ export const defaultConfig = (): Config => ({
             { key: "BaseType", value: "Stellar Amulet" },
             { key:  "Rarity", value: "Normal" },
           ],
-          hide: false,
+          action: "interesting"
         },
       ],
     } as FilterGeneratorWidget,
@@ -676,14 +676,14 @@ function upgradeConfig(_config: Config): Config {
     config.logKeys = false;
   }
 
-  if (config.configVersion < 18) {
+  if (config.configVersion < 19) {
     config.widgets.push({
       ...defaultConfig().widgets.find((w) => w.wmType === "filter-generator")!,
       wmId: Math.max(0, ...config.widgets.map((_) => _.wmId)) + 1,
       wmZorder: null,
     });
 
-    config.configVersion = 18;
+    config.configVersion = 19;
   }
 
   const priceCheck = config.widgets.find(
