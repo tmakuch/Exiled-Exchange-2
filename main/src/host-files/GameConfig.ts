@@ -52,6 +52,10 @@ export class GameConfig {
 
   constructor(private server: ServerEvents, private logger: Logger) {}
 
+  getConfigPath() {
+    return this._actualPath
+  }
+
   async readConfig(filePath: string) {
     if (this._wantedPath !== filePath) {
       this._wantedPath = filePath;

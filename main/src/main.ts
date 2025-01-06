@@ -58,7 +58,7 @@ app.on("ready", async () => {
         gameConfig,
         eventPipe
       );
-      await FilterGenerator.register(logger, eventPipe);
+      const filterGenerator = new FilterGenerator(logger, gameConfig, eventPipe);
       eventPipe.onEventAnyClient("CLIENT->MAIN::update-host-config", (cfg) => {
         overlay.updateOpts(cfg.overlayKey, cfg.windowTitle);
         shortcuts.updateActions(
@@ -69,7 +69,9 @@ app.on("ready", async () => {
           cfg.language
         );
         gameLogWatcher.restart(cfg.clientLog ?? "");
-        gameConfig.readConfig(cfg.gameConfig ?? "");
+        gameConfig.readConfig(cfg.gameConfig ?? "").then(() => {
+          filterGenerator.updateConfigPath();
+        });
         appUpdater.checkAtStartup();
         tray.overlayKey = cfg.overlayKey;
       });

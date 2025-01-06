@@ -1,25 +1,21 @@
 import type {Logger} from "../RemoteLogger";
 import type {ServerEvents} from "../server";
-import getDocumentsFolderPath from "./utils/getDocumentsFolderPath";
 import { type IRawFilter } from "./data/IFilter";
 import getFiltersContent from "./utils/builder";
 import getFilters from "./data/filters";
 import path from "node:path";
 import fs from "node:fs";
+import {GameConfig} from "../host-files/GameConfig";
 
 export class FilterGenerator {
-  private docsPath: string;
+  private docsPath: string = "";
   private logger: Logger;
+  private gameConfig: GameConfig;
   private server: ServerEvents;
 
-  public static async register(logger: Logger, server: ServerEvents) {
-    const docsPath = await getDocumentsFolderPath()
-    return new FilterGenerator(docsPath, logger, server);
-  }
-
-  private constructor(docsPath:string, logger: Logger,server: ServerEvents) {
-    this.docsPath = docsPath;
+  constructor(logger: Logger, gameConfig: GameConfig, server: ServerEvents) {
     this.logger = logger;
+    this.gameConfig = gameConfig;
     this.server = server;
 
     this.server.onEventAnyClient("CLIENT->MAIN::user-action", (e) => {
@@ -29,8 +25,17 @@ export class FilterGenerator {
     });
   }
 
+  updateConfigPath() {
+    const gameConfigFile = this.gameConfig.getConfigPath();
+    if (!gameConfigFile) {
+      this.logger.write("error [FilterGenerator] could not get config path");
+      return;
+    }
+    this.docsPath = path.dirname(gameConfigFile);
+  }
+
   generateFilterFile(customFilters: Array<IRawFilter>) {
-    this.logger.write("Received filter generation request");
+    this.logger.write("info  [FilterGenerator] Received filter generation request");
 
     let filterFileContent: string;
     try {
@@ -38,7 +43,7 @@ export class FilterGenerator {
       filterFileContent = getFiltersContent(filters);
     } catch (e) {
       const errMsg = (e as Error)?.message || e as string;
-      this.logger.write(`Error generating filter file: ${errMsg}`);
+      this.logger.write(`error [FilterGenerator] Error generating filter file: ${errMsg}`);
       return;
     }
 
@@ -51,10 +56,10 @@ export class FilterGenerator {
       fs.mkdirSync(filterFolderPath, { recursive: true });
     } catch (e) {
       const errMsg = (e as Error)?.message || e as string;
-      this.logger.write(`Filter file was generated but there was problem to write to disk: ${errMsg}`);
+      this.logger.write(`info  [FilterGenerator] Filter file was generated but there was problem to write to disk: ${errMsg}`);
       return;
     }
 
-    this.logger.write("Filter file was updated")
+    this.logger.write("info  [FilterGenerator] Filter file was updated")
   }
 }

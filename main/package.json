@@ -19,8 +19,7 @@
   "main": "dist/main.js",
   "dependencies": {
     "electron-overlay-window": "3.3.0",
-    "uiohook-napi": "1.5.x",
-    "winreg": "1.2.5"
+    "uiohook-napi": "1.5.x"
   },
   "devDependencies": {
     "@types/ini": "^4.1.0",
