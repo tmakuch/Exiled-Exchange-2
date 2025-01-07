@@ -2,9 +2,9 @@ import type { Logger } from "../RemoteLogger";
 import type { ServerEvents } from "../server";
 import { type IRawFilter } from "./data/IFilter";
 import getFiltersContent from "./utils/builder";
-import getFilters from "./data/filters";
+import getFilters from "./utils/parseRawFilters";
 import path from "node:path";
-import fs from "node:fs";
+import fs from "node:fs/promises";
 import { GameConfig } from "../host-files/GameConfig";
 
 export class FilterGenerator {
@@ -21,13 +21,20 @@ export class FilterGenerator {
     this.server = server;
 
     this.server.onEventAnyClient("CLIENT->MAIN::user-action", (e) => {
-      if (e.action === "filter-generate") {
-        this.generateFilterFile(JSON.parse(e.text) as Array<IRawFilter>);
+      switch (e.action) {
+        case "filter-generator:update": {
+          this.updateFilterFile(JSON.parse(e.text) as { file: string, strategy: 'before' | 'after',  rules: Array<IRawFilter> });
+          return;
+        }
+        case "filter-generator:list": {
+          this.sendListOfFilters();
+          return;
+        }
       }
     });
   }
 
-  generateFilterFile(customFilters: Array<IRawFilter>) {
+  async updateFilterFile(event: { file: string, strategy: 'before' | 'after', rules: Array<IRawFilter> }) {
     if (this.docsPath === "") {
       this.logger.write(
         "error [FilterGenerator] Invalid game config path, could not generate filter file."
@@ -39,10 +46,24 @@ export class FilterGenerator {
       "info  [FilterGenerator] Received filter generation request"
     );
 
-    let filterFileContent: string;
+    if (!path.isAbsolute(event.file)) {
+      event.file = path.join(this.docsPath, event.file);
+    }
+
+    let oldFilterFileContent;
+    let newFilterFileContent;
+
     try {
-      const filters = getFilters(customFilters);
-      filterFileContent = getFiltersContent(filters);
+      oldFilterFileContent = await fs.readFile(event.file, 'utf-8');
+    } catch (e) {
+      const errMsg = (e as Error)?.message || e as string;
+      this.logger.write(`error [FilterGenerator] Could not read selected file: ${errMsg}`);
+      return;
+    }
+
+    try {
+      const customFilters = getFilters(event.rules);
+      newFilterFileContent = getFiltersContent(event.strategy, oldFilterFileContent, customFilters);
     } catch (e) {
       const errMsg = (e as Error)?.message || (e as string);
       this.logger.write(
@@ -52,17 +73,7 @@ export class FilterGenerator {
     }
 
     try {
-      const filterPath = path.join(
-        this.docsPath,
-        "exiled_exchange_2_filter.filter"
-      );
-      const filterFolderPath = path.join(
-        this.docsPath,
-        "exiled_exchange_2_filter_data"
-      );
-
-      fs.writeFileSync(filterPath, filterFileContent);
-      fs.mkdirSync(filterFolderPath, { recursive: true });
+      await fs.writeFile(event.file, newFilterFileContent);
     } catch (e) {
       const errMsg = (e as Error)?.message || (e as string);
       this.logger.write(
@@ -72,5 +83,16 @@ export class FilterGenerator {
     }
 
     this.logger.write("info  [FilterGenerator] Filter file was updated");
+  }
+
+  async sendListOfFilters() {
+    const listOfFilters = (await fs.readdir(this.docsPath)).filter((fileName: string) => fileName.endsWith('.filter'));
+    this.server.sendEventTo('last-active', {
+      name: "MAIN->CLIENT::filter-generator:list",
+      payload: {
+        folder: this.docsPath,
+        files: listOfFilters,
+      }
+    });
   }
 }

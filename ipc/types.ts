@@ -77,7 +77,8 @@ export type IpcEvent =
   IpcItemText |
   IpcOcrText |
   IpcConfigChanged |
-  IpcUserAction
+  IpcUserAction |
+  FilterGeneratorListEvent
 
 export type IpcEventPayload<Name extends IpcEvent['name'], T extends IpcEvent = IpcEvent> =
   T extends { name: Name, payload: infer P } ? P : never
@@ -170,11 +171,16 @@ type IpcUpdaterState =
 // Actions below are triggered by user interaction with the UI.
 type IpcUserAction =
   Event<'CLIENT->MAIN::user-action', {
-    action: 'check-for-update' | 'update-and-restart' | 'quit'
+    action: 'check-for-update' | 'update-and-restart' | 'quit' | 'filter-generator:list'
   } | {
-    action: 'stash-search' | 'filter-generate'
+    action: 'stash-search' | 'filter-generator:update'
     text: string
   }>
+
+type FilterGeneratorListEvent = Event<"MAIN->CLIENT::filter-generator:list", {
+  folder: string,
+  files: string[],
+}>;
 
 interface Event<TName extends string, TPayload = undefined> {
   name: TName

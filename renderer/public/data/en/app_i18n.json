@@ -239,9 +239,10 @@
   "filter_generator": {
     "name": "Filter Generator",
     "editor": "Editor",
-    "open_settings": "Edit rules",
-    "regenerate_filter": "Update filter",
-    "regenerate_disclaimer": "After you update it, remember to refresh the filter in Settings > Game",
+    "settings": "Settings",
+    "open_settings": "Edit extra rules",
+    "update_filter": "Update",
+    "update_disclaimer": "After you update it, remember to refresh the filter in Settings > Game",
     "friendly_name": "friendly name",
     "identifier": "identifier",
     "identifier_key": "Key",

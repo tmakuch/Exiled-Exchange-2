@@ -14,13 +14,17 @@
         >
           {{ t("filter_generator.open_settings") }}
         </button>
+
         <button
+          v-if="config.selectedFilterFile?.length"
           @click="regenerateFilter()"
           :class="$style.btn"
         >
-          {{ t("filter_generator.regenerate_filter") }}
+          {{ t("filter_generator.update_filter") }} <br/>
+          {{ config.selectedFilterFile }}
         </button>
-        <span>{{ t("filter_generator.regenerate_disclaimer") }}</span>
+        <span v-if="config.selectedFilterFile?.length">{{ t("filter_generator.update_disclaimer") }}</span>
+        <span v-if="!(config.selectedFilterFile?.length)">First select a file you want to be updated with your rules.</span>
       </div>
     </div>
   </Widget>
@@ -67,7 +71,11 @@ function openSettings() {
 function regenerateFilter() {
   MainProcess.sendEvent({
     name: "CLIENT->MAIN::user-action",
-    payload: { action: "filter-generate", text: JSON.stringify(props.config.entries) },
+    payload: { action: "filter-generator:update", text: JSON.stringify({
+      file: props.config.selectedFilterFile,
+      strategy: props.config.filterStrategy,
+      rules: props.config.entries,
+    }) },
   });
 }
 

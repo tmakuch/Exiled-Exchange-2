@@ -360,6 +360,8 @@ export const defaultConfig = (): Config => ({
       wmWants: "hide",
       wmZorder: 104,
       wmFlags: ["invisible-on-blur"],
+      selectedFilterFile: "",
+      filterStrategy: "before",
       anchor: {
         pos: "tl",
         x: 34,
