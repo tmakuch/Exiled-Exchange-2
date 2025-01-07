@@ -135,7 +135,6 @@ import SettingsDebug from "./debug.vue";
 import SettingsMaps from "../map-check/settings-maps.vue";
 import SettingsFilterGeneratorEditor from "../filter-generator/FilterGeneratorEditor.vue";
 import SettingsFilterGeneratorAbout from "../filter-generator/FilterGeneratorAbout.vue";
-import SettingsFilterGeneratorSettings from "../filter-generator/FilterGeneratorSettings.vue";
 import SettingsStashSearch from "../stash-search/stash-search-editor.vue";
 import SettingsStopwatch from "./stopwatch.vue";
 import SettingsItemSearch from "../item-search/settings-item-search.vue";
@@ -284,7 +283,7 @@ export default defineComponent({
 function menuByType(type?: string) {
   switch (type) {
     case "filter-generator":
-      return [[SettingsFilterGeneratorAbout, SettingsFilterGeneratorSettings, SettingsFilterGeneratorEditor]]
+      return [[SettingsFilterGeneratorAbout, SettingsFilterGeneratorEditor]]
     case "stash-search":
       return [[SettingsStashSearch]];
     case "timer":

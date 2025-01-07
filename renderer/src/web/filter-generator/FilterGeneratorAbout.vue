@@ -1,23 +1,24 @@
 <template>
-  <div class="p-2">
-    <p class="mb-4">
-      {{ t("filter_generator.about_start1")}}<br/>
-      {{ t("filter_generator.about_start2")}}<br/>
-      {{ t("filter_generator.about_start3")}}
-      <br/><br/>
-      {{ t("filter_generator.about_start4")}}<br/>
-      <a href="https://www.pathofexile.com/forum/view-thread/3605018" target="_blank" class="bg-gray-900 px-1 rounded">https://www.pathofexile.com/forum/view-thread/3605018</a>
+  <div class="p-3">
+    <p class="mb-1 ml-1">{{ t("filter_generator.about_file_select") }}</p>
+    <select v-model="selectedFilterFile" class="p-1 rounded bg-gray-700 col-start-2 mb-4  ml-1">
+      <option v-for="file in files" :key="file" :value="file">{{ file }}</option>
+    </select>
+    <p class="mb-1 ml-1">{{ t("filter_generator.about_strategy_select") }}</p>
+    <select v-model="filterStrategy" class="p-1 rounded bg-gray-700 col-start-2 mb-4 ml-1">
+      <option value="before">the beginning of the file</option>
+      <option value="after">the end of the file</option>
+    </select>
 
-    </p>
     <h2 class="text-lg mb-1">{{ t("filter_generator.about_disclaimer_header")}}</h2>
-    <p class="mb-4">
+    <p class="mb-4 ml-1">
       {{ t("filter_generator.about_disclaimer_text1")}}<br/>
       {{ t("filter_generator.about_disclaimer_text2")}}<br/>
       <a href="https://www.pathofexile.com/item-filter/about" target="_blank" class="bg-gray-900 px-1 rounded">https://www.pathofexile.com/item-filter/about {{ t("filter_generator.about_disclaimer_link_desc")}}</a><br/>
       {{ t("filter_generator.about_disclaimer_text3")}}
     </p>
     <h2 class="text-lg mb-1">{{ t("filter_generator.examples_header")}}</h2>
-    <div class="grid grid-cols-2 gap-1">
+    <div class="grid grid-cols-2 gap-1 ml-1">
       <div class="col-span-2 p-1 border-2 border-gray-600">{{ t("filter_generator.examples_class")}}</div>
       <div>Class</div>
       <div>Belts</div>
@@ -40,12 +41,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import {defineComponent, onMounted, ref} from "vue";
 import { useI18n } from "vue-i18n";
 import DndContainer from "vuedraggable";
 import HotkeyInput from "../settings/HotkeyInput.vue";
 import { configProp, configModelValue } from "../settings/utils.js";
 import type { FilterGeneratorWidget } from "./widget.js";
+import {Host, MainProcess} from "@/web/background/IPC";
 
 export default defineComponent({
   name: "filter_generator.name",
@@ -53,10 +55,27 @@ export default defineComponent({
   props: configProp<FilterGeneratorWidget>(),
   setup(props) {
     const { t } = useI18n();
+    const files = ref([]);
+
+    Host.onEvent("MAIN->CLIENT::filter-generator:list", (event: { folder: string, files: string[] }) => {
+      files.value = event.files;
+    });
+
+    onMounted(() => {
+      MainProcess.sendEvent({
+        name: "CLIENT->MAIN::user-action",
+        payload: {
+          action: "filter-generator:list",
+        },
+      });
+    });
 
     return {
       t,
       title: configModelValue(() => props.configWidget, "wmTitle"),
+      selectedFilterFile: configModelValue(() => props.configWidget, "selectedFilterFile"),
+      filterStrategy: configModelValue(() => props.configWidget, "filterStrategy"),
+      files,
     };
   },
 });
