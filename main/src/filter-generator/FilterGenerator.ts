@@ -28,6 +28,13 @@ export class FilterGenerator {
   }
 
   generateFilterFile(customFilters: Array<IRawFilter>) {
+    if (this.docsPath === "") {
+      this.logger.write(
+        "error [FilterGenerator] Invalid game config path, could not generate filter file."
+      );
+      return;
+    }
+
     this.logger.write(
       "info  [FilterGenerator] Received filter generation request"
     );
