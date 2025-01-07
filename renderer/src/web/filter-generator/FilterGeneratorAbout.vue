@@ -55,7 +55,7 @@ export default defineComponent({
   props: configProp<FilterGeneratorWidget>(),
   setup(props) {
     const { t } = useI18n();
-    const files = ref([]);
+    const files = ref<string[]>([]);
 
     Host.onEvent("MAIN->CLIENT::filter-generator:list", (event: { folder: string, files: string[] }) => {
       files.value = event.files;

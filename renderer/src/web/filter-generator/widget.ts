@@ -2,6 +2,8 @@ import type { Widget, Anchor } from "../overlay/widgets.js";
 
 export interface FilterGeneratorWidget extends Widget {
   anchor: Anchor;
+  selectedFilterFile: string;
+  filterStrategy: "before" | "after";
   entries: Array<{
     id: number;
     name: string;
