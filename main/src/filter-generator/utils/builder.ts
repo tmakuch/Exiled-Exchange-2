@@ -18,7 +18,7 @@ export default function getFiltersContent(strategy: 'before' | 'after', oldConte
     end += afterComment.length;
   }
 
-  return contentToReplace.slice(0, start) + [beforeComment, "dupa", ...filters.map(mapSingleFilter), afterComment].join("\n\n") + contentToReplace.slice(end);
+  return contentToReplace.slice(0, start) + [beforeComment, ...filters.map(mapSingleFilter), afterComment].join("\n\n") + contentToReplace.slice(end);
 };
 
 function mapSingleFilter(filter: IFilter) {
