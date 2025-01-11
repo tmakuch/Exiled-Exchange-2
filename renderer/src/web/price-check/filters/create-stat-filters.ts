@@ -496,12 +496,11 @@ function hideNotVariableStat(filter: StatFilter, item: ParsedItem) {
 
   if (!filter.roll) {
     filter.hidden = "filters.hide_const_roll";
+  } else if (!filter.roll.bounds && item.rarity === ItemRarity.Unique) {
+    filter.roll.min = undefined;
+    filter.roll.max = undefined;
+    filter.hidden = "filters.hide_const_roll";
   }
-  // else if (!filter.roll.bounds) {
-  //   filter.roll.min = undefined;
-  //   filter.roll.max = undefined;
-  //   filter.hidden = "filters.hide_const_roll";
-  // }
 }
 
 function filterFillMinMax(
@@ -588,14 +587,13 @@ function finalFilterTweaks(ctx: FiltersCreationContext) {
   }
 
   if (item.rarity === ItemRarity.Unique) {
-    // const countVisible = ctx.filters.reduce(
-    //   (cnt, filter) => (filter.hidden ? cnt : cnt + 1),
-    //   0,
-    // );
-    // if (countVisible <= 3) {
-    //   enableAllFilters(ctx.filters);
-    // }
-    enableAllFilters(ctx.filters);
+    const countVisible = ctx.filters.reduce(
+      (cnt, filter) => (filter.hidden ? cnt : cnt + 1),
+      0,
+    );
+    if (countVisible <= 3) {
+      enableAllFilters(ctx.filters);
+    }
   }
 }
 

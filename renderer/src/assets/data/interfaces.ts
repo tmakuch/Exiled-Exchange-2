@@ -47,12 +47,19 @@ export interface Stat {
     };
   };
   tiers?: {
-    [key: string]: StatTierMod[] | { [type: string]: StatTierMod };
+    [key: string]:
+      | StatTierMod[]
+      | { [type: string]: StatTierMod }
+      | {
+          [type: string]: number[][];
+        };
     explicit: StatTierMod[];
     implicit: {
       [type: string]: StatTierMod;
     };
-    unique: StatTierMod[];
+    unique: {
+      [type: string]: number[][];
+    };
     corruption: StatTierMod[];
     crafted: StatTierMod[];
     jewel: StatTierMod[];

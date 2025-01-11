@@ -133,6 +133,19 @@ def flatten_mods(mods):
     return flattened_mods
 
 
+def add_unique_mods(mods, unique_override_data, words_lookup):
+    for mod in mods.values():
+        ref = mod["ref"]
+        if ref in unique_override_data and mod["tiers"] is not None:
+            out_mods = {}
+            for unique_name, stat_values in unique_override_data[ref].items():
+                out_mods[unique_name] = stat_values
+                # if unique_name in words_lookup:
+                # out_mods[words_lookup[unique_name]] = stat_values
+            mod["tiers"]["unique"] = out_mods
+    return mods
+
+
 class Parser:
     def get_script_dir(self):
         """Returns the directory where the script is located."""
@@ -756,6 +769,15 @@ class Parser:
 
         self.mods = flatten_mods(self.mods)
 
+        words_lookup = {w.get("Text"): w.get("Text2") for w in self.words_file}
+
+        with open(
+            f"{self.get_script_dir()}/overrideData/unique_override_data.json",
+            "r",
+            encoding="utf-8",
+        ) as f:
+            self.mods = add_unique_mods(self.mods, json.load(f), words_lookup)
+
         seen = set()
         skip = {"maximum_life_%_lost_on_kill", "base_spirit"}
         m = open(
@@ -816,19 +838,21 @@ class Parser:
             "cmn-Hant": {"string": "增加 #% 物理傷害"},
             "ja": {"string": "物理ダメージが#%増加する"},
         }
-        self.mods["physical_local_damage_+%"] = {
-            "ref": "#% increased Physical Damage",
-            "better": 1,
-            "id": "physical_local_damage_+%",
-            "matchers": [phys_local.get(self.lang)],
-            "trade": {
-                "ids": {
-                    "explicit": ["explicit.stat_419810844"],
-                    "fractured": ["fractured.stat_419810844"],
-                    "rune": ["rune.stat_419810844"],
-                }
-            },
-        }
+        # somehow not a thing? - possibly missing some data
+        # self.mods["physical_local_damage_+%"] = {
+        #     "ref": "#% increased Physical Damage",
+        #     "better": 1,
+        #     "id": "physical_local_damage_+%",
+        #     "matchers": [phys_local.get(self.lang)],
+        #     "trade": {
+        #         "ids": {
+        #             "explicit": ["explicit.stat_419810844"],
+        #             "fractured": ["fractured.stat_419810844"],
+        #             "rune": ["rune.stat_419810844"],
+        #         }
+        #     },
+        #     "tiers": {"unique": {}},
+        # }
 
     def do_client_strings(self):
         cl = create_client_strings(self.client_strings_file)

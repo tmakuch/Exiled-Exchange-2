@@ -3,7 +3,7 @@ import type { StatMatcher, Stat } from "@/assets/data";
 import { ModifierType } from "./modifiers";
 import { ItemCategory } from "./meta";
 import { getModTier, getTier, getTierNumber } from "./mod-tiers";
-import { ItemRarity } from "./ParsedItem";
+import { ItemRarity, ParsedItem } from "./ParsedItem";
 
 // This file is a little messy and scary,
 // but that's how stats translations are parsed :-D
@@ -160,9 +160,14 @@ function* _statPlaceholderGenerator(stat: string) {
 export function tryParseTranslation(
   stat: StatString,
   modType: ModifierType,
-  itemCategory?: ItemCategory,
-  itemRarity?: ItemRarity,
+  item?: ParsedItem,
 ): { stat: ParsedStat; tier: number | undefined } | undefined {
+  let itemRarity: ItemRarity | undefined;
+  let itemCategory: ItemCategory | undefined;
+  if (item) {
+    itemRarity = item.rarity;
+    itemCategory = item.category;
+  }
   for (const combination of _statPlaceholderGenerator(stat.string)) {
     const found = STAT_BY_MATCH_STR(combination.stat);
     if (!found || !found.stat.trade.ids || !found.stat.trade.ids[modType]) {
@@ -224,6 +229,27 @@ export function tryParseTranslation(
           if (tierNumber !== -1) {
             foundTier = tierNumber;
           }
+        }
+      }
+    } else if (
+      found.stat.tiers &&
+      itemRarity === ItemRarity.Unique &&
+      item &&
+      found.stat.tiers.unique
+    ) {
+      const uniqueName = item.info.refName;
+      if (uniqueName in found.stat.tiers.unique) {
+        const uniqueModValues = found.stat.tiers.unique[uniqueName];
+        if (uniqueModValues) {
+          combination.values.forEach((stat, index) => {
+            const tierBounds = uniqueModValues[index];
+            if (tierBounds) {
+              stat.bounds = {
+                min: tierBounds[0],
+                max: tierBounds[1],
+              };
+            }
+          });
         }
       }
     }
