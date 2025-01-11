@@ -885,6 +885,15 @@ class Parser:
             },
             "tiers": default,
         }
+        charm_slots = override_matchers["Charm Slots"][self.lang]
+        self.mods["charm_slots"] = {
+            "ref": "+# Charm Slot",
+            "better": 1,
+            "id": "local_charm_slots",
+            "matchers": charm_slots,
+            "trade": {"ids": {}},
+            "tiers": default,
+        }
 
     def do_client_strings(self):
         cl = create_client_strings(self.client_strings_file)

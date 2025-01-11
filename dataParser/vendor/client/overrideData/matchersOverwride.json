@@ -1,4 +1,56 @@
 {
+  "copy-me-default": {
+    "en": [
+      {
+        "string": ""
+      }
+    ],
+    "ja": [
+      {
+        "string": ""
+      }
+    ],
+    "es": [
+      {
+        "string": ""
+      }
+    ],
+    "cmn-Hant": [
+      {
+        "string": ""
+      }
+    ],
+    "de": [
+      {
+        "string": ""
+      }
+    ],
+    "ru": [
+      {
+        "string": ""
+      }
+    ],
+    "th": [
+      {
+        "string": ""
+      }
+    ],
+    "fr": [
+      {
+        "string": ""
+      }
+    ],
+    "pt": [
+      {
+        "string": ""
+      }
+    ],
+    "ko": [
+      {
+        "string": ""
+      }
+    ]
+  },
   "Controlled Metamorphosis": {
     "en": [
       {
@@ -228,6 +280,58 @@
       },
       {
         "string": "거대한 반경의 패시브 스킬에만 영향을 미침"
+      }
+    ]
+  },
+  "Charm Slots": {
+    "en": [
+      {
+        "string": "# Charm Slots"
+      }
+    ],
+    "ja": [
+      {
+        "string": "チャームスロット #"
+      }
+    ],
+    "es": [
+      {
+        "string": "# espacios para viales"
+      }
+    ],
+    "cmn-Hant": [
+      {
+        "string": "# 護符欄位"
+      }
+    ],
+    "de": [
+      {
+        "string": "# Phiolen-Plätze"
+      }
+    ],
+    "ru": [
+      {
+        "string": "# ячейки для оберегов"
+      }
+    ],
+    "th": [
+      {
+        "string": "ช่องใส่ของขลัง #"
+      }
+    ],
+    "fr": [
+      {
+        "string": "# Emplacements de Charme"
+      }
+    ],
+    "pt": [
+      {
+        "string": "# Espaços para Patuás"
+      }
+    ],
+    "ko": [
+      {
+        "string": "호신부 슬롯 #개"
       }
     ]
   }
