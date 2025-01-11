@@ -231,6 +231,8 @@ export interface TranslationDict {
   LIGHTNING_DAMAGE: string;
   COLD_DAMAGE: string;
   PRICE_NOTE: string;
+  WAYSTONE_TIER: string;
+  WAYSTONE_HELP: string;
 }
 
 export interface Filter {
