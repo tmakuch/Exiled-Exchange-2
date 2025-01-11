@@ -112,7 +112,7 @@ export function createResistanceWeightFilter(
 export function createExactStatFilters(
   item: ParsedItem,
   statsByType: StatCalculated[],
-  opts: { searchStatRange: number },
+  opts: { searchStatRange: number; defaultAllSelected: boolean },
 ): StatFilter[] {
   if (item.mapBlighted || item.category === ItemCategory.Invitation) return [];
   if (
@@ -206,6 +206,9 @@ export function createExactStatFilters(
   ) {
     enableAllFilters(ctx.filters);
   }
+  if (opts.defaultAllSelected) {
+    enableAllFilters(ctx.filters);
+  }
 
   return ctx.filters;
 }
@@ -215,6 +218,7 @@ export function initUiModFilters(
   opts: {
     searchStatRange: number;
     usePseudo: boolean;
+    defaultAllSelected: boolean;
   },
 ): StatFilter[] {
   const ctx: FiltersCreationContext = {
@@ -270,6 +274,10 @@ export function initUiModFilters(
   }
 
   finalFilterTweaks(ctx);
+
+  if (opts.defaultAllSelected) {
+    enableAllFilters(ctx.filters);
+  }
 
   return ctx.filters;
 }
