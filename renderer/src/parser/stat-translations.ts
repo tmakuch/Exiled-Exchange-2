@@ -231,25 +231,38 @@ export function tryParseTranslation(
           }
         }
       }
-    } else if (
-      found.stat.tiers &&
-      itemRarity === ItemRarity.Unique &&
-      item &&
-      found.stat.tiers.unique
-    ) {
-      const uniqueName = item.info.refName;
-      if (uniqueName in found.stat.tiers.unique) {
-        const uniqueModValues = found.stat.tiers.unique[uniqueName];
-        if (uniqueModValues) {
-          combination.values.forEach((stat, index) => {
-            const tierBounds = uniqueModValues[index];
-            if (tierBounds) {
-              stat.bounds = {
-                min: tierBounds[0],
-                max: tierBounds[1],
-              };
-            }
-          });
+    } else if (found.stat.tiers && itemRarity === ItemRarity.Unique && item) {
+      if (found.stat.tiers.unique) {
+        const uniqueName = item.info.refName;
+        if (uniqueName in found.stat.tiers.unique) {
+          const uniqueModValues = found.stat.tiers.unique[uniqueName];
+          if (uniqueModValues) {
+            combination.values.forEach((stat, index) => {
+              const tierBounds = uniqueModValues[index];
+              if (tierBounds) {
+                stat.bounds = {
+                  min: tierBounds[0],
+                  max: tierBounds[1],
+                };
+              }
+            });
+          }
+        }
+      } else {
+        if (item.info.refName === "Controlled Metamorphosis") {
+          const matchedName = found.matcher.string;
+          const matchers = found.stat.matchers.map((matcher) => matcher.string);
+          const matcherValue = matchers.indexOf(matchedName) + 1;
+          combination.values = [
+            {
+              roll: matcherValue,
+              decimal: false,
+              bounds: {
+                min: 1,
+                max: matchers.length,
+              },
+            },
+          ];
         }
       }
     }

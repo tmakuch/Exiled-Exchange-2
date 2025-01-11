@@ -831,6 +831,21 @@ class Parser:
             )
 
     def add_missing_mods(self):
+        default = {
+            "explicit": [],
+            "implicit": {},
+            "corruption": [],
+            "crafted": [],
+            "jewel": [],
+            "corruptionjewel": [],
+            "uniquejewel": [],
+        }
+        with open(
+            f"{self.get_script_dir()}/overrideData/matchersOverwride.json",
+            "r",
+            encoding="utf-8",
+        ) as f:
+            override_matchers = json.load(f)
         phys_local = {
             "en": {"string": "#% increased Physical Damage"},
             "ru": {"string": "#% увеличение физического урона"},
@@ -853,6 +868,23 @@ class Parser:
         #     },
         #     "tiers": {"unique": {}},
         # }
+
+        # Controlled Metamorphosis
+        controlled_metamorphosis = override_matchers["Controlled Metamorphosis"][
+            self.lang
+        ]
+        self.mods["local_jewel_variable_ring_radius_value"] = {
+            "ref": "Only affects Passives in Very Small Ring",
+            "better": 1,
+            "id": "local_jewel_variable_ring_radius_value",
+            "matchers": controlled_metamorphosis,
+            "trade": {
+                "ids": {
+                    "explicit": ["explicit.stat_3642528642"],
+                }
+            },
+            "tiers": default,
+        }
 
     def do_client_strings(self):
         cl = create_client_strings(self.client_strings_file)
