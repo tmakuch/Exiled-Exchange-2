@@ -72,6 +72,7 @@ function regenerateFilter() {
   MainProcess.sendEvent({
     name: "CLIENT->MAIN::user-action",
     payload: { action: "filter-generator:update", text: JSON.stringify({
+      folder: props.config.filtersFolder,
       file: props.config.selectedFilterFile,
       strategy: props.config.filterStrategy,
       rules: props.config.entries,

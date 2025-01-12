@@ -1,7 +1,9 @@
 <template>
   <div class="p-3">
+    <p class="mb-1 ml-1">{{ t("filter_generator.about_folder") }}</p>
+    <input type="text" class="p-1 rounded bg-gray-700 w-3/4 col-start-2 mb-4 ml-1" v-model="filtersFolder" v-on:input="clearFiles" v-on:blur="requestFilesList"/>
     <p class="mb-1 ml-1">{{ t("filter_generator.about_file_select") }}</p>
-    <select v-model="selectedFilterFile" class="p-1 rounded bg-gray-700 col-start-2 mb-4  ml-1">
+    <select v-model="selectedFilterFile" class="p-1 rounded bg-gray-700 col-start-2 mb-4 ml-1">
       <option v-for="file in files" :key="file" :value="file">{{ file }}</option>
     </select>
     <p class="mb-1 ml-1">{{ t("filter_generator.about_strategy_select") }}</p>
@@ -55,27 +57,41 @@ export default defineComponent({
   props: configProp<FilterGeneratorWidget>(),
   setup(props) {
     const { t } = useI18n();
+    const filtersFolder = configModelValue(() => props.configWidget, "filtersFolder");
+    const selectedFilterFile = configModelValue(() => props.configWidget, "selectedFilterFile");
     const files = ref<string[]>([]);
 
     Host.onEvent("MAIN->CLIENT::filter-generator:list", (event: { folder: string, files: string[] }) => {
+      filtersFolder.value = event.folder;
       files.value = event.files;
     });
 
-    onMounted(() => {
+    onMounted(requestFilesList);
+
+    function requestFilesList() {
       MainProcess.sendEvent({
         name: "CLIENT->MAIN::user-action",
         payload: {
           action: "filter-generator:list",
+          text: filtersFolder.value,
         },
       });
-    });
+    }
+
+    function clearFiles() {
+      files.value = [];
+      selectedFilterFile.value = "";
+    }
 
     return {
       t,
       title: configModelValue(() => props.configWidget, "wmTitle"),
-      selectedFilterFile: configModelValue(() => props.configWidget, "selectedFilterFile"),
+      filtersFolder,
+      selectedFilterFile,
       filterStrategy: configModelValue(() => props.configWidget, "filterStrategy"),
       files,
+      requestFilesList,
+      clearFiles,
     };
   },
 });

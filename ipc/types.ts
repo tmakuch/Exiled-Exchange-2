@@ -171,9 +171,9 @@ type IpcUpdaterState =
 // Actions below are triggered by user interaction with the UI.
 type IpcUserAction =
   Event<'CLIENT->MAIN::user-action', {
-    action: 'check-for-update' | 'update-and-restart' | 'quit' | 'filter-generator:list'
+    action: 'check-for-update' | 'update-and-restart' | 'quit'
   } | {
-    action: 'stash-search' | 'filter-generator:update'
+    action: 'stash-search' | 'filter-generator:update' | 'filter-generator:list'
     text: string
   }>
 
