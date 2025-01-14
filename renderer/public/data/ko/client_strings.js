@@ -110,5 +110,8 @@ export default {
   CHARM_HELP_TEXT: '조건이 충족되면 자동으로 ',
   FIRE_DAMAGE: '화염 피해: ',
   LIGHTNING_DAMAGE: '냉기 피해: ',
-  COLD_DAMAGE: '번개 피해: '
+  COLD_DAMAGE: '번개 피해: ',
+  PRICE_NOTE: '알림: ',
+  WAYSTONE_TIER: '경로석 등급:',
+  WAYSTONE_HELP: '지도 장치에서 사용하면 '
 }
