@@ -11731,7 +11731,7 @@
         }
     },
     "903": {
-        "name": "依頼書: ヤマンラの本",
+        "name": "依頼書: ヤマンラーの本",
         "refName": "Contract: The Book of Jamanra",
         "namespace": "ITEM",
         "class": 31,
@@ -13363,7 +13363,7 @@
         }
     },
     "1039": {
-        "name": "ヤマンラの本",
+        "name": "ヤマンラーの本",
         "refName": "The Book of Jamanra",
         "namespace": "ITEM",
         "class": 31,
@@ -13375,7 +13375,7 @@
         }
     },
     "1040": {
-        "name": "伝説の戦士、ヤマンラ",
+        "name": "伝説の戦士、ヤマンラー",
         "refName": "Jamanra, the Legendary Warrior",
         "namespace": "ITEM",
         "class": 31,
@@ -31435,7 +31435,7 @@
         }
     },
     "2638": {
-        "name": "石の毒の霊薬",
+        "name": "石の毒ビール",
         "refName": "Venom Draught of Stone",
         "namespace": "ITEM",
         "class": 31,
@@ -31447,7 +31447,7 @@
         }
     },
     "2639": {
-        "name": "ヴェールの毒の霊薬",
+        "name": "ヴェールの毒ビール",
         "refName": "Venom Draught of the Veil",
         "namespace": "ITEM",
         "class": 31,
@@ -31459,7 +31459,7 @@
         }
     },
     "2640": {
-        "name": "明瞭さの毒の霊薬",
+        "name": "明瞭さの毒ビール",
         "refName": "Venom Draught of Clarity",
         "namespace": "ITEM",
         "class": 31,
@@ -31471,7 +31471,7 @@
         }
     },
     "2641": {
-        "name": "喪失の毒の霊薬",
+        "name": "喪失の毒ビール",
         "refName": "Venom Draught of the Lost",
         "namespace": "ITEM",
         "class": 31,
@@ -31483,7 +31483,7 @@
         }
     },
     "2642": {
-        "name": "空の毒の霊薬",
+        "name": "空の毒ビール",
         "refName": "Venom Draught of the Sky",
         "namespace": "ITEM",
         "class": 31,
@@ -31495,7 +31495,7 @@
         }
     },
     "2643": {
-        "name": "湿地の毒の霊薬",
+        "name": "湿地の毒ビール",
         "refName": "Venom Draught of the Marshes",
         "namespace": "ITEM",
         "class": 31,
@@ -34722,7 +34722,7 @@
         }
     },
     "2866": {
-        "name": "破壊時エンデュランス",
+        "name": "エンデュランスエクスプロージョン",
         "refName": "Break Endurance",
         "namespace": "GEM",
         "class": 19,
@@ -34882,7 +34882,7 @@
         }
     },
     "2876": {
-        "name": "アーマー爆破",
+        "name": "アーマーエクスプロージョン",
         "refName": "Armour Explosion",
         "namespace": "GEM",
         "class": 19,
@@ -35218,7 +35218,7 @@
         }
     },
     "2897": {
-        "name": "麻痺",
+        "name": "電刑",
         "refName": "Electrocute",
         "namespace": "GEM",
         "class": 19,
@@ -35906,7 +35906,7 @@
         }
     },
     "2940": {
-        "name": "氷期",
+        "name": "氷河",
         "refName": "Glaciation",
         "namespace": "GEM",
         "class": 19,
@@ -36162,7 +36162,7 @@
         }
     },
     "2956": {
-        "name": "灼熱の死",
+        "name": "ファイヤリィデス",
         "refName": "Fiery Death",
         "namespace": "GEM",
         "class": 19,
@@ -36178,7 +36178,7 @@
         }
     },
     "2957": {
-        "name": "凍結の渦",
+        "name": "フローズンヴォーテックス",
         "refName": "Frozen Vortex",
         "namespace": "GEM",
         "class": 19,
@@ -36194,7 +36194,7 @@
         }
     },
     "2958": {
-        "name": "感電吸収",
+        "name": "ショックサイフォン",
         "refName": "Shock Siphon",
         "namespace": "GEM",
         "class": 19,
@@ -36258,7 +36258,7 @@
         }
     },
     "2962": {
-        "name": "元素解放",
+        "name": "エレメンタルディスチャージ",
         "refName": "Elemental Discharge",
         "namespace": "GEM",
         "class": 19,
@@ -37445,7 +37445,7 @@
         }
     },
     "3039": {
-        "name": "エンバーフシレイド",
+        "name": "エンバーフジレイド",
         "refName": "Ember Fusillade",
         "namespace": "GEM",
         "class": 18,
@@ -38165,7 +38165,7 @@
         }
     },
     "3084": {
-        "name": "シャッタリングコンコクション",
+        "name": "シャタリングコンコクション",
         "refName": "Shattering Concoction",
         "namespace": "GEM",
         "class": 18,
@@ -39273,7 +39273,7 @@
         }
     },
     "3156": {
-        "name": "オーバーウェルミングプレゼンス",
+        "name": "オーバーウェルミングプレッシャー",
         "refName": "Overwhelming Presence",
         "namespace": "GEM",
         "class": 18,
@@ -39701,7 +39701,7 @@
         }
     },
     "3184": {
-        "name": "氷塊",
+        "name": "氷河",
         "refName": "Glacier",
         "namespace": "GEM",
         "class": 19,
@@ -39813,7 +39813,7 @@
         }
     },
     "3191": {
-        "name": "極致",
+        "name": "最高度",
         "refName": "Culmination",
         "namespace": "GEM",
         "class": 19,
@@ -39989,7 +39989,7 @@
         }
     },
     "3202": {
-        "name": "命令",
+        "name": "Bidding",
         "refName": "Bidding",
         "namespace": "GEM",
         "class": 19,
@@ -40005,7 +40005,7 @@
         }
     },
     "3203": {
-        "name": "震動",
+        "name": "Tremors",
         "refName": "Tremors",
         "namespace": "GEM",
         "class": 19,
@@ -40021,7 +40021,7 @@
         }
     },
     "3204": {
-        "name": "エンバーフシレイド",
+        "name": "エンバーフジレイド",
         "refName": "Ember Fusillade",
         "namespace": "GEM",
         "class": 18,

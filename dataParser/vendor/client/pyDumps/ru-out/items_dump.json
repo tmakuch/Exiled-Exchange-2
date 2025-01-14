@@ -18,7 +18,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/18715ea7be/CurrencyWeaponQuality.png"
     },
     "1": {
-        "name": "Резец чародея",
+        "name": "Arcanist's Etcher",
         "refName": "Arcanist's Etcher",
         "namespace": "ITEM",
         "class": "Флаконы маны",
@@ -374,7 +374,7 @@
         }
     },
     "22": {
-        "name": "Малая сфера златокузнеца",
+        "name": "Сфера златокузнеца",
         "refName": "Lesser Jeweller's Orb",
         "namespace": "ITEM",
         "class": "Перчатки",
@@ -409,7 +409,7 @@
         "name": "Совершенная сфера златокузнеца",
         "refName": "Perfect Jeweller's Orb",
         "namespace": "ITEM",
-        "class": "Нательные доспехи",
+        "class": "Доспехи",
         "dropLevel": 65,
         "width": 1,
         "height": 1,
@@ -6583,7 +6583,7 @@
         }
     },
     "483": {
-        "name": "Рубин",
+        "name": "Багровый самоцвет",
         "refName": "Ruby",
         "namespace": "ITEM",
         "class": 41,
@@ -6595,7 +6595,7 @@
         }
     },
     "484": {
-        "name": "Изумруд",
+        "name": "Бирюзовый самоцвет",
         "refName": "Emerald",
         "namespace": "ITEM",
         "class": 41,
@@ -6607,7 +6607,7 @@
         }
     },
     "485": {
-        "name": "Сапфир",
+        "name": "Кобальтовый самоцвет",
         "refName": "Sapphire",
         "namespace": "ITEM",
         "class": 41,
@@ -10607,7 +10607,7 @@
         }
     },
     "811": {
-        "name": "Очищенный гнев",
+        "name": "Distilled Ire",
         "refName": "Distilled Ire",
         "namespace": "ITEM",
         "class": 30,
@@ -10621,7 +10621,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkSXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cbd99f0eff/DistilledIre.png"
     },
     "812": {
-        "name": "Очищенная вина",
+        "name": "Distilled Guilt",
         "refName": "Distilled Guilt",
         "namespace": "ITEM",
         "class": 30,
@@ -10635,7 +10635,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkR3VpbHQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/21cd0fd17b/DistilledGuilt.png"
     },
     "813": {
-        "name": "Очищенная жадность",
+        "name": "Distilled Greed",
         "refName": "Distilled Greed",
         "namespace": "ITEM",
         "class": 30,
@@ -10649,7 +10649,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkR3JlZWQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5888a4ae61/DistilledGreed.png"
     },
     "814": {
-        "name": "Очищенная паранойя",
+        "name": "Distilled Paranoia",
         "refName": "Distilled Paranoia",
         "namespace": "ITEM",
         "class": 30,
@@ -10663,7 +10663,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkUGFyYW5vaWEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/279e807e8f/DistilledParanoia.png"
     },
     "815": {
-        "name": "Очищенная зависть",
+        "name": "Distilled Envy",
         "refName": "Distilled Envy",
         "namespace": "ITEM",
         "class": 30,
@@ -10677,7 +10677,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRW52eSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/abf219916e/DistilledEnvy.png"
     },
     "816": {
-        "name": "Очищенное отвращение",
+        "name": "Distilled Disgust",
         "refName": "Distilled Disgust",
         "namespace": "ITEM",
         "class": 30,
@@ -10691,7 +10691,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRGlzZ3VzdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f462426de0/DistilledDisgust.png"
     },
     "817": {
-        "name": "Очищенное отчаяние",
+        "name": "Distilled Despair",
         "refName": "Distilled Despair",
         "namespace": "ITEM",
         "class": 30,
@@ -10705,7 +10705,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRGVzcGFpciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c676bf7dae/DistilledDespair.png"
     },
     "818": {
-        "name": "Очищенный страх",
+        "name": "Distilled Fear",
         "refName": "Distilled Fear",
         "namespace": "ITEM",
         "class": 30,
@@ -10719,7 +10719,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkRmVhciIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8cffdae445/DistilledFear.png"
     },
     "819": {
-        "name": "Очищенное страдание",
+        "name": "Distilled Suffering",
         "refName": "Distilled Suffering",
         "namespace": "ITEM",
         "class": 30,
@@ -10733,7 +10733,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRGlzdGlsbGVkRW1vdGlvbnMvRGlzdGlsbGVkU3VmZmVyaW5nIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/801a53662a/DistilledSuffering.png"
     },
     "820": {
-        "name": "Очищенное отчуждение",
+        "name": "Distilled Isolation",
         "refName": "Distilled Isolation",
         "namespace": "ITEM",
         "class": 30,
@@ -25685,7 +25685,7 @@
         "height": 1
     },
     "2308": {
-        "name": "Улучшенный кузнечный молот",
+        "name": "Advanced Smithing Hammer",
         "refName": "Advanced Smithing Hammer",
         "namespace": "ITEM",
         "class": 12,
@@ -25697,7 +25697,7 @@
         }
     },
     "2309": {
-        "name": "Улучшенный шестопёр",
+        "name": "Advanced Slim Mace",
         "refName": "Advanced Slim Mace",
         "namespace": "ITEM",
         "class": 12,
@@ -25709,7 +25709,7 @@
         }
     },
     "2310": {
-        "name": "Улучшенный клевец",
+        "name": "Advanced Warpick",
         "refName": "Advanced Warpick",
         "namespace": "ITEM",
         "class": 12,
@@ -25721,7 +25721,7 @@
         }
     },
     "2311": {
-        "name": "Улучшенная кованая булава",
+        "name": "Advanced Plated Mace",
         "refName": "Advanced Plated Mace",
         "namespace": "ITEM",
         "class": 12,
@@ -25733,7 +25733,7 @@
         }
     },
     "2312": {
-        "name": "Улучшенная булава грабителя",
+        "name": "Advanced Brigand Mace",
         "refName": "Advanced Brigand Mace",
         "namespace": "ITEM",
         "class": 12,
@@ -25745,7 +25745,7 @@
         }
     },
     "2313": {
-        "name": "Улучшенный молот конструкта",
+        "name": "Advanced Construct Hammer",
         "refName": "Advanced Construct Hammer",
         "namespace": "ITEM",
         "class": 12,
@@ -25757,7 +25757,7 @@
         }
     },
     "2314": {
-        "name": "Улучшенная дубовая кувалда",
+        "name": "Advanced Oak Greathammer",
         "refName": "Advanced Oak Greathammer",
         "namespace": "ITEM",
         "class": 17,
@@ -25769,7 +25769,7 @@
         }
     },
     "2315": {
-        "name": "Улучшенная кузнечная кувалда",
+        "name": "Advanced Forge Maul",
         "refName": "Advanced Forge Maul",
         "namespace": "ITEM",
         "class": 17,
@@ -25781,7 +25781,7 @@
         }
     },
     "2316": {
-        "name": "Улучшенный культовый молот",
+        "name": "Advanced Cultist Greathammer",
         "refName": "Advanced Cultist Greathammer",
         "namespace": "ITEM",
         "class": 17,
@@ -25793,7 +25793,7 @@
         }
     },
     "2317": {
-        "name": "Улучшенная храмовая дубина",
+        "name": "Advanced Temple Maul",
         "refName": "Advanced Temple Maul",
         "namespace": "ITEM",
         "class": 17,
@@ -25805,7 +25805,7 @@
         }
     },
     "2318": {
-        "name": "Улучшенный освинцованный молот",
+        "name": "Advanced Leaden Greathammer",
         "refName": "Advanced Leaden Greathammer",
         "namespace": "ITEM",
         "class": 17,
@@ -25817,7 +25817,7 @@
         }
     },
     "2319": {
-        "name": "Улучшенный крошащий молот",
+        "name": "Advanced Crumbling Maul",
         "refName": "Advanced Crumbling Maul",
         "namespace": "ITEM",
         "class": 17,
@@ -25829,7 +25829,7 @@
         }
     },
     "2320": {
-        "name": "Улучшенный длинный боевой посох",
+        "name": "Advanced Long Quarterstaff",
         "refName": "Advanced Long Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -25841,7 +25841,7 @@
         }
     },
     "2321": {
-        "name": "Улучшенный готический боевой посох",
+        "name": "Advanced Gothic Quarterstaff",
         "refName": "Advanced Gothic Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -25853,7 +25853,7 @@
         }
     },
     "2322": {
-        "name": "Улучшенный искрящийся боевой посох",
+        "name": "Advanced Crackling Quarterstaff",
         "refName": "Advanced Crackling Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -25865,7 +25865,7 @@
         }
     },
     "2323": {
-        "name": "Улучшенный боевой посох с полумесяцем",
+        "name": "Advanced Crescent Quarterstaff",
         "refName": "Advanced Crescent Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -25877,7 +25877,7 @@
         }
     },
     "2324": {
-        "name": "Улучшенный режущий боевой посох",
+        "name": "Advanced Slicing Quarterstaff",
         "refName": "Advanced Slicing Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -25889,7 +25889,7 @@
         }
     },
     "2325": {
-        "name": "Улучшенный барьерный боевой посох",
+        "name": "Advanced Barrier Quarterstaff",
         "refName": "Advanced Barrier Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -25901,7 +25901,7 @@
         }
     },
     "2326": {
-        "name": "Улучшенный короткий лук",
+        "name": "Advanced Shortbow",
         "refName": "Advanced Shortbow",
         "namespace": "ITEM",
         "class": 13,
@@ -25913,7 +25913,7 @@
         }
     },
     "2327": {
-        "name": "Улучшенный лук часового",
+        "name": "Advanced Warden Bow",
         "refName": "Advanced Warden Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -25925,7 +25925,7 @@
         }
     },
     "2328": {
-        "name": "Улучшенный составной лук",
+        "name": "Advanced Composite Bow",
         "refName": "Advanced Composite Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -25937,7 +25937,7 @@
         }
     },
     "2329": {
-        "name": "Улучшенный спаренный лук",
+        "name": "Advanced Dualstring Bow",
         "refName": "Advanced Dualstring Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -25949,7 +25949,7 @@
         }
     },
     "2330": {
-        "name": "Улучшенный лук культиста",
+        "name": "Advanced Cultist Bow",
         "refName": "Advanced Cultist Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -25961,7 +25961,7 @@
         }
     },
     "2331": {
-        "name": "Улучшенный лук фанатика",
+        "name": "Advanced Zealot Bow",
         "refName": "Advanced Zealot Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -25973,7 +25973,7 @@
         }
     },
     "2332": {
-        "name": "Улучшенный тугой самострел",
+        "name": "Advanced Tense Crossbow",
         "refName": "Advanced Tense Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -25985,7 +25985,7 @@
         }
     },
     "2333": {
-        "name": "Улучшенный прочный самострел",
+        "name": "Advanced Sturdy Crossbow",
         "refName": "Advanced Sturdy Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -25997,7 +25997,7 @@
         }
     },
     "2334": {
-        "name": "Улучшенный лакированный самострел",
+        "name": "Advanced Varnished Crossbow",
         "refName": "Advanced Varnished Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -26009,7 +26009,7 @@
         }
     },
     "2335": {
-        "name": "Улучшенный парный самострел",
+        "name": "Advanced Dyad Crossbow",
         "refName": "Advanced Dyad Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -26021,7 +26021,7 @@
         }
     },
     "2336": {
-        "name": "Улучшенный самострел бомбардира",
+        "name": "Advanced Bombard Crossbow",
         "refName": "Advanced Bombard Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -26033,7 +26033,7 @@
         }
     },
     "2337": {
-        "name": "Улучшенный самострел конструкта",
+        "name": "Advanced Forlorn Crossbow",
         "refName": "Advanced Forlorn Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -26045,7 +26045,7 @@
         }
     },
     "2338": {
-        "name": "Улучшенный меховой доспех",
+        "name": "Advanced Fur Plate",
         "refName": "Advanced Fur Plate",
         "namespace": "ITEM",
         "class": 24,
@@ -26063,7 +26063,7 @@
         }
     },
     "2339": {
-        "name": "Улучшенная железная кираса",
+        "name": "Advanced Iron Cuirass",
         "refName": "Advanced Iron Cuirass",
         "namespace": "ITEM",
         "class": 24,
@@ -26081,7 +26081,7 @@
         }
     },
     "2340": {
-        "name": "Улучшенная маракетская кираса",
+        "name": "Advanced Maraketh Cuirass",
         "refName": "Advanced Maraketh Cuirass",
         "namespace": "ITEM",
         "class": 24,
@@ -26099,7 +26099,7 @@
         }
     },
     "2341": {
-        "name": "Улучшенный стальной доспех",
+        "name": "Advanced Steel Plate",
         "refName": "Advanced Steel Plate",
         "namespace": "ITEM",
         "class": 24,
@@ -26117,7 +26117,7 @@
         }
     },
     "2342": {
-        "name": "Улучшенные полные латы",
+        "name": "Advanced Full Plate",
         "refName": "Advanced Full Plate",
         "namespace": "ITEM",
         "class": 24,
@@ -26135,7 +26135,7 @@
         }
     },
     "2343": {
-        "name": "Улучшенный нагрудник ваал",
+        "name": "Advanced Vaal Cuirass",
         "refName": "Advanced Vaal Cuirass",
         "namespace": "ITEM",
         "class": 24,
@@ -26153,7 +26153,7 @@
         }
     },
     "2344": {
-        "name": "Улучшенный стёганый жилет",
+        "name": "Advanced Quilted Vest",
         "refName": "Advanced Quilted Vest",
         "namespace": "ITEM",
         "class": 24,
@@ -26171,7 +26171,7 @@
         }
     },
     "2345": {
-        "name": "Улучшенная куртка следопыта",
+        "name": "Advanced Pathfinder Coat",
         "refName": "Advanced Pathfinder Coat",
         "namespace": "ITEM",
         "class": 24,
@@ -26189,7 +26189,7 @@
         }
     },
     "2346": {
-        "name": "Улучшенный доспех из шкур роа",
+        "name": "Advanced Rhoahide Coat",
         "refName": "Advanced Rhoahide Coat",
         "namespace": "ITEM",
         "class": 24,
@@ -26207,7 +26207,7 @@
         }
     },
     "2347": {
-        "name": "Улучшенный клёпаный нагрудник",
+        "name": "Advanced Studded Vest",
         "refName": "Advanced Studded Vest",
         "namespace": "ITEM",
         "class": 24,
@@ -26225,7 +26225,7 @@
         }
     },
     "2348": {
-        "name": "Улучшенная безрукавка разведчика",
+        "name": "Advanced Scout's Vest",
         "refName": "Advanced Scout's Vest",
         "namespace": "ITEM",
         "class": 24,
@@ -26243,7 +26243,7 @@
         }
     },
     "2349": {
-        "name": "Улучшенный доспех из змеиной чешуи",
+        "name": "Advanced Serpentscale Coat",
         "refName": "Advanced Serpentscale Coat",
         "namespace": "ITEM",
         "class": 24,
@@ -26261,7 +26261,7 @@
         }
     },
     "2350": {
-        "name": "Улучшенный наряд из перьев",
+        "name": "Advanced Feathered Robe",
         "refName": "Advanced Feathered Robe",
         "namespace": "ITEM",
         "class": 24,
@@ -26279,7 +26279,7 @@
         }
     },
     "2351": {
-        "name": "Улучшенное ведьмино облачение",
+        "name": "Advanced Hexer's Robe",
         "refName": "Advanced Hexer's Robe",
         "namespace": "ITEM",
         "class": 24,
@@ -26297,7 +26297,7 @@
         }
     },
     "2352": {
-        "name": "Улучшенное шёлковое платье",
+        "name": "Advanced Silk Robe",
         "refName": "Advanced Silk Robe",
         "namespace": "ITEM",
         "class": 24,
@@ -26315,7 +26315,7 @@
         }
     },
     "2353": {
-        "name": "Улучшенное кетское одеяние",
+        "name": "Advanced Keth Raiment",
         "refName": "Advanced Keth Raiment",
         "namespace": "ITEM",
         "class": 24,
@@ -26333,7 +26333,7 @@
         }
     },
     "2354": {
-        "name": "Улучшенное обетное одеяние",
+        "name": "Advanced Votive Raiment",
         "refName": "Advanced Votive Raiment",
         "namespace": "ITEM",
         "class": 24,
@@ -26351,7 +26351,7 @@
         }
     },
     "2355": {
-        "name": "Улучшенное церемониальное одеяние",
+        "name": "Advanced Altar Robe",
         "refName": "Advanced Altar Robe",
         "namespace": "ITEM",
         "class": 24,
@@ -26369,7 +26369,7 @@
         }
     },
     "2356": {
-        "name": "Улучшенная кольчуга",
+        "name": "Advanced Chain Mail",
         "refName": "Advanced Chain Mail",
         "namespace": "ITEM",
         "class": 24,
@@ -26391,7 +26391,7 @@
         }
     },
     "2357": {
-        "name": "Улучшенный доспех изгоя",
+        "name": "Advanced Rogue Armour",
         "refName": "Advanced Rogue Armour",
         "namespace": "ITEM",
         "class": 24,
@@ -26413,7 +26413,7 @@
         }
     },
     "2358": {
-        "name": "Улучшенный доспех бродяги",
+        "name": "Advanced Vagabond Armour",
         "refName": "Advanced Vagabond Armour",
         "namespace": "ITEM",
         "class": 24,
@@ -26435,7 +26435,7 @@
         }
     },
     "2359": {
-        "name": "Улучшенный доспех с кольцами",
+        "name": "Advanced Cloaked Mail",
         "refName": "Advanced Cloaked Mail",
         "namespace": "ITEM",
         "class": 24,
@@ -26457,7 +26457,7 @@
         }
     },
     "2360": {
-        "name": "Улучшенная броня исследователя",
+        "name": "Advanced Explorer Armour",
         "refName": "Advanced Explorer Armour",
         "namespace": "ITEM",
         "class": 24,
@@ -26479,7 +26479,7 @@
         }
     },
     "2361": {
-        "name": "Улучшенный чешуйчатый доспех",
+        "name": "Advanced Scale Mail",
         "refName": "Advanced Scale Mail",
         "namespace": "ITEM",
         "class": 24,
@@ -26501,7 +26501,7 @@
         }
     },
     "2362": {
-        "name": "Улучшенное облачение пилигрима",
+        "name": "Advanced Pilgrim Vestments",
         "refName": "Advanced Pilgrim Vestments",
         "namespace": "ITEM",
         "class": 24,
@@ -26523,7 +26523,7 @@
         }
     },
     "2363": {
-        "name": "Улучшенный покров из шкур",
+        "name": "Advanced Pelt Mantle",
         "refName": "Advanced Pelt Mantle",
         "namespace": "ITEM",
         "class": 24,
@@ -26545,7 +26545,7 @@
         }
     },
     "2364": {
-        "name": "Улучшенное кольчужное одеяние",
+        "name": "Advanced Mail Vestments",
         "refName": "Advanced Mail Vestments",
         "namespace": "ITEM",
         "class": 24,
@@ -26567,7 +26567,7 @@
         }
     },
     "2365": {
-        "name": "Улучшенный наряд шамана",
+        "name": "Advanced Shaman Mantle",
         "refName": "Advanced Shaman Mantle",
         "namespace": "ITEM",
         "class": 24,
@@ -26589,7 +26589,7 @@
         }
     },
     "2366": {
-        "name": "Улучшенное ратное облачение",
+        "name": "Advanced Ironclad Vestments",
         "refName": "Advanced Ironclad Vestments",
         "namespace": "ITEM",
         "class": 24,
@@ -26611,7 +26611,7 @@
         }
     },
     "2367": {
-        "name": "Улучшенная жертвенная мантия",
+        "name": "Advanced Sacrificial Mantle",
         "refName": "Advanced Sacrificial Mantle",
         "namespace": "ITEM",
         "class": 24,
@@ -26633,7 +26633,7 @@
         }
     },
     "2368": {
-        "name": "Улучшенный наряд отшельника",
+        "name": "Advanced Hermit Garb",
         "refName": "Advanced Hermit Garb",
         "namespace": "ITEM",
         "class": 24,
@@ -26655,7 +26655,7 @@
         }
     },
     "2369": {
-        "name": "Улучшенный вощёный плащ",
+        "name": "Advanced Waxed Jacket",
         "refName": "Advanced Waxed Jacket",
         "namespace": "ITEM",
         "class": 24,
@@ -26677,7 +26677,7 @@
         }
     },
     "2370": {
-        "name": "Улучшенный костюм марабута",
+        "name": "Advanced Marabout Garb",
         "refName": "Advanced Marabout Garb",
         "namespace": "ITEM",
         "class": 24,
@@ -26699,7 +26699,7 @@
         }
     },
     "2371": {
-        "name": "Улучшенный плащ путника",
+        "name": "Advanced Wayfarer Jacket",
         "refName": "Advanced Wayfarer Jacket",
         "namespace": "ITEM",
         "class": 24,
@@ -26721,7 +26721,7 @@
         }
     },
     "2372": {
-        "name": "Улучшенное одеяние анахорета",
+        "name": "Advanced Anchorite Garb",
         "refName": "Advanced Anchorite Garb",
         "namespace": "ITEM",
         "class": 24,
@@ -26743,7 +26743,7 @@
         }
     },
     "2373": {
-        "name": "Улучшенная накидка спекулянта",
+        "name": "Advanced Scalper's Jacket",
         "refName": "Advanced Scalper's Jacket",
         "namespace": "ITEM",
         "class": 24,
@@ -26765,7 +26765,7 @@
         }
     },
     "2374": {
-        "name": "Улучшенный ржавый большой шлем",
+        "name": "Advanced Rusted Greathelm",
         "refName": "Advanced Rusted Greathelm",
         "namespace": "ITEM",
         "class": 25,
@@ -26783,7 +26783,7 @@
         }
     },
     "2375": {
-        "name": "Улучшенный большой шлем солдата",
+        "name": "Advanced Soldier Greathelm",
         "refName": "Advanced Soldier Greathelm",
         "namespace": "ITEM",
         "class": 25,
@@ -26801,7 +26801,7 @@
         }
     },
     "2376": {
-        "name": "Улучшенный обмотанный большой шлем",
+        "name": "Advanced Wrapped Greathelm",
         "refName": "Advanced Wrapped Greathelm",
         "namespace": "ITEM",
         "class": 25,
@@ -26819,7 +26819,7 @@
         }
     },
     "2377": {
-        "name": "Улучшенный остроконечный большой шлем",
+        "name": "Advanced Spired Greathelm",
         "refName": "Advanced Spired Greathelm",
         "namespace": "ITEM",
         "class": 25,
@@ -26837,7 +26837,7 @@
         }
     },
     "2378": {
-        "name": "Улучшенный большой шлем элиты",
+        "name": "Advanced Elite Greathelm",
         "refName": "Advanced Elite Greathelm",
         "namespace": "ITEM",
         "class": 25,
@@ -26855,7 +26855,7 @@
         }
     },
     "2379": {
-        "name": "Улучшенный потрёпанный капюшон",
+        "name": "Advanced Shabby Hood",
         "refName": "Advanced Shabby Hood",
         "namespace": "ITEM",
         "class": 25,
@@ -26873,7 +26873,7 @@
         }
     },
     "2380": {
-        "name": "Улучшенная войлочная шляпа",
+        "name": "Advanced Felt Cap",
         "refName": "Advanced Felt Cap",
         "namespace": "ITEM",
         "class": 25,
@@ -26891,7 +26891,7 @@
         }
     },
     "2381": {
-        "name": "Улучшенный вышитый капюшон",
+        "name": "Advanced Lace Hood",
         "refName": "Advanced Lace Hood",
         "namespace": "ITEM",
         "class": 25,
@@ -26909,7 +26909,7 @@
         }
     },
     "2382": {
-        "name": "Улучшенный капюшон с куфией",
+        "name": "Advanced Swathed Cap",
         "refName": "Advanced Swathed Cap",
         "namespace": "ITEM",
         "class": 25,
@@ -26927,7 +26927,7 @@
         }
     },
     "2383": {
-        "name": "Улучшенный капюшон охотника",
+        "name": "Advanced Hunter Hood",
         "refName": "Advanced Hunter Hood",
         "namespace": "ITEM",
         "class": 25,
@@ -26945,7 +26945,7 @@
         }
     },
     "2384": {
-        "name": "Улучшенный венок из ветвей",
+        "name": "Advanced Twig Circlet",
         "refName": "Advanced Twig Circlet",
         "namespace": "ITEM",
         "class": 25,
@@ -26963,7 +26963,7 @@
         }
     },
     "2385": {
-        "name": "Улучшенная тиара из прутьев",
+        "name": "Advanced Wicker Tiara",
         "refName": "Advanced Wicker Tiara",
         "namespace": "ITEM",
         "class": 25,
@@ -26981,7 +26981,7 @@
         }
     },
     "2386": {
-        "name": "Улучшенный обруч с чётками",
+        "name": "Advanced Beaded Circlet",
         "refName": "Advanced Beaded Circlet",
         "namespace": "ITEM",
         "class": 25,
@@ -26999,7 +26999,7 @@
         }
     },
     "2387": {
-        "name": "Улучшенная цепная тиара",
+        "name": "Advanced Chain Tiara",
         "refName": "Advanced Chain Tiara",
         "namespace": "ITEM",
         "class": 25,
@@ -27017,7 +27017,7 @@
         }
     },
     "2388": {
-        "name": "Улучшенная тиара с перьями",
+        "name": "Advanced Feathered Tiara",
         "refName": "Advanced Feathered Tiara",
         "namespace": "ITEM",
         "class": 25,
@@ -27035,7 +27035,7 @@
         }
     },
     "2389": {
-        "name": "Улучшенный шлем с полями",
+        "name": "Advanced Brimmed Helm",
         "refName": "Advanced Brimmed Helm",
         "namespace": "ITEM",
         "class": 25,
@@ -27057,7 +27057,7 @@
         }
     },
     "2390": {
-        "name": "Улучшенный шлем с забралом",
+        "name": "Advanced Guarded Helm",
         "refName": "Advanced Guarded Helm",
         "namespace": "ITEM",
         "class": 25,
@@ -27079,7 +27079,7 @@
         }
     },
     "2391": {
-        "name": "Улучшенный шлем с козырьком",
+        "name": "Advanced Visored Helm",
         "refName": "Advanced Visored Helm",
         "namespace": "ITEM",
         "class": 25,
@@ -27101,7 +27101,7 @@
         }
     },
     "2392": {
-        "name": "Улучшенный шлем с капюшоном",
+        "name": "Advanced Cowled Helm",
         "refName": "Advanced Cowled Helm",
         "namespace": "ITEM",
         "class": 25,
@@ -27123,7 +27123,7 @@
         }
     },
     "2393": {
-        "name": "Улучшенный шлем с горжетом",
+        "name": "Advanced Shielded Helm",
         "refName": "Advanced Shielded Helm",
         "namespace": "ITEM",
         "class": 25,
@@ -27145,7 +27145,7 @@
         }
     },
     "2394": {
-        "name": "Улучшенная железная корона",
+        "name": "Advanced Iron Crown",
         "refName": "Advanced Iron Crown",
         "namespace": "ITEM",
         "class": 25,
@@ -27167,7 +27167,7 @@
         }
     },
     "2395": {
-        "name": "Улучшенная корона с рогами",
+        "name": "Advanced Horned Crown",
         "refName": "Advanced Horned Crown",
         "namespace": "ITEM",
         "class": 25,
@@ -27189,7 +27189,7 @@
         }
     },
     "2396": {
-        "name": "Улучшенная корона культиста",
+        "name": "Advanced Cultist Crown",
         "refName": "Advanced Cultist Crown",
         "namespace": "ITEM",
         "class": 25,
@@ -27211,7 +27211,7 @@
         }
     },
     "2397": {
-        "name": "Улучшенная корона мученика",
+        "name": "Advanced Martyr Crown",
         "refName": "Advanced Martyr Crown",
         "namespace": "ITEM",
         "class": 25,
@@ -27233,7 +27233,7 @@
         }
     },
     "2398": {
-        "name": "Улучшенная тяжёлая корона",
+        "name": "Advanced Heavy Crown",
         "refName": "Advanced Heavy Crown",
         "namespace": "ITEM",
         "class": 25,
@@ -27255,7 +27255,7 @@
         }
     },
     "2399": {
-        "name": "Улучшенная обтёсанная маска",
+        "name": "Advanced Hewn Mask",
         "refName": "Advanced Hewn Mask",
         "namespace": "ITEM",
         "class": 25,
@@ -27277,7 +27277,7 @@
         }
     },
     "2400": {
-        "name": "Улучшенная лицевая маска",
+        "name": "Advanced Face Mask",
         "refName": "Advanced Face Mask",
         "namespace": "ITEM",
         "class": 25,
@@ -27299,7 +27299,7 @@
         }
     },
     "2401": {
-        "name": "Улучшенная маска с капюшоном",
+        "name": "Advanced Hooded Mask",
         "refName": "Advanced Hooded Mask",
         "namespace": "ITEM",
         "class": 25,
@@ -27321,7 +27321,7 @@
         }
     },
     "2402": {
-        "name": "Улучшенная маска с вуалью",
+        "name": "Advanced Veiled Mask",
         "refName": "Advanced Veiled Mask",
         "namespace": "ITEM",
         "class": 25,
@@ -27343,7 +27343,7 @@
         }
     },
     "2403": {
-        "name": "Улучшенная племенная маска",
+        "name": "Advanced Tribal Mask",
         "refName": "Advanced Tribal Mask",
         "namespace": "ITEM",
         "class": 25,
@@ -27365,7 +27365,7 @@
         }
     },
     "2404": {
-        "name": "Улучшенные клёпаные рукавицы",
+        "name": "Advanced Riveted Mitts",
         "refName": "Advanced Riveted Mitts",
         "namespace": "ITEM",
         "class": 22,
@@ -27383,7 +27383,7 @@
         }
     },
     "2405": {
-        "name": "Улучшенные закалённые рукавицы",
+        "name": "Advanced Tempered Mitts",
         "refName": "Advanced Tempered Mitts",
         "namespace": "ITEM",
         "class": 22,
@@ -27401,7 +27401,7 @@
         }
     },
     "2406": {
-        "name": "Улучшенные укреплённые рукавицы",
+        "name": "Advanced Bolstered Mitts",
         "refName": "Advanced Bolstered Mitts",
         "namespace": "ITEM",
         "class": 22,
@@ -27419,7 +27419,7 @@
         }
     },
     "2407": {
-        "name": "Улучшенные литые рукавицы",
+        "name": "Advanced Moulded Mitts",
         "refName": "Advanced Moulded Mitts",
         "namespace": "ITEM",
         "class": 22,
@@ -27437,7 +27437,7 @@
         }
     },
     "2408": {
-        "name": "Улучшенные плотные наручи",
+        "name": "Advanced Firm Bracers",
         "refName": "Advanced Firm Bracers",
         "namespace": "ITEM",
         "class": 22,
@@ -27455,7 +27455,7 @@
         }
     },
     "2409": {
-        "name": "Улучшенные обмотанные наручи",
+        "name": "Advanced Bound Bracers",
         "refName": "Advanced Bound Bracers",
         "namespace": "ITEM",
         "class": 22,
@@ -27473,7 +27473,7 @@
         }
     },
     "2410": {
-        "name": "Улучшенные сегментные наручи",
+        "name": "Advanced Sectioned Bracers",
         "refName": "Advanced Sectioned Bracers",
         "namespace": "ITEM",
         "class": 22,
@@ -27491,7 +27491,7 @@
         }
     },
     "2411": {
-        "name": "Улучшенные шипастые наручи",
+        "name": "Advanced Spined Bracers",
         "refName": "Advanced Spined Bracers",
         "namespace": "ITEM",
         "class": 22,
@@ -27509,7 +27509,7 @@
         }
     },
     "2412": {
-        "name": "Улучшенные тёмные перчатки",
+        "name": "Advanced Sombre Gloves",
         "refName": "Advanced Sombre Gloves",
         "namespace": "ITEM",
         "class": 22,
@@ -27527,7 +27527,7 @@
         }
     },
     "2413": {
-        "name": "Улучшенные сшитые перчатки",
+        "name": "Advanced Stitched Gloves",
         "refName": "Advanced Stitched Gloves",
         "namespace": "ITEM",
         "class": 22,
@@ -27545,7 +27545,7 @@
         }
     },
     "2414": {
-        "name": "Улучшенные инкрустированные перчатки",
+        "name": "Advanced Jewelled Gloves",
         "refName": "Advanced Jewelled Gloves",
         "namespace": "ITEM",
         "class": 22,
@@ -27563,7 +27563,7 @@
         }
     },
     "2415": {
-        "name": "Улучшенные затейливые перчатки",
+        "name": "Advanced Intricate Gloves",
         "refName": "Advanced Intricate Gloves",
         "namespace": "ITEM",
         "class": 22,
@@ -27581,7 +27581,7 @@
         }
     },
     "2416": {
-        "name": "Улучшенные кольчужные перчатки",
+        "name": "Advanced Ringmail Gauntlets",
         "refName": "Advanced Ringmail Gauntlets",
         "namespace": "ITEM",
         "class": 22,
@@ -27603,7 +27603,7 @@
         }
     },
     "2417": {
-        "name": "Улучшенные пластинчатые перчатки",
+        "name": "Advanced Layered Gauntlets",
         "refName": "Advanced Layered Gauntlets",
         "namespace": "ITEM",
         "class": 22,
@@ -27625,7 +27625,7 @@
         }
     },
     "2418": {
-        "name": "Улучшенные двухслойные перчатки",
+        "name": "Advanced Doubled Gauntlets",
         "refName": "Advanced Doubled Gauntlets",
         "namespace": "ITEM",
         "class": 22,
@@ -27647,7 +27647,7 @@
         }
     },
     "2419": {
-        "name": "Улучшенные верёвочные манжеты",
+        "name": "Advanced Rope Cuffs",
         "refName": "Advanced Rope Cuffs",
         "namespace": "ITEM",
         "class": 22,
@@ -27669,7 +27669,7 @@
         }
     },
     "2420": {
-        "name": "Улучшенные старинные манжеты",
+        "name": "Advanced Aged Cuffs",
         "refName": "Advanced Aged Cuffs",
         "namespace": "ITEM",
         "class": 22,
@@ -27691,7 +27691,7 @@
         }
     },
     "2421": {
-        "name": "Улучшенные золотые манжеты",
+        "name": "Advanced Goldcast Cuffs",
         "refName": "Advanced Goldcast Cuffs",
         "namespace": "ITEM",
         "class": 22,
@@ -27713,7 +27713,7 @@
         }
     },
     "2422": {
-        "name": "Улучшенные обмотки из муслина",
+        "name": "Advanced Gauze Wraps",
         "refName": "Advanced Gauze Wraps",
         "namespace": "ITEM",
         "class": 22,
@@ -27735,7 +27735,7 @@
         }
     },
     "2423": {
-        "name": "Улучшенные льняные обмотки",
+        "name": "Advanced Linen Wraps",
         "refName": "Advanced Linen Wraps",
         "namespace": "ITEM",
         "class": 22,
@@ -27757,7 +27757,7 @@
         }
     },
     "2424": {
-        "name": "Улучшенные витые обмотки",
+        "name": "Advanced Spiral Wraps",
         "refName": "Advanced Spiral Wraps",
         "namespace": "ITEM",
         "class": 22,
@@ -27779,7 +27779,7 @@
         }
     },
     "2425": {
-        "name": "Улучшенные железные поножи",
+        "name": "Advanced Iron Greaves",
         "refName": "Advanced Iron Greaves",
         "namespace": "ITEM",
         "class": 23,
@@ -27797,7 +27797,7 @@
         }
     },
     "2426": {
-        "name": "Улучшенные бронзовые поножи",
+        "name": "Advanced Bronze Greaves",
         "refName": "Advanced Bronze Greaves",
         "namespace": "ITEM",
         "class": 23,
@@ -27815,7 +27815,7 @@
         }
     },
     "2427": {
-        "name": "Улучшенные подогнанные поножи",
+        "name": "Advanced Trimmed Greaves",
         "refName": "Advanced Trimmed Greaves",
         "namespace": "ITEM",
         "class": 23,
@@ -27833,7 +27833,7 @@
         }
     },
     "2428": {
-        "name": "Улучшенные каменные поножи",
+        "name": "Advanced Stone Greaves",
         "refName": "Advanced Stone Greaves",
         "namespace": "ITEM",
         "class": 23,
@@ -27851,7 +27851,7 @@
         }
     },
     "2429": {
-        "name": "Улучшенные сапоги с тесьмой",
+        "name": "Advanced Laced Boots",
         "refName": "Advanced Laced Boots",
         "namespace": "ITEM",
         "class": 23,
@@ -27869,7 +27869,7 @@
         }
     },
     "2430": {
-        "name": "Улучшенные тиснёные сапоги",
+        "name": "Advanced Embossed Boots",
         "refName": "Advanced Embossed Boots",
         "namespace": "ITEM",
         "class": 23,
@@ -27887,7 +27887,7 @@
         }
     },
     "2431": {
-        "name": "Улучшенные сапоги со стальным носком",
+        "name": "Advanced Steeltoe Boots",
         "refName": "Advanced Steeltoe Boots",
         "namespace": "ITEM",
         "class": 23,
@@ -27905,7 +27905,7 @@
         }
     },
     "2432": {
-        "name": "Улучшенные сапоги из кожи ящера",
+        "name": "Advanced Lizardscale Boots",
         "refName": "Advanced Lizardscale Boots",
         "namespace": "ITEM",
         "class": 23,
@@ -27923,7 +27923,7 @@
         }
     },
     "2433": {
-        "name": "Улучшенные сандалии с обмотками",
+        "name": "Advanced Wrapped Sandals",
         "refName": "Advanced Wrapped Sandals",
         "namespace": "ITEM",
         "class": 23,
@@ -27941,7 +27941,7 @@
         }
     },
     "2434": {
-        "name": "Улучшенные сетчатые сандалии",
+        "name": "Advanced Lattice Sandals",
         "refName": "Advanced Lattice Sandals",
         "namespace": "ITEM",
         "class": 23,
@@ -27959,7 +27959,7 @@
         }
     },
     "2435": {
-        "name": "Улучшенные шёлковые тапочки",
+        "name": "Advanced Silk Slippers",
         "refName": "Advanced Silk Slippers",
         "namespace": "ITEM",
         "class": 23,
@@ -27977,7 +27977,7 @@
         }
     },
     "2436": {
-        "name": "Улучшенные пернатые сандалии",
+        "name": "Advanced Feathered Sandals",
         "refName": "Advanced Feathered Sandals",
         "namespace": "ITEM",
         "class": 23,
@@ -27995,7 +27995,7 @@
         }
     },
     "2437": {
-        "name": "Улучшенные кольчужные сабатоны",
+        "name": "Advanced Mail Sabatons",
         "refName": "Advanced Mail Sabatons",
         "namespace": "ITEM",
         "class": 23,
@@ -28017,7 +28017,7 @@
         }
     },
     "2438": {
-        "name": "Улучшенные сабатоны с ремнями",
+        "name": "Advanced Braced Sabatons",
         "refName": "Advanced Braced Sabatons",
         "namespace": "ITEM",
         "class": 23,
@@ -28039,7 +28039,7 @@
         }
     },
     "2439": {
-        "name": "Улучшенные пластинчатые сабатоны",
+        "name": "Advanced Stacked Sabatons",
         "refName": "Advanced Stacked Sabatons",
         "namespace": "ITEM",
         "class": 23,
@@ -28061,7 +28061,7 @@
         }
     },
     "2440": {
-        "name": "Улучшенные ватные сапоги",
+        "name": "Advanced Padded Leggings",
         "refName": "Advanced Padded Leggings",
         "namespace": "ITEM",
         "class": 23,
@@ -28083,7 +28083,7 @@
         }
     },
     "2441": {
-        "name": "Улучшенные меховые сапоги",
+        "name": "Advanced Secured Leggings",
         "refName": "Advanced Secured Leggings",
         "namespace": "ITEM",
         "class": 23,
@@ -28105,7 +28105,7 @@
         }
     },
     "2442": {
-        "name": "Улучшенные сапоги из шкур",
+        "name": "Advanced Pelt Leggings",
         "refName": "Advanced Pelt Leggings",
         "namespace": "ITEM",
         "class": 23,
@@ -28127,7 +28127,7 @@
         }
     },
     "2443": {
-        "name": "Улучшенные потёртые ботинки",
+        "name": "Advanced Frayed Shoes",
         "refName": "Advanced Frayed Shoes",
         "namespace": "ITEM",
         "class": 23,
@@ -28149,7 +28149,7 @@
         }
     },
     "2444": {
-        "name": "Улучшенные прошитые ботинки",
+        "name": "Advanced Threaded Shoes",
         "refName": "Advanced Threaded Shoes",
         "namespace": "ITEM",
         "class": 23,
@@ -28171,7 +28171,7 @@
         }
     },
     "2445": {
-        "name": "Улучшенные охотничьи ботинки",
+        "name": "Advanced Hunting Shoes",
         "refName": "Advanced Hunting Shoes",
         "namespace": "ITEM",
         "class": 23,
@@ -28193,7 +28193,7 @@
         }
     },
     "2446": {
-        "name": "Улучшенный расписной ростовой щит",
+        "name": "Advanced Painted Tower Shield",
         "refName": "Advanced Painted Tower Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28211,7 +28211,7 @@
         }
     },
     "2447": {
-        "name": "Улучшенный окованный ростовой щит",
+        "name": "Advanced Braced Tower Shield",
         "refName": "Advanced Braced Tower Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28229,7 +28229,7 @@
         }
     },
     "2448": {
-        "name": "Улучшенный тотемный ростовой щит",
+        "name": "Advanced Effigial Tower Shield",
         "refName": "Advanced Effigial Tower Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28247,7 +28247,7 @@
         }
     },
     "2449": {
-        "name": "Улучшенный крепостной ростовой щит",
+        "name": "Advanced Rampart Tower Shield",
         "refName": "Advanced Rampart Tower Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28265,7 +28265,7 @@
         }
     },
     "2450": {
-        "name": "Улучшенный геральдический ростовой щит",
+        "name": "Advanced Heraldric Tower Shield",
         "refName": "Advanced Heraldric Tower Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28283,7 +28283,7 @@
         }
     },
     "2451": {
-        "name": "Улучшенный каменный ростовой щит",
+        "name": "Advanced Stone Tower Shield",
         "refName": "Advanced Stone Tower Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28301,7 +28301,7 @@
         }
     },
     "2452": {
-        "name": "Улучшенный тарджет из твёрдой древесины",
+        "name": "Advanced Hardwood Targe",
         "refName": "Advanced Hardwood Targe",
         "namespace": "ITEM",
         "class": 26,
@@ -28323,7 +28323,7 @@
         }
     },
     "2453": {
-        "name": "Улучшенный отделанный мехом тарджет",
+        "name": "Advanced Pelage Targe",
         "refName": "Advanced Pelage Targe",
         "namespace": "ITEM",
         "class": 26,
@@ -28345,7 +28345,7 @@
         }
     },
     "2454": {
-        "name": "Улучшенный тарджет с заклёпками",
+        "name": "Advanced Studded Targe",
         "refName": "Advanced Studded Targe",
         "namespace": "ITEM",
         "class": 26,
@@ -28367,7 +28367,7 @@
         }
     },
     "2455": {
-        "name": "Улучшенный тарджет с полумесяцем",
+        "name": "Advanced Crescent Targe",
         "refName": "Advanced Crescent Targe",
         "namespace": "ITEM",
         "class": 26,
@@ -28389,7 +28389,7 @@
         }
     },
     "2456": {
-        "name": "Улучшенный рельефный тарджет",
+        "name": "Advanced Chiseled Targe",
         "refName": "Advanced Chiseled Targe",
         "namespace": "ITEM",
         "class": 26,
@@ -28411,7 +28411,7 @@
         }
     },
     "2457": {
-        "name": "Улучшенный украшенный перьями тарджет",
+        "name": "Advanced Feathered Targe",
         "refName": "Advanced Feathered Targe",
         "namespace": "ITEM",
         "class": 26,
@@ -28433,7 +28433,7 @@
         }
     },
     "2458": {
-        "name": "Улучшенный крашеный гербовый щит",
+        "name": "Advanced Blazon Crest Shield",
         "refName": "Advanced Blazon Crest Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28455,7 +28455,7 @@
         }
     },
     "2459": {
-        "name": "Улучшенный гербовый щит с символикой",
+        "name": "Advanced Sigil Crest Shield",
         "refName": "Advanced Sigil Crest Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28477,7 +28477,7 @@
         }
     },
     "2460": {
-        "name": "Улучшенный гербовый щит с эмблемой",
+        "name": "Advanced Emblem Crest Shield",
         "refName": "Advanced Emblem Crest Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28499,7 +28499,7 @@
         }
     },
     "2461": {
-        "name": "Улучшенный звенящий гербовый щит",
+        "name": "Advanced Jingling Crest Shield",
         "refName": "Advanced Jingling Crest Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28521,7 +28521,7 @@
         }
     },
     "2462": {
-        "name": "Улучшенный гербовый щит сектанта",
+        "name": "Advanced Sectarian Crest Shield",
         "refName": "Advanced Sectarian Crest Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28543,7 +28543,7 @@
         }
     },
     "2463": {
-        "name": "Улучшенный гербовый щит знамения",
+        "name": "Advanced Omen Crest Shield",
         "refName": "Advanced Omen Crest Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -28565,7 +28565,7 @@
         }
     },
     "2464": {
-        "name": "Улучшенный деревянный баклер",
+        "name": "Advanced Wooden Buckler",
         "refName": "Advanced Wooden Buckler",
         "namespace": "ITEM",
         "class": 26,
@@ -28583,7 +28583,7 @@
         }
     },
     "2465": {
-        "name": "Улучшенный облицованный баклер",
+        "name": "Advanced Plated Buckler",
         "refName": "Advanced Plated Buckler",
         "namespace": "ITEM",
         "class": 26,
@@ -28601,7 +28601,7 @@
         }
     },
     "2466": {
-        "name": "Улучшенный ребристый баклер",
+        "name": "Advanced Ridged Buckler",
         "refName": "Advanced Ridged Buckler",
         "namespace": "ITEM",
         "class": 26,
@@ -28619,7 +28619,7 @@
         }
     },
     "2467": {
-        "name": "Улучшенный баклер с шипом",
+        "name": "Advanced Spiked Buckler",
         "refName": "Advanced Spiked Buckler",
         "namespace": "ITEM",
         "class": 26,
@@ -28637,7 +28637,7 @@
         }
     },
     "2468": {
-        "name": "Улучшенный баклер с кольцами",
+        "name": "Advanced Ringed Buckler",
         "refName": "Advanced Ringed Buckler",
         "namespace": "ITEM",
         "class": 26,
@@ -28655,7 +28655,7 @@
         }
     },
     "2469": {
-        "name": "Улучшенный баклер с остриём",
+        "name": "Advanced Edged Buckler",
         "refName": "Advanced Edged Buckler",
         "namespace": "ITEM",
         "class": 26,
@@ -28673,7 +28673,7 @@
         }
     },
     "2470": {
-        "name": "Улучшенный плетёный фокус",
+        "name": "Advanced Woven Focus",
         "refName": "Advanced Woven Focus",
         "namespace": "ITEM",
         "class": 79,
@@ -28691,7 +28691,7 @@
         }
     },
     "2471": {
-        "name": "Улучшенный фокус из рогов",
+        "name": "Advanced Antler Focus",
         "refName": "Advanced Antler Focus",
         "namespace": "ITEM",
         "class": 79,
@@ -28709,7 +28709,7 @@
         }
     },
     "2472": {
-        "name": "Улучшенный звенящий фокус",
+        "name": "Advanced Tonal Focus",
         "refName": "Advanced Tonal Focus",
         "namespace": "ITEM",
         "class": 79,
@@ -28727,7 +28727,7 @@
         }
     },
     "2473": {
-        "name": "Улучшенный кристальный фокус",
+        "name": "Advanced Crystal Focus",
         "refName": "Advanced Crystal Focus",
         "namespace": "ITEM",
         "class": 79,
@@ -28745,7 +28745,7 @@
         }
     },
     "2474": {
-        "name": "Улучшенный фокус вуду",
+        "name": "Advanced Voodoo Focus",
         "refName": "Advanced Voodoo Focus",
         "namespace": "ITEM",
         "class": 79,
@@ -28763,7 +28763,7 @@
         }
     },
     "2475": {
-        "name": "Улучшенный павлиний фокус",
+        "name": "Advanced Plumed Focus",
         "refName": "Advanced Plumed Focus",
         "namespace": "ITEM",
         "class": 79,
@@ -28781,7 +28781,7 @@
         }
     },
     "2476": {
-        "name": "Мастерская железная кираса",
+        "name": "Expert Iron Cuirass",
         "refName": "Expert Iron Cuirass",
         "namespace": "ITEM",
         "class": 24,
@@ -28799,7 +28799,7 @@
         }
     },
     "2477": {
-        "name": "Мастерский стальной доспех",
+        "name": "Expert Steel Plate",
         "refName": "Expert Steel Plate",
         "namespace": "ITEM",
         "class": 24,
@@ -28817,7 +28817,7 @@
         }
     },
     "2478": {
-        "name": "Мастерский нагрудник ваал",
+        "name": "Expert Vaal Cuirass",
         "refName": "Expert Vaal Cuirass",
         "namespace": "ITEM",
         "class": 24,
@@ -28835,7 +28835,7 @@
         }
     },
     "2479": {
-        "name": "Мастерская куртка следопыта",
+        "name": "Expert Pathfinder Coat",
         "refName": "Expert Pathfinder Coat",
         "namespace": "ITEM",
         "class": 24,
@@ -28853,7 +28853,7 @@
         }
     },
     "2480": {
-        "name": "Мастерский клёпаный нагрудник",
+        "name": "Expert Studded Vest",
         "refName": "Expert Studded Vest",
         "namespace": "ITEM",
         "class": 24,
@@ -28871,7 +28871,7 @@
         }
     },
     "2481": {
-        "name": "Мастерский доспех из змеиной чешуи",
+        "name": "Expert Serpentscale Coat",
         "refName": "Expert Serpentscale Coat",
         "namespace": "ITEM",
         "class": 24,
@@ -28889,7 +28889,7 @@
         }
     },
     "2482": {
-        "name": "Мастерское ведьмино облачение",
+        "name": "Expert Hexer's Robe",
         "refName": "Expert Hexer's Robe",
         "namespace": "ITEM",
         "class": 24,
@@ -28907,7 +28907,7 @@
         }
     },
     "2483": {
-        "name": "Мастерское кетское одеяние",
+        "name": "Expert Keth Raiment",
         "refName": "Expert Keth Raiment",
         "namespace": "ITEM",
         "class": 24,
@@ -28925,7 +28925,7 @@
         }
     },
     "2484": {
-        "name": "Мастерское церемониальное одеяние",
+        "name": "Expert Altar Robe",
         "refName": "Expert Altar Robe",
         "namespace": "ITEM",
         "class": 24,
@@ -28943,7 +28943,7 @@
         }
     },
     "2485": {
-        "name": "Мастерский доспех изгоя",
+        "name": "Expert Rogue Armour",
         "refName": "Expert Rogue Armour",
         "namespace": "ITEM",
         "class": 24,
@@ -28965,7 +28965,7 @@
         }
     },
     "2486": {
-        "name": "Мастерский доспех с кольцами",
+        "name": "Expert Cloaked Mail",
         "refName": "Expert Cloaked Mail",
         "namespace": "ITEM",
         "class": 24,
@@ -28987,7 +28987,7 @@
         }
     },
     "2487": {
-        "name": "Мастерский доспех с кольцами",
+        "name": "Expert Cloaked Mail",
         "refName": "Expert Cloaked Mail",
         "namespace": "ITEM",
         "class": 24,
@@ -29009,7 +29009,7 @@
         }
     },
     "2488": {
-        "name": "Мастерский доспех с кольцами",
+        "name": "Expert Cloaked Mail",
         "refName": "Expert Cloaked Mail",
         "namespace": "ITEM",
         "class": 24,
@@ -29031,7 +29031,7 @@
         }
     },
     "2489": {
-        "name": "Мастерский чешуйчатый доспех",
+        "name": "Expert Scale Mail",
         "refName": "Expert Scale Mail",
         "namespace": "ITEM",
         "class": 24,
@@ -29053,7 +29053,7 @@
         }
     },
     "2490": {
-        "name": "Мастерский покров из шкур",
+        "name": "Expert Pelt Mantle",
         "refName": "Expert Pelt Mantle",
         "namespace": "ITEM",
         "class": 24,
@@ -29075,7 +29075,7 @@
         }
     },
     "2491": {
-        "name": "Мастерский наряд шамана",
+        "name": "Expert Shaman Mantle",
         "refName": "Expert Shaman Mantle",
         "namespace": "ITEM",
         "class": 24,
@@ -29097,7 +29097,7 @@
         }
     },
     "2492": {
-        "name": "Мастерская жертвенная мантия",
+        "name": "Expert Sacrificial Mantle",
         "refName": "Expert Sacrificial Mantle",
         "namespace": "ITEM",
         "class": 24,
@@ -29119,7 +29119,7 @@
         }
     },
     "2493": {
-        "name": "Мастерский вощёный плащ",
+        "name": "Expert Waxed Jacket",
         "refName": "Expert Waxed Jacket",
         "namespace": "ITEM",
         "class": 24,
@@ -29141,7 +29141,7 @@
         }
     },
     "2494": {
-        "name": "Мастерский плащ путника",
+        "name": "Expert Wayfarer Jacket",
         "refName": "Expert Wayfarer Jacket",
         "namespace": "ITEM",
         "class": 24,
@@ -29163,7 +29163,7 @@
         }
     },
     "2495": {
-        "name": "Мастерская накидка спекулянта",
+        "name": "Expert Scalper's Jacket",
         "refName": "Expert Scalper's Jacket",
         "namespace": "ITEM",
         "class": 24,
@@ -29185,7 +29185,7 @@
         }
     },
     "2496": {
-        "name": "Мастерский большой шлем солдата",
+        "name": "Expert Soldier Greathelm",
         "refName": "Expert Soldier Greathelm",
         "namespace": "ITEM",
         "class": 25,
@@ -29203,7 +29203,7 @@
         }
     },
     "2497": {
-        "name": "Мастерский остроконечный большой шлем",
+        "name": "Expert Spired Greathelm",
         "refName": "Expert Spired Greathelm",
         "namespace": "ITEM",
         "class": 25,
@@ -29221,7 +29221,7 @@
         }
     },
     "2498": {
-        "name": "Мастерский большой шлем элиты",
+        "name": "Expert Elite Greathelm",
         "refName": "Expert Elite Greathelm",
         "namespace": "ITEM",
         "class": 25,
@@ -29239,7 +29239,7 @@
         }
     },
     "2499": {
-        "name": "Мастерская войлочная шляпа",
+        "name": "Expert Felt Cap",
         "refName": "Expert Felt Cap",
         "namespace": "ITEM",
         "class": 25,
@@ -29257,7 +29257,7 @@
         }
     },
     "2500": {
-        "name": "Мастерский капюшон с куфией",
+        "name": "Expert Swathed Cap",
         "refName": "Expert Swathed Cap",
         "namespace": "ITEM",
         "class": 25,
@@ -29275,7 +29275,7 @@
         }
     },
     "2501": {
-        "name": "Мастерский капюшон охотника",
+        "name": "Expert Hunter Hood",
         "refName": "Expert Hunter Hood",
         "namespace": "ITEM",
         "class": 25,
@@ -29293,7 +29293,7 @@
         }
     },
     "2502": {
-        "name": "Мастерская тиара из прутьев",
+        "name": "Expert Wicker Tiara",
         "refName": "Expert Wicker Tiara",
         "namespace": "ITEM",
         "class": 25,
@@ -29311,7 +29311,7 @@
         }
     },
     "2503": {
-        "name": "Мастерская цепная тиара",
+        "name": "Expert Chain Tiara",
         "refName": "Expert Chain Tiara",
         "namespace": "ITEM",
         "class": 25,
@@ -29329,7 +29329,7 @@
         }
     },
     "2504": {
-        "name": "Мастерская тиара с перьями",
+        "name": "Expert Feathered Tiara",
         "refName": "Expert Feathered Tiara",
         "namespace": "ITEM",
         "class": 25,
@@ -29347,7 +29347,7 @@
         }
     },
     "2505": {
-        "name": "Мастерский шлем с забралом",
+        "name": "Expert Guarded Helm",
         "refName": "Expert Guarded Helm",
         "namespace": "ITEM",
         "class": 25,
@@ -29369,7 +29369,7 @@
         }
     },
     "2506": {
-        "name": "Мастерский шлем с капюшоном",
+        "name": "Expert Cowled Helm",
         "refName": "Expert Cowled Helm",
         "namespace": "ITEM",
         "class": 25,
@@ -29391,7 +29391,7 @@
         }
     },
     "2507": {
-        "name": "Мастерский шлем с горжетом",
+        "name": "Expert Shielded Helm",
         "refName": "Expert Shielded Helm",
         "namespace": "ITEM",
         "class": 25,
@@ -29413,7 +29413,7 @@
         }
     },
     "2508": {
-        "name": "Мастерская корона с рогами",
+        "name": "Expert Horned Crown",
         "refName": "Expert Horned Crown",
         "namespace": "ITEM",
         "class": 25,
@@ -29435,7 +29435,7 @@
         }
     },
     "2509": {
-        "name": "Мастерская корона мученика",
+        "name": "Expert Martyr Crown",
         "refName": "Expert Martyr Crown",
         "namespace": "ITEM",
         "class": 25,
@@ -29457,7 +29457,7 @@
         }
     },
     "2510": {
-        "name": "Мастерская тяжёлая корона",
+        "name": "Expert Heavy Crown",
         "refName": "Expert Heavy Crown",
         "namespace": "ITEM",
         "class": 25,
@@ -29479,7 +29479,7 @@
         }
     },
     "2511": {
-        "name": "Мастерская лицевая маска",
+        "name": "Expert Face Mask",
         "refName": "Expert Face Mask",
         "namespace": "ITEM",
         "class": 25,
@@ -29501,7 +29501,7 @@
         }
     },
     "2512": {
-        "name": "Мастерская маска с вуалью",
+        "name": "Expert Veiled Mask",
         "refName": "Expert Veiled Mask",
         "namespace": "ITEM",
         "class": 25,
@@ -29523,7 +29523,7 @@
         }
     },
     "2513": {
-        "name": "Мастерская племенная маска",
+        "name": "Expert Tribal Mask",
         "refName": "Expert Tribal Mask",
         "namespace": "ITEM",
         "class": 25,
@@ -29545,7 +29545,7 @@
         }
     },
     "2514": {
-        "name": "Мастерские клёпаные рукавицы",
+        "name": "Expert Riveted Mitts",
         "refName": "Expert Riveted Mitts",
         "namespace": "ITEM",
         "class": 22,
@@ -29563,7 +29563,7 @@
         }
     },
     "2515": {
-        "name": "Мастерские укреплённые рукавицы",
+        "name": "Expert Bolstered Mitts",
         "refName": "Expert Bolstered Mitts",
         "namespace": "ITEM",
         "class": 22,
@@ -29581,7 +29581,7 @@
         }
     },
     "2516": {
-        "name": "Мастерские литые рукавицы",
+        "name": "Expert Moulded Mitts",
         "refName": "Expert Moulded Mitts",
         "namespace": "ITEM",
         "class": 22,
@@ -29599,7 +29599,7 @@
         }
     },
     "2517": {
-        "name": "Мастерские плотные наручи",
+        "name": "Expert Firm Bracers",
         "refName": "Expert Firm Bracers",
         "namespace": "ITEM",
         "class": 22,
@@ -29617,7 +29617,7 @@
         }
     },
     "2518": {
-        "name": "Мастерские сегментные наручи",
+        "name": "Expert Sectioned Bracers",
         "refName": "Expert Sectioned Bracers",
         "namespace": "ITEM",
         "class": 22,
@@ -29635,7 +29635,7 @@
         }
     },
     "2519": {
-        "name": "Мастерские шипастые наручи",
+        "name": "Expert Spined Bracers",
         "refName": "Expert Spined Bracers",
         "namespace": "ITEM",
         "class": 22,
@@ -29653,7 +29653,7 @@
         }
     },
     "2520": {
-        "name": "Мастерские тёмные перчатки",
+        "name": "Expert Sombre Gloves",
         "refName": "Expert Sombre Gloves",
         "namespace": "ITEM",
         "class": 22,
@@ -29671,7 +29671,7 @@
         }
     },
     "2521": {
-        "name": "Мастерские инкрустированные перчатки",
+        "name": "Expert Jewelled Gloves",
         "refName": "Expert Jewelled Gloves",
         "namespace": "ITEM",
         "class": 22,
@@ -29689,7 +29689,7 @@
         }
     },
     "2522": {
-        "name": "Мастерские затейливые перчатки",
+        "name": "Expert Intricate Gloves",
         "refName": "Expert Intricate Gloves",
         "namespace": "ITEM",
         "class": 22,
@@ -29707,7 +29707,7 @@
         }
     },
     "2523": {
-        "name": "Мастерские кольчужные перчатки",
+        "name": "Expert Ringmail Gauntlets",
         "refName": "Expert Ringmail Gauntlets",
         "namespace": "ITEM",
         "class": 22,
@@ -29729,7 +29729,7 @@
         }
     },
     "2524": {
-        "name": "Мастерские пластинчатые перчатки",
+        "name": "Expert Layered Gauntlets",
         "refName": "Expert Layered Gauntlets",
         "namespace": "ITEM",
         "class": 22,
@@ -29751,7 +29751,7 @@
         }
     },
     "2525": {
-        "name": "Мастерские двухслойные перчатки",
+        "name": "Expert Doubled Gauntlets",
         "refName": "Expert Doubled Gauntlets",
         "namespace": "ITEM",
         "class": 22,
@@ -29773,7 +29773,7 @@
         }
     },
     "2526": {
-        "name": "Мастерские верёвочные манжеты",
+        "name": "Expert Rope Cuffs",
         "refName": "Expert Rope Cuffs",
         "namespace": "ITEM",
         "class": 22,
@@ -29795,7 +29795,7 @@
         }
     },
     "2527": {
-        "name": "Мастерские старинные манжеты",
+        "name": "Expert Aged Cuffs",
         "refName": "Expert Aged Cuffs",
         "namespace": "ITEM",
         "class": 22,
@@ -29817,7 +29817,7 @@
         }
     },
     "2528": {
-        "name": "Мастерские золотые манжеты",
+        "name": "Expert Goldcast Cuffs",
         "refName": "Expert Goldcast Cuffs",
         "namespace": "ITEM",
         "class": 22,
@@ -29839,7 +29839,7 @@
         }
     },
     "2529": {
-        "name": "Мастерские обмотки из муслина",
+        "name": "Expert Gauze Wraps",
         "refName": "Expert Gauze Wraps",
         "namespace": "ITEM",
         "class": 22,
@@ -29861,7 +29861,7 @@
         }
     },
     "2530": {
-        "name": "Мастерские льняные обмотки",
+        "name": "Expert Linen Wraps",
         "refName": "Expert Linen Wraps",
         "namespace": "ITEM",
         "class": 22,
@@ -29883,7 +29883,7 @@
         }
     },
     "2531": {
-        "name": "Мастерские витые обмотки",
+        "name": "Expert Spiral Wraps",
         "refName": "Expert Spiral Wraps",
         "namespace": "ITEM",
         "class": 22,
@@ -29905,7 +29905,7 @@
         }
     },
     "2532": {
-        "name": "Мастерские железные поножи",
+        "name": "Expert Iron Greaves",
         "refName": "Expert Iron Greaves",
         "namespace": "ITEM",
         "class": 23,
@@ -29923,7 +29923,7 @@
         }
     },
     "2533": {
-        "name": "Мастерские подогнанные поножи",
+        "name": "Expert Trimmed Greaves",
         "refName": "Expert Trimmed Greaves",
         "namespace": "ITEM",
         "class": 23,
@@ -29941,7 +29941,7 @@
         }
     },
     "2534": {
-        "name": "Мастерские каменные поножи",
+        "name": "Expert Stone Greaves",
         "refName": "Expert Stone Greaves",
         "namespace": "ITEM",
         "class": 23,
@@ -29959,7 +29959,7 @@
         }
     },
     "2535": {
-        "name": "Мастерские сапоги с тесьмой",
+        "name": "Expert Laced Boots",
         "refName": "Expert Laced Boots",
         "namespace": "ITEM",
         "class": 23,
@@ -29977,7 +29977,7 @@
         }
     },
     "2536": {
-        "name": "Мастерские сапоги со стальным носком",
+        "name": "Expert Steeltoe Boots",
         "refName": "Expert Steeltoe Boots",
         "namespace": "ITEM",
         "class": 23,
@@ -29995,7 +29995,7 @@
         }
     },
     "2537": {
-        "name": "Мастерские сапоги из кожи ящера",
+        "name": "Expert Lizardscale Boots",
         "refName": "Expert Lizardscale Boots",
         "namespace": "ITEM",
         "class": 23,
@@ -30013,7 +30013,7 @@
         }
     },
     "2538": {
-        "name": "Мастерские сандалии с обмотками",
+        "name": "Expert Wrapped Sandals",
         "refName": "Expert Wrapped Sandals",
         "namespace": "ITEM",
         "class": 23,
@@ -30031,7 +30031,7 @@
         }
     },
     "2539": {
-        "name": "Мастерские шёлковые тапочки",
+        "name": "Expert Silk Slippers",
         "refName": "Expert Silk Slippers",
         "namespace": "ITEM",
         "class": 23,
@@ -30049,7 +30049,7 @@
         }
     },
     "2540": {
-        "name": "Мастерские пернатые сандалии",
+        "name": "Expert Feathered Sandals",
         "refName": "Expert Feathered Sandals",
         "namespace": "ITEM",
         "class": 23,
@@ -30067,7 +30067,7 @@
         }
     },
     "2541": {
-        "name": "Мастерские кольчужные сабатоны",
+        "name": "Expert Mail Sabatons",
         "refName": "Expert Mail Sabatons",
         "namespace": "ITEM",
         "class": 23,
@@ -30089,7 +30089,7 @@
         }
     },
     "2542": {
-        "name": "Мастерские сабатоны с ремнями",
+        "name": "Expert Braced Sabatons",
         "refName": "Expert Braced Sabatons",
         "namespace": "ITEM",
         "class": 23,
@@ -30111,7 +30111,7 @@
         }
     },
     "2543": {
-        "name": "Мастерские пластинчатые сабатоны",
+        "name": "Expert Stacked Sabatons",
         "refName": "Expert Stacked Sabatons",
         "namespace": "ITEM",
         "class": 23,
@@ -30133,7 +30133,7 @@
         }
     },
     "2544": {
-        "name": "Мастерские ватные сапоги",
+        "name": "Expert Padded Leggings",
         "refName": "Expert Padded Leggings",
         "namespace": "ITEM",
         "class": 23,
@@ -30155,7 +30155,7 @@
         }
     },
     "2545": {
-        "name": "Мастерские меховые сапоги",
+        "name": "Expert Secured Leggings",
         "refName": "Expert Secured Leggings",
         "namespace": "ITEM",
         "class": 23,
@@ -30177,7 +30177,7 @@
         }
     },
     "2546": {
-        "name": "Мастерские сапоги из шкур",
+        "name": "Expert Pelt Leggings",
         "refName": "Expert Pelt Leggings",
         "namespace": "ITEM",
         "class": 23,
@@ -30199,7 +30199,7 @@
         }
     },
     "2547": {
-        "name": "Мастерские потёртые ботинки",
+        "name": "Expert Frayed Shoes",
         "refName": "Expert Frayed Shoes",
         "namespace": "ITEM",
         "class": 23,
@@ -30221,7 +30221,7 @@
         }
     },
     "2548": {
-        "name": "Мастерские прошитые ботинки",
+        "name": "Expert Threaded Shoes",
         "refName": "Expert Threaded Shoes",
         "namespace": "ITEM",
         "class": 23,
@@ -30243,7 +30243,7 @@
         }
     },
     "2549": {
-        "name": "Мастерские охотничьи ботинки",
+        "name": "Expert Hunting Shoes",
         "refName": "Expert Hunting Shoes",
         "namespace": "ITEM",
         "class": 23,
@@ -30265,7 +30265,7 @@
         }
     },
     "2550": {
-        "name": "Мастерский окованный ростовой щит",
+        "name": "Expert Braced Tower Shield",
         "refName": "Expert Braced Tower Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -30283,7 +30283,7 @@
         }
     },
     "2551": {
-        "name": "Мастерский крепостной ростовой щит",
+        "name": "Expert Rampart Tower Shield",
         "refName": "Expert Rampart Tower Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -30301,7 +30301,7 @@
         }
     },
     "2552": {
-        "name": "Мастерский каменный ростовой щит",
+        "name": "Expert Stone Tower Shield",
         "refName": "Expert Stone Tower Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -30319,7 +30319,7 @@
         }
     },
     "2553": {
-        "name": "Мастерский отделанный мехом тарджет",
+        "name": "Expert Pelage Targe",
         "refName": "Expert Pelage Targe",
         "namespace": "ITEM",
         "class": 26,
@@ -30341,7 +30341,7 @@
         }
     },
     "2554": {
-        "name": "Мастерский тарджет с полумесяцем",
+        "name": "Expert Crescent Targe",
         "refName": "Expert Crescent Targe",
         "namespace": "ITEM",
         "class": 26,
@@ -30363,7 +30363,7 @@
         }
     },
     "2555": {
-        "name": "Мастерский украшенный перьями тарджет",
+        "name": "Expert Feathered Targe",
         "refName": "Expert Feathered Targe",
         "namespace": "ITEM",
         "class": 26,
@@ -30385,7 +30385,7 @@
         }
     },
     "2556": {
-        "name": "Мастерский гербовый щит с символикой",
+        "name": "Expert Sigil Crest Shield",
         "refName": "Expert Sigil Crest Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -30407,7 +30407,7 @@
         }
     },
     "2557": {
-        "name": "Мастерский звенящий гербовый щит",
+        "name": "Expert Jingling Crest Shield",
         "refName": "Expert Jingling Crest Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -30429,7 +30429,7 @@
         }
     },
     "2558": {
-        "name": "Мастерский гербовый щит знамения",
+        "name": "Expert Omen Crest Shield",
         "refName": "Expert Omen Crest Shield",
         "namespace": "ITEM",
         "class": 26,
@@ -30451,7 +30451,7 @@
         }
     },
     "2559": {
-        "name": "Мастерский облицованный баклер",
+        "name": "Expert Plated Buckler",
         "refName": "Expert Plated Buckler",
         "namespace": "ITEM",
         "class": 26,
@@ -30469,7 +30469,7 @@
         }
     },
     "2560": {
-        "name": "Мастерский баклер с шипом",
+        "name": "Expert Spiked Buckler",
         "refName": "Expert Spiked Buckler",
         "namespace": "ITEM",
         "class": 26,
@@ -30487,7 +30487,7 @@
         }
     },
     "2561": {
-        "name": "Мастерский баклер с остриём",
+        "name": "Expert Edged Buckler",
         "refName": "Expert Edged Buckler",
         "namespace": "ITEM",
         "class": 26,
@@ -30505,7 +30505,7 @@
         }
     },
     "2562": {
-        "name": "Мастерский фокус из рогов",
+        "name": "Expert Antler Focus",
         "refName": "Expert Antler Focus",
         "namespace": "ITEM",
         "class": 79,
@@ -30523,7 +30523,7 @@
         }
     },
     "2563": {
-        "name": "Мастерский кристальный фокус",
+        "name": "Expert Crystal Focus",
         "refName": "Expert Crystal Focus",
         "namespace": "ITEM",
         "class": 79,
@@ -30541,7 +30541,7 @@
         }
     },
     "2564": {
-        "name": "Мастерский павлиний фокус",
+        "name": "Expert Plumed Focus",
         "refName": "Expert Plumed Focus",
         "namespace": "ITEM",
         "class": 79,
@@ -30559,7 +30559,7 @@
         }
     },
     "2565": {
-        "name": "Мастерский шестопёр",
+        "name": "Expert Slim Mace",
         "refName": "Expert Slim Mace",
         "namespace": "ITEM",
         "class": 12,
@@ -30571,7 +30571,7 @@
         }
     },
     "2566": {
-        "name": "Мастерская кованая булава",
+        "name": "Expert Plated Mace",
         "refName": "Expert Plated Mace",
         "namespace": "ITEM",
         "class": 12,
@@ -30583,7 +30583,7 @@
         }
     },
     "2567": {
-        "name": "Мастерский кузнечный молот",
+        "name": "Expert Smithing Hammer",
         "refName": "Expert Smithing Hammer",
         "namespace": "ITEM",
         "class": 12,
@@ -30595,7 +30595,7 @@
         }
     },
     "2568": {
-        "name": "Мастерский клевец",
+        "name": "Expert Warpick",
         "refName": "Expert Warpick",
         "namespace": "ITEM",
         "class": 12,
@@ -30607,7 +30607,7 @@
         }
     },
     "2569": {
-        "name": "Мастерский молот конструкта",
+        "name": "Expert Construct Hammer",
         "refName": "Expert Construct Hammer",
         "namespace": "ITEM",
         "class": 12,
@@ -30619,7 +30619,7 @@
         }
     },
     "2570": {
-        "name": "Мастерская булава грабителя",
+        "name": "Expert Brigand Mace",
         "refName": "Expert Brigand Mace",
         "namespace": "ITEM",
         "class": 12,
@@ -30631,7 +30631,7 @@
         }
     },
     "2571": {
-        "name": "Мастерская кузнечная кувалда",
+        "name": "Expert Forge Maul",
         "refName": "Expert Forge Maul",
         "namespace": "ITEM",
         "class": 17,
@@ -30643,7 +30643,7 @@
         }
     },
     "2572": {
-        "name": "Мастерская храмовая дубина",
+        "name": "Expert Temple Maul",
         "refName": "Expert Temple Maul",
         "namespace": "ITEM",
         "class": 17,
@@ -30655,7 +30655,7 @@
         }
     },
     "2573": {
-        "name": "Мастерская дубовая кувалда",
+        "name": "Expert Oak Greathammer",
         "refName": "Expert Oak Greathammer",
         "namespace": "ITEM",
         "class": 17,
@@ -30667,7 +30667,7 @@
         }
     },
     "2574": {
-        "name": "Мастерский культовый молот",
+        "name": "Expert Cultist Greathammer",
         "refName": "Expert Cultist Greathammer",
         "namespace": "ITEM",
         "class": 17,
@@ -30679,7 +30679,7 @@
         }
     },
     "2575": {
-        "name": "Мастерский крошащий молот",
+        "name": "Expert Crumbling Maul",
         "refName": "Expert Crumbling Maul",
         "namespace": "ITEM",
         "class": 17,
@@ -30691,7 +30691,7 @@
         }
     },
     "2576": {
-        "name": "Мастерский освинцованный молот",
+        "name": "Expert Leaden Greathammer",
         "refName": "Expert Leaden Greathammer",
         "namespace": "ITEM",
         "class": 17,
@@ -30703,7 +30703,7 @@
         }
     },
     "2577": {
-        "name": "Мастерский готический боевой посох",
+        "name": "Expert Gothic Quarterstaff",
         "refName": "Expert Gothic Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -30715,7 +30715,7 @@
         }
     },
     "2578": {
-        "name": "Мастерский боевой посох с полумесяцем",
+        "name": "Expert Crescent Quarterstaff",
         "refName": "Expert Crescent Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -30727,7 +30727,7 @@
         }
     },
     "2579": {
-        "name": "Мастерский длинный боевой посох",
+        "name": "Expert Long Quarterstaff",
         "refName": "Expert Long Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -30739,7 +30739,7 @@
         }
     },
     "2580": {
-        "name": "Мастерский искрящийся боевой посох",
+        "name": "Expert Crackling Quarterstaff",
         "refName": "Expert Crackling Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -30751,7 +30751,7 @@
         }
     },
     "2581": {
-        "name": "Мастерский барьерный боевой посох",
+        "name": "Expert Barrier Quarterstaff",
         "refName": "Expert Barrier Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -30763,7 +30763,7 @@
         }
     },
     "2582": {
-        "name": "Мастерский режущий боевой посох",
+        "name": "Expert Slicing Quarterstaff",
         "refName": "Expert Slicing Quarterstaff",
         "namespace": "ITEM",
         "class": 57,
@@ -30775,7 +30775,7 @@
         }
     },
     "2583": {
-        "name": "Мастерский короткий лук",
+        "name": "Expert Shortbow",
         "refName": "Expert Shortbow",
         "namespace": "ITEM",
         "class": 13,
@@ -30787,7 +30787,7 @@
         }
     },
     "2584": {
-        "name": "Мастерский составной лук",
+        "name": "Expert Composite Bow",
         "refName": "Expert Composite Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -30799,7 +30799,7 @@
         }
     },
     "2585": {
-        "name": "Мастерский лук часового",
+        "name": "Expert Warden Bow",
         "refName": "Expert Warden Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -30811,7 +30811,7 @@
         }
     },
     "2586": {
-        "name": "Мастерский спаренный лук",
+        "name": "Expert Dualstring Bow",
         "refName": "Expert Dualstring Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -30823,7 +30823,7 @@
         }
     },
     "2587": {
-        "name": "Мастерский лук культиста",
+        "name": "Expert Cultist Bow",
         "refName": "Expert Cultist Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -30835,7 +30835,7 @@
         }
     },
     "2588": {
-        "name": "Мастерский лук фанатика",
+        "name": "Expert Zealot Bow",
         "refName": "Expert Zealot Bow",
         "namespace": "ITEM",
         "class": 13,
@@ -30847,7 +30847,7 @@
         }
     },
     "2589": {
-        "name": "Мастерский прочный самострел",
+        "name": "Expert Sturdy Crossbow",
         "refName": "Expert Sturdy Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -30859,7 +30859,7 @@
         }
     },
     "2590": {
-        "name": "Мастерский лакированный самострел",
+        "name": "Expert Varnished Crossbow",
         "refName": "Expert Varnished Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -30871,7 +30871,7 @@
         }
     },
     "2591": {
-        "name": "Мастерский тугой самострел",
+        "name": "Expert Tense Crossbow",
         "refName": "Expert Tense Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -30883,7 +30883,7 @@
         }
     },
     "2592": {
-        "name": "Мастерский парный самострел",
+        "name": "Expert Dyad Crossbow",
         "refName": "Expert Dyad Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -30895,7 +30895,7 @@
         }
     },
     "2593": {
-        "name": "Мастерский самострел бомбардира",
+        "name": "Expert Bombard Crossbow",
         "refName": "Expert Bombard Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -30907,7 +30907,7 @@
         }
     },
     "2594": {
-        "name": "Мастерский самострел конструкта",
+        "name": "Expert Forlorn Crossbow",
         "refName": "Expert Forlorn Crossbow",
         "namespace": "ITEM",
         "class": 78,
@@ -30943,7 +30943,7 @@
         }
     },
     "2597": {
-        "name": "Голова волка зимы",
+        "name": "Head of the Winter Wolf",
         "refName": "Head of the Winter Wolf",
         "namespace": "ITEM",
         "class": 31,
@@ -30955,7 +30955,7 @@
         }
     },
     "2598": {
-        "name": "Сущность Сретения",
+        "name": "Candlemass' Essence",
         "refName": "Candlemass' Essence",
         "namespace": "ITEM",
         "class": 31,
@@ -30967,7 +30967,7 @@
         }
     },
     "2599": {
-        "name": "Сущность Сретения",
+        "name": "Candlemass' Essence",
         "refName": "Candlemass' Essence",
         "namespace": "ITEM",
         "class": 31,
@@ -30991,7 +30991,7 @@
         }
     },
     "2601": {
-        "name": "Рунный пояс",
+        "name": "Runed Girdle",
         "refName": "Runed Girdle",
         "namespace": "ITEM",
         "class": 31,
@@ -31003,7 +31003,7 @@
         }
     },
     "2602": {
-        "name": "Рунная гарда",
+        "name": "Runed Guard",
         "refName": "Runed Guard",
         "namespace": "ITEM",
         "class": 31,
@@ -31015,7 +31015,7 @@
         }
     },
     "2603": {
-        "name": "Рунный венец",
+        "name": "Runed Skull Cap",
         "refName": "Runed Skull Cap",
         "namespace": "ITEM",
         "class": 31,
@@ -31027,7 +31027,7 @@
         }
     },
     "2604": {
-        "name": "Часть мемориального ключа Азинии",
+        "name": "Asinia's Memorial Key Piece",
         "refName": "Asinia's Memorial Key Piece",
         "namespace": "ITEM",
         "class": 31,
@@ -31039,7 +31039,7 @@
         }
     },
     "2605": {
-        "name": "Часть мемориального ключа Дрейвена",
+        "name": "Draven's Memorial Key Piece",
         "refName": "Draven's Memorial Key Piece",
         "namespace": "ITEM",
         "class": 31,
@@ -31063,7 +31063,7 @@
         }
     },
     "2607": {
-        "name": "Сталь предков",
+        "name": "Ancestral Steel",
         "refName": "Ancestral Steel",
         "namespace": "ITEM",
         "class": 31,
@@ -31075,7 +31075,7 @@
         }
     },
     "2608": {
-        "name": "Книга специализации",
+        "name": "Book of Specialisation",
         "refName": "Book of Specialisation",
         "namespace": "ITEM",
         "class": 31,
@@ -31087,7 +31087,7 @@
         }
     },
     "2609": {
-        "name": "Книга специализации",
+        "name": "Book of Specialisation",
         "refName": "Book of Specialisation",
         "namespace": "ITEM",
         "class": 31,
@@ -31111,7 +31111,7 @@
         }
     },
     "2611": {
-        "name": "Череп с камнем",
+        "name": "Gembloom Skull",
         "refName": "Gembloom Skull",
         "namespace": "ITEM",
         "class": 31,
@@ -31123,7 +31123,7 @@
         }
     },
     "2612": {
-        "name": "Кузнечные инструменты",
+        "name": "Smithing Tools",
         "refName": "Smithing Tools",
         "namespace": "ITEM",
         "class": 31,
@@ -31171,7 +31171,7 @@
         }
     },
     "2616": {
-        "name": "Книга специализации",
+        "name": "Book of Specialisation",
         "refName": "Book of Specialisation",
         "namespace": "ITEM",
         "class": 31,
@@ -31267,7 +31267,7 @@
         }
     },
     "2624": {
-        "name": "Вместилище личинок",
+        "name": "Maggot Husk",
         "refName": "Maggot Husk",
         "namespace": "ITEM",
         "class": 31,
@@ -31279,7 +31279,7 @@
         }
     },
     "2625": {
-        "name": "Сшитый мешок",
+        "name": "Stitched Bladder",
         "refName": "Stitched Bladder",
         "namespace": "ITEM",
         "class": 31,
@@ -31291,7 +31291,7 @@
         }
     },
     "2626": {
-        "name": "Сшитый мешок с газом",
+        "name": "Gas Filled Bladder",
         "refName": "Gas Filled Bladder",
         "namespace": "ITEM",
         "class": 31,
@@ -31303,7 +31303,7 @@
         }
     },
     "2627": {
-        "name": "Горящее сердце",
+        "name": "Burning Heart",
         "refName": "Burning Heart",
         "namespace": "ITEM",
         "class": 31,
@@ -31315,7 +31315,7 @@
         }
     },
     "2628": {
-        "name": "Пустой сосуд джинна",
+        "name": "Empty Decanter Djinnus",
         "refName": "Empty Decanter Djinnus",
         "namespace": "ITEM",
         "class": 31,
@@ -31327,7 +31327,7 @@
         }
     },
     "2629": {
-        "name": "Заполненный сосуд джинна",
+        "name": "Full Decanter Djinnus",
         "refName": "Full Decanter Djinnus",
         "namespace": "ITEM",
         "class": 31,
@@ -31351,7 +31351,7 @@
         }
     },
     "2631": {
-        "name": "Книга специализации",
+        "name": "Book of Specialisation",
         "refName": "Book of Specialisation",
         "namespace": "ITEM",
         "class": 31,
@@ -31363,7 +31363,7 @@
         }
     },
     "2632": {
-        "name": "Изъеденный кристаллом череп",
+        "name": "Gemrot Skull",
         "refName": "Gemrot Skull",
         "namespace": "ITEM",
         "class": 31,
@@ -31399,7 +31399,7 @@
         }
     },
     "2635": {
-        "name": "Книга специализации",
+        "name": "Book of Specialisation",
         "refName": "Book of Specialisation",
         "namespace": "ITEM",
         "class": 31,
@@ -31411,7 +31411,7 @@
         }
     },
     "2636": {
-        "name": "Книга специализации",
+        "name": "Book of Specialisation",
         "refName": "Book of Specialisation",
         "namespace": "ITEM",
         "class": 31,
@@ -31435,7 +31435,7 @@
         }
     },
     "2638": {
-        "name": "Вытяжка из яда камня",
+        "name": "Venom Draught of Stone",
         "refName": "Venom Draught of Stone",
         "namespace": "ITEM",
         "class": 31,
@@ -31447,7 +31447,7 @@
         }
     },
     "2639": {
-        "name": "Вытяжка из яда завесы",
+        "name": "Venom Draught of the Veil",
         "refName": "Venom Draught of the Veil",
         "namespace": "ITEM",
         "class": 31,
@@ -31459,7 +31459,7 @@
         }
     },
     "2640": {
-        "name": "Вытяжка из яда ясности",
+        "name": "Venom Draught of Clarity",
         "refName": "Venom Draught of Clarity",
         "namespace": "ITEM",
         "class": 31,
@@ -31471,7 +31471,7 @@
         }
     },
     "2641": {
-        "name": "Вытяжка из яда затерянных",
+        "name": "Venom Draught of the Lost",
         "refName": "Venom Draught of the Lost",
         "namespace": "ITEM",
         "class": 31,
@@ -31483,7 +31483,7 @@
         }
     },
     "2642": {
-        "name": "Вытяжка из яда неба",
+        "name": "Venom Draught of the Sky",
         "refName": "Venom Draught of the Sky",
         "namespace": "ITEM",
         "class": 31,
@@ -31495,7 +31495,7 @@
         }
     },
     "2643": {
-        "name": "Вытяжка из яда трясин",
+        "name": "Venom Draught of the Marshes",
         "refName": "Venom Draught of the Marshes",
         "namespace": "ITEM",
         "class": 31,
@@ -31555,7 +31555,7 @@
         }
     },
     "2648": {
-        "name": "Малое Ядро душ",
+        "name": "Small Soul Core",
         "refName": "Small Soul Core",
         "namespace": "ITEM",
         "class": 80,
@@ -31603,7 +31603,7 @@
         }
     },
     "2652": {
-        "name": "Ядро пламени",
+        "name": "The Flame Core",
         "refName": "The Flame Core",
         "namespace": "ITEM",
         "class": 31,
@@ -31663,7 +31663,7 @@
         }
     },
     "2657": {
-        "name": "Ядро мороза",
+        "name": "Frost Core",
         "refName": "Frost Core",
         "namespace": "ITEM",
         "class": 80,
@@ -31675,7 +31675,7 @@
         }
     },
     "2658": {
-        "name": "Ядро мороза",
+        "name": "Frost Core",
         "refName": "Frost Core",
         "namespace": "ITEM",
         "class": 80,
@@ -31807,7 +31807,7 @@
         }
     },
     "2669": {
-        "name": "Череп с кристальной коркой",
+        "name": "Gemcrust Skull",
         "refName": "Gemcrust Skull",
         "namespace": "ITEM",
         "class": 31,
@@ -31835,7 +31835,7 @@
         }
     },
     "2671": {
-        "name": "Комета",
+        "name": "Comet",
         "refName": "Comet",
         "namespace": "GEM",
         "class": 18,
@@ -31979,7 +31979,7 @@
         }
     },
     "2680": {
-        "name": "Освящение",
+        "name": "Consecrate",
         "refName": "Consecrate",
         "namespace": "GEM",
         "class": 18,
@@ -31995,7 +31995,7 @@
         }
     },
     "2681": {
-        "name": "Связующая баллиста",
+        "name": "Ripwire Ballista",
         "refName": "Ripwire Ballista",
         "namespace": "GEM",
         "class": 18,
@@ -32011,7 +32011,7 @@
         }
     },
     "2682": {
-        "name": "Буря маны",
+        "name": "Mana Tempest",
         "refName": "Mana Tempest",
         "namespace": "GEM",
         "class": 18,
@@ -32027,7 +32027,7 @@
         }
     },
     "2683": {
-        "name": "Неогранённый камень умения",
+        "name": "Uncut Skill Gem",
         "refName": "Uncut Skill Gem",
         "namespace": "ITEM",
         "class": 91,
@@ -32039,7 +32039,7 @@
         }
     },
     "2684": {
-        "name": "Неогранённый камень умения",
+        "name": "Uncut Skill Gem",
         "refName": "Uncut Skill Gem",
         "namespace": "ITEM",
         "class": 91,
@@ -32051,7 +32051,7 @@
         }
     },
     "2685": {
-        "name": "Неогранённый камень поддержки",
+        "name": "Uncut Support Gem",
         "refName": "Uncut Support Gem",
         "namespace": "ITEM",
         "class": 101,
@@ -32063,7 +32063,7 @@
         }
     },
     "2686": {
-        "name": "Смертельная длань",
+        "name": "Killing Palm",
         "refName": "Killing Palm",
         "namespace": "GEM",
         "class": 18,
@@ -32079,7 +32079,7 @@
         }
     },
     "2687": {
-        "name": "Раскалывающая длань",
+        "name": "Shattering Palm",
         "refName": "Shattering Palm",
         "namespace": "GEM",
         "class": 18,
@@ -32095,7 +32095,7 @@
         }
     },
     "2688": {
-        "name": "Вулкан",
+        "name": "Volcano",
         "refName": "Volcano",
         "namespace": "GEM",
         "class": 18,
@@ -32111,7 +32111,7 @@
         }
     },
     "2689": {
-        "name": "Призыв волка",
+        "name": "Summon Wolf",
         "refName": "Summon Wolf",
         "namespace": "GEM",
         "class": 18,
@@ -32143,7 +32143,7 @@
         }
     },
     "2691": {
-        "name": "Спиральный залп",
+        "name": "Spiral Volley",
         "refName": "Spiral Volley",
         "namespace": "GEM",
         "class": 18,
@@ -32287,7 +32287,7 @@
         }
     },
     "2700": {
-        "name": "Удар грома",
+        "name": "Lightning Bolt",
         "refName": "Lightning Bolt",
         "namespace": "GEM",
         "class": 18,
@@ -32303,7 +32303,7 @@
         }
     },
     "2701": {
-        "name": "Буйство",
+        "name": "Rampage",
         "refName": "Rampage",
         "namespace": "GEM",
         "class": 18,
@@ -32319,7 +32319,7 @@
         }
     },
     "2702": {
-        "name": "Изматывание",
+        "name": "Enervation",
         "refName": "Enervation",
         "namespace": "GEM",
         "class": 19,
@@ -32335,7 +32335,7 @@
         }
     },
     "2703": {
-        "name": "Высвобождение",
+        "name": "Unleash",
         "refName": "Unleash",
         "namespace": "GEM",
         "class": 18,
@@ -32351,7 +32351,7 @@
         }
     },
     "2704": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32360,7 +32360,7 @@
         "height": 2
     },
     "2705": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32369,7 +32369,7 @@
         "height": 2
     },
     "2706": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32378,7 +32378,7 @@
         "height": 2
     },
     "2707": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32387,7 +32387,7 @@
         "height": 2
     },
     "2708": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32396,7 +32396,7 @@
         "height": 2
     },
     "2709": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32405,7 +32405,7 @@
         "height": 2
     },
     "2710": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32414,7 +32414,7 @@
         "height": 2
     },
     "2711": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32423,7 +32423,7 @@
         "height": 2
     },
     "2712": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32432,7 +32432,7 @@
         "height": 2
     },
     "2713": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32441,7 +32441,7 @@
         "height": 2
     },
     "2714": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32450,7 +32450,7 @@
         "height": 2
     },
     "2715": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32459,7 +32459,7 @@
         "height": 2
     },
     "2716": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32468,7 +32468,7 @@
         "height": 2
     },
     "2717": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32477,7 +32477,7 @@
         "height": 2
     },
     "2718": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32486,7 +32486,7 @@
         "height": 2
     },
     "2719": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32495,7 +32495,7 @@
         "height": 2
     },
     "2720": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32504,7 +32504,7 @@
         "height": 2
     },
     "2721": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32513,7 +32513,7 @@
         "height": 2
     },
     "2722": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32522,7 +32522,7 @@
         "height": 2
     },
     "2723": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32531,7 +32531,7 @@
         "height": 2
     },
     "2724": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32540,7 +32540,7 @@
         "height": 2
     },
     "2725": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32549,7 +32549,7 @@
         "height": 2
     },
     "2726": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32558,7 +32558,7 @@
         "height": 2
     },
     "2727": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32567,7 +32567,7 @@
         "height": 2
     },
     "2728": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32576,7 +32576,7 @@
         "height": 2
     },
     "2729": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32585,7 +32585,7 @@
         "height": 2
     },
     "2730": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32594,7 +32594,7 @@
         "height": 2
     },
     "2731": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32603,7 +32603,7 @@
         "height": 2
     },
     "2732": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32612,7 +32612,7 @@
         "height": 2
     },
     "2733": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32621,7 +32621,7 @@
         "height": 2
     },
     "2734": {
-        "name": "Приз конвента",
+        "name": "Convention Treasure",
         "refName": "Convention Treasure",
         "namespace": "ITEM",
         "class": 95,
@@ -32630,7 +32630,7 @@
         "height": 2
     },
     "2735": {
-        "name": "Гроза",
+        "name": "Lightning Storm",
         "refName": "Lightning Storm",
         "namespace": "GEM",
         "class": 18,
@@ -32646,7 +32646,7 @@
         }
     },
     "2736": {
-        "name": "Шанс заморозить",
+        "name": "Chance to Freeze",
         "refName": "Chance to Freeze",
         "namespace": "GEM",
         "class": 19,
@@ -32662,7 +32662,7 @@
         }
     },
     "2737": {
-        "name": "Жатва сущности",
+        "name": "Essence Harvest",
         "refName": "Essence Harvest",
         "namespace": "GEM",
         "class": 19,
@@ -32678,7 +32678,7 @@
         }
     },
     "2738": {
-        "name": "Яростный удар",
+        "name": "Furious Slam",
         "refName": "Furious Slam",
         "namespace": "GEM",
         "class": 18,
@@ -32694,7 +32694,7 @@
         }
     },
     "2739": {
-        "name": "Свирепый рёв",
+        "name": "Ferocious Roar",
         "refName": "Ferocious Roar",
         "namespace": "GEM",
         "class": 76,
@@ -32710,7 +32710,7 @@
         }
     },
     "2740": {
-        "name": "Сотворение чар при шоке",
+        "name": "Cast on Shock",
         "refName": "Cast on Shock",
         "namespace": "GEM",
         "class": 76,
@@ -32742,7 +32742,7 @@
         }
     },
     "2742": {
-        "name": "Сотворение чар при заморозке",
+        "name": "Cast on Freeze",
         "refName": "Cast on Freeze",
         "namespace": "GEM",
         "class": 76,
@@ -32758,7 +32758,7 @@
         }
     },
     "2743": {
-        "name": "Сотворение чар при поджоге",
+        "name": "Cast on Ignite",
         "refName": "Cast on Ignite",
         "namespace": "GEM",
         "class": 76,
@@ -32774,7 +32774,7 @@
         }
     },
     "2744": {
-        "name": "Сотворение чар при убийстве в ближнем бою",
+        "name": "Cast on Melee Kill",
         "refName": "Cast on Melee Kill",
         "namespace": "GEM",
         "class": 76,
@@ -32790,7 +32790,7 @@
         }
     },
     "2745": {
-        "name": "Сотворение чар при смерти",
+        "name": "Cast on Death",
         "refName": "Cast on Death",
         "namespace": "GEM",
         "class": 76,
@@ -32806,7 +32806,7 @@
         }
     },
     "2746": {
-        "name": "Сотворение чар при критическом попадании",
+        "name": "Cast on Critical",
         "refName": "Cast on Critical",
         "namespace": "GEM",
         "class": 76,
@@ -32822,7 +32822,7 @@
         }
     },
     "2747": {
-        "name": "Сотворение чар при оглушении",
+        "name": "Cast when Stunned",
         "refName": "Cast when Stunned",
         "namespace": "GEM",
         "class": 76,
@@ -32838,7 +32838,7 @@
         }
     },
     "2748": {
-        "name": "Сотворение чар при получении урона",
+        "name": "Cast when Damage Taken",
         "refName": "Cast when Damage Taken",
         "namespace": "GEM",
         "class": 76,
@@ -32854,7 +32854,7 @@
         }
     },
     "2749": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -32870,7 +32870,7 @@
         }
     },
     "2750": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -32886,7 +32886,7 @@
         }
     },
     "2751": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -32902,7 +32902,7 @@
         }
     },
     "2752": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -32918,7 +32918,7 @@
         }
     },
     "2753": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -32934,7 +32934,7 @@
         }
     },
     "2754": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -32950,7 +32950,7 @@
         }
     },
     "2755": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -32966,7 +32966,7 @@
         }
     },
     "2756": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -32982,7 +32982,7 @@
         }
     },
     "2757": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -32998,7 +32998,7 @@
         }
     },
     "2758": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33014,7 +33014,7 @@
         }
     },
     "2759": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33030,7 +33030,7 @@
         }
     },
     "2760": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33046,7 +33046,7 @@
         }
     },
     "2761": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33062,7 +33062,7 @@
         }
     },
     "2762": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33078,7 +33078,7 @@
         }
     },
     "2763": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33094,7 +33094,7 @@
         }
     },
     "2764": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33110,7 +33110,7 @@
         }
     },
     "2765": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33126,7 +33126,7 @@
         }
     },
     "2766": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33142,7 +33142,7 @@
         }
     },
     "2767": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33158,7 +33158,7 @@
         }
     },
     "2768": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33174,7 +33174,7 @@
         }
     },
     "2769": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33190,7 +33190,7 @@
         }
     },
     "2770": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33206,7 +33206,7 @@
         }
     },
     "2771": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33222,7 +33222,7 @@
         }
     },
     "2772": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33238,7 +33238,7 @@
         }
     },
     "2773": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33254,7 +33254,7 @@
         }
     },
     "2774": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33270,7 +33270,7 @@
         }
     },
     "2775": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33286,7 +33286,7 @@
         }
     },
     "2776": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33302,7 +33302,7 @@
         }
     },
     "2777": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33318,7 +33318,7 @@
         }
     },
     "2778": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33334,7 +33334,7 @@
         }
     },
     "2779": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33350,7 +33350,7 @@
         }
     },
     "2780": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33366,7 +33366,7 @@
         }
     },
     "2781": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33382,7 +33382,7 @@
         }
     },
     "2782": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33398,7 +33398,7 @@
         }
     },
     "2783": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33414,7 +33414,7 @@
         }
     },
     "2784": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 18,
@@ -33430,7 +33430,7 @@
         }
     },
     "2785": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 19,
@@ -33446,7 +33446,7 @@
         }
     },
     "2786": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 19,
@@ -33462,7 +33462,7 @@
         }
     },
     "2787": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 19,
@@ -33478,7 +33478,7 @@
         }
     },
     "2788": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 19,
@@ -33494,7 +33494,7 @@
         }
     },
     "2789": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 19,
@@ -33510,7 +33510,7 @@
         }
     },
     "2790": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 19,
@@ -33526,7 +33526,7 @@
         }
     },
     "2791": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 19,
@@ -33542,7 +33542,7 @@
         }
     },
     "2792": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 19,
@@ -33558,7 +33558,7 @@
         }
     },
     "2793": {
-        "name": "Скоро",
+        "name": "Coming Soon",
         "refName": "Coming Soon",
         "namespace": "GEM",
         "class": 19,
@@ -33574,7 +33574,7 @@
         }
     },
     "2794": {
-        "name": "Вызов барьера",
+        "name": "Barrier Invocation",
         "refName": "Barrier Invocation",
         "namespace": "GEM",
         "class": 76,
@@ -33590,7 +33590,7 @@
         }
     },
     "2795": {
-        "name": "Сотворение чар при кувырке",
+        "name": "Cast on Dodge",
         "refName": "Cast on Dodge",
         "namespace": "GEM",
         "class": 76,
@@ -33606,7 +33606,7 @@
         }
     },
     "2796": {
-        "name": "Сотворение чар при поддержании",
+        "name": "Cast while Channelling",
         "refName": "Cast while Channelling",
         "namespace": "GEM",
         "class": 76,
@@ -33622,7 +33622,7 @@
         }
     },
     "2797": {
-        "name": "Сотворение чар при оглушении в ближнем бою",
+        "name": "Cast on Melee Stun",
         "refName": "Cast on Melee Stun",
         "namespace": "GEM",
         "class": 76,
@@ -33638,7 +33638,7 @@
         }
     },
     "2798": {
-        "name": "Временная илюзия",
+        "name": "Lingering Illusion",
         "refName": "Lingering Illusion",
         "namespace": "GEM",
         "class": 18,
@@ -33654,7 +33654,7 @@
         }
     },
     "2799": {
-        "name": "Призрачный танец",
+        "name": "Ghost Dance",
         "refName": "Ghost Dance",
         "namespace": "GEM",
         "class": 18,
@@ -33670,7 +33670,7 @@
         }
     },
     "2800": {
-        "name": "Поимка призрака",
+        "name": "Bind Spectre",
         "refName": "Bind Spectre",
         "namespace": "GEM",
         "class": 18,
@@ -33702,7 +33702,7 @@
         }
     },
     "2802": {
-        "name": "Покров",
+        "name": "Shroud",
         "refName": "Shroud",
         "namespace": "GEM",
         "class": 18,
@@ -33718,7 +33718,7 @@
         }
     },
     "2803": {
-        "name": "Призыв компаньона",
+        "name": "Summon Companion",
         "refName": "Summon Companion",
         "namespace": "GEM",
         "class": 76,
@@ -33734,7 +33734,7 @@
         }
     },
     "2804": {
-        "name": "Тотем-воин предков",
+        "name": "Ancestral Warrior Totem",
         "refName": "Ancestral Warrior Totem",
         "namespace": "GEM",
         "class": 76,
@@ -33782,7 +33782,7 @@
         }
     },
     "2807": {
-        "name": "Подношение боли",
+        "name": "Pain Offering",
         "refName": "Pain Offering",
         "namespace": "GEM",
         "class": 18,
@@ -33810,7 +33810,7 @@
         }
     },
     "2809": {
-        "name": "Шквал бури",
+        "name": "Tempest Flurry",
         "refName": "Tempest Flurry",
         "namespace": "GEM",
         "class": 18,
@@ -33826,7 +33826,7 @@
         }
     },
     "2810": {
-        "name": "Оглушающая длань",
+        "name": "Staggering Palm",
         "refName": "Staggering Palm",
         "namespace": "GEM",
         "class": 18,
@@ -33842,7 +33842,7 @@
         }
     },
     "2811": {
-        "name": "Заряженный посох",
+        "name": "Charged Staff",
         "refName": "Charged Staff",
         "namespace": "GEM",
         "class": 18,
@@ -33858,7 +33858,7 @@
         }
     },
     "2812": {
-        "name": "Вытягивающий удар",
+        "name": "Siphoning Strike",
         "refName": "Siphoning Strike",
         "namespace": "GEM",
         "class": 18,
@@ -33874,7 +33874,7 @@
         }
     },
     "2813": {
-        "name": "Колокол бури",
+        "name": "Tempest Bell",
         "refName": "Tempest Bell",
         "namespace": "GEM",
         "class": 18,
@@ -33890,7 +33890,7 @@
         }
     },
     "2814": {
-        "name": "Направленная заморозка",
+        "name": "Frozen Locus",
         "refName": "Frozen Locus",
         "namespace": "GEM",
         "class": 18,
@@ -33906,7 +33906,7 @@
         }
     },
     "2815": {
-        "name": "Буря костей",
+        "name": "Bonestorm",
         "refName": "Bonestorm",
         "namespace": "GEM",
         "class": 18,
@@ -33922,7 +33922,7 @@
         }
     },
     "2816": {
-        "name": "Костяная клетка",
+        "name": "Bone Cage",
         "refName": "Bone Cage",
         "namespace": "GEM",
         "class": 18,
@@ -33938,7 +33938,7 @@
         }
     },
     "2817": {
-        "name": "Разгул стужи",
+        "name": "Spreading Frost",
         "refName": "Spreading Frost",
         "namespace": "GEM",
         "class": 19,
@@ -33954,7 +33954,7 @@
         }
     },
     "2818": {
-        "name": "Точечные критические удары",
+        "name": "Pinpoint Critical",
         "refName": "Pinpoint Critical",
         "namespace": "GEM",
         "class": 19,
@@ -33986,7 +33986,7 @@
         }
     },
     "2820": {
-        "name": "Взрывная стрела",
+        "name": "Detonating Arrow",
         "refName": "Detonating Arrow",
         "namespace": "GEM",
         "class": 18,
@@ -34002,7 +34002,7 @@
         }
     },
     "2821": {
-        "name": "Ядовитая взрывная стрела",
+        "name": "Poisonburst Arrow",
         "refName": "Poisonburst Arrow",
         "namespace": "GEM",
         "class": 18,
@@ -34018,7 +34018,7 @@
         }
     },
     "2822": {
-        "name": "Ядовитое цветение",
+        "name": "Toxic Growth",
         "refName": "Toxic Growth",
         "namespace": "GEM",
         "class": 18,
@@ -34034,7 +34034,7 @@
         }
     },
     "2823": {
-        "name": "Стрела призыва бури",
+        "name": "Stormcaller Arrow",
         "refName": "Stormcaller Arrow",
         "namespace": "GEM",
         "class": 18,
@@ -34050,7 +34050,7 @@
         }
     },
     "2824": {
-        "name": "Громоотвод",
+        "name": "Lightning Rod",
         "refName": "Lightning Rod",
         "namespace": "GEM",
         "class": 18,
@@ -34082,7 +34082,7 @@
         }
     },
     "2826": {
-        "name": "Газовая стрела",
+        "name": "Gas Arrow",
         "refName": "Gas Arrow",
         "namespace": "GEM",
         "class": 18,
@@ -34098,7 +34098,7 @@
         }
     },
     "2827": {
-        "name": "Сфера солнца",
+        "name": "Solar Orb",
         "refName": "Solar Orb",
         "namespace": "GEM",
         "class": 18,
@@ -34130,7 +34130,7 @@
         }
     },
     "2829": {
-        "name": "Стрела-проводник",
+        "name": "Electrocuting Arrow",
         "refName": "Electrocuting Arrow",
         "namespace": "GEM",
         "class": 18,
@@ -34162,7 +34162,7 @@
         }
     },
     "2831": {
-        "name": "Совершенный удар",
+        "name": "Perfect Strike",
         "refName": "Perfect Strike",
         "namespace": "GEM",
         "class": 18,
@@ -34178,7 +34178,7 @@
         }
     },
     "2832": {
-        "name": "Поднять щит",
+        "name": "Raise Shield",
         "refName": "Raise Shield",
         "namespace": "GEM",
         "class": 18,
@@ -34194,7 +34194,7 @@
         }
     },
     "2833": {
-        "name": "Резонирующий щит",
+        "name": "Resonating Shield",
         "refName": "Resonating Shield",
         "namespace": "GEM",
         "class": 18,
@@ -34210,7 +34210,7 @@
         }
     },
     "2834": {
-        "name": "Сгустки маны",
+        "name": "Mana Remnants",
         "refName": "Mana Remnants",
         "namespace": "GEM",
         "class": 18,
@@ -34226,7 +34226,7 @@
         }
     },
     "2835": {
-        "name": "Магматический барьер",
+        "name": "Magma Barrier",
         "refName": "Magma Barrier",
         "namespace": "GEM",
         "class": 18,
@@ -34242,7 +34242,7 @@
         }
     },
     "2836": {
-        "name": "Морозные осколки",
+        "name": "Freezing Shards",
         "refName": "Freezing Shards",
         "namespace": "GEM",
         "class": 18,
@@ -34258,7 +34258,7 @@
         }
     },
     "2837": {
-        "name": "Стрела лиан",
+        "name": "Vine Arrow",
         "refName": "Vine Arrow",
         "namespace": "GEM",
         "class": 18,
@@ -34274,7 +34274,7 @@
         }
     },
     "2838": {
-        "name": "Призыв ездового роа",
+        "name": "Summon Rhoa Mount",
         "refName": "Summon Rhoa Mount",
         "namespace": "GEM",
         "class": 18,
@@ -34306,7 +34306,7 @@
         }
     },
     "2840": {
-        "name": "Воспламенение",
+        "name": "Ignition",
         "refName": "Ignition",
         "namespace": "GEM",
         "class": 19,
@@ -34338,7 +34338,7 @@
         }
     },
     "2842": {
-        "name": "Несломимость",
+        "name": "Unbreakable",
         "refName": "Unbreakable",
         "namespace": "GEM",
         "class": 19,
@@ -34354,7 +34354,7 @@
         }
     },
     "2843": {
-        "name": "Рваные раны",
+        "name": "Шанс кровотечения",
         "refName": "Lacerate",
         "namespace": "GEM",
         "class": 19,
@@ -34370,7 +34370,7 @@
         }
     },
     "2844": {
-        "name": "Расшвыривание",
+        "name": "Отбрасывание",
         "refName": "Bludgeon",
         "namespace": "GEM",
         "class": 19,
@@ -34386,7 +34386,7 @@
         }
     },
     "2845": {
-        "name": "Подавление",
+        "name": "Overpower",
         "refName": "Overpower",
         "namespace": "GEM",
         "class": 19,
@@ -34402,7 +34402,7 @@
         }
     },
     "2846": {
-        "name": "Постоянство",
+        "name": "Persistence",
         "refName": "Persistence",
         "namespace": "GEM",
         "class": 19,
@@ -34418,7 +34418,7 @@
         }
     },
     "2847": {
-        "name": "Скоротечность",
+        "name": "Fast Forward",
         "refName": "Fast Forward",
         "namespace": "GEM",
         "class": 19,
@@ -34450,7 +34450,7 @@
         }
     },
     "2849": {
-        "name": "Жизнеотвод",
+        "name": "Заносчивость",
         "refName": "Lifetap",
         "namespace": "GEM",
         "class": 19,
@@ -34466,7 +34466,7 @@
         }
     },
     "2850": {
-        "name": "Казнь",
+        "name": "Execute",
         "refName": "Execute",
         "namespace": "GEM",
         "class": 19,
@@ -34482,7 +34482,7 @@
         }
     },
     "2851": {
-        "name": "Обжигающее пламя",
+        "name": "Searing Flame",
         "refName": "Searing Flame",
         "namespace": "GEM",
         "class": 19,
@@ -34514,7 +34514,7 @@
         }
     },
     "2853": {
-        "name": "Вздыбленная земля",
+        "name": "Jagged Ground",
         "refName": "Jagged Ground",
         "namespace": "GEM",
         "class": 19,
@@ -34530,7 +34530,7 @@
         }
     },
     "2854": {
-        "name": "Брешь",
+        "name": "Exploit Weakness",
         "refName": "Exploit Weakness",
         "namespace": "GEM",
         "class": 19,
@@ -34546,7 +34546,7 @@
         }
     },
     "2855": {
-        "name": "Ударная волна",
+        "name": "Impact Shockwave",
         "refName": "Impact Shockwave",
         "namespace": "GEM",
         "class": 19,
@@ -34578,7 +34578,7 @@
         }
     },
     "2857": {
-        "name": "Восприимчивость к огню",
+        "name": "Fire Exposure",
         "refName": "Fire Exposure",
         "namespace": "GEM",
         "class": 19,
@@ -34626,7 +34626,7 @@
         }
     },
     "2860": {
-        "name": "Разгром",
+        "name": "Devastate",
         "refName": "Devastate",
         "namespace": "GEM",
         "class": 19,
@@ -34642,7 +34642,7 @@
         }
     },
     "2861": {
-        "name": "Тяжёлый замах",
+        "name": "Физический урон ближнего боя",
         "refName": "Heavy Swing",
         "namespace": "GEM",
         "class": 19,
@@ -34658,7 +34658,7 @@
         }
     },
     "2862": {
-        "name": "Похититель жизни",
+        "name": "Вытягивание здоровья",
         "refName": "Life Thief",
         "namespace": "GEM",
         "class": 19,
@@ -34722,7 +34722,7 @@
         }
     },
     "2866": {
-        "name": "Разрушительная выносливость",
+        "name": "Break Endurance",
         "refName": "Break Endurance",
         "namespace": "GEM",
         "class": 19,
@@ -34738,7 +34738,7 @@
         }
     },
     "2867": {
-        "name": "Вечное пламя",
+        "name": "Eternal Flame",
         "refName": "Eternal Flame",
         "namespace": "GEM",
         "class": 19,
@@ -34770,7 +34770,7 @@
         }
     },
     "2869": {
-        "name": "Власть огня",
+        "name": "Урон огнём",
         "refName": "Fire Infusion",
         "namespace": "GEM",
         "class": 19,
@@ -34818,7 +34818,7 @@
         }
     },
     "2872": {
-        "name": "Предумышленность",
+        "name": "Premeditation",
         "refName": "Premeditation",
         "namespace": "GEM",
         "class": 19,
@@ -34850,7 +34850,7 @@
         }
     },
     "2874": {
-        "name": "Разбиватель",
+        "name": "Demolisher",
         "refName": "Demolisher",
         "namespace": "GEM",
         "class": 19,
@@ -34882,7 +34882,7 @@
         }
     },
     "2876": {
-        "name": "Взрыв брони",
+        "name": "Armour Explosion",
         "refName": "Armour Explosion",
         "namespace": "GEM",
         "class": 19,
@@ -34898,7 +34898,7 @@
         }
     },
     "2877": {
-        "name": "Топотун",
+        "name": "Stomping Ground",
         "refName": "Stomping Ground",
         "namespace": "GEM",
         "class": 19,
@@ -34930,7 +34930,7 @@
         }
     },
     "2879": {
-        "name": "Глубокие порезы",
+        "name": "Deep Cuts",
         "refName": "Deep Cuts",
         "namespace": "GEM",
         "class": 19,
@@ -34946,7 +34946,7 @@
         }
     },
     "2880": {
-        "name": "Дробление",
+        "name": "Splinter",
         "refName": "Splinter",
         "namespace": "GEM",
         "class": 19,
@@ -34962,7 +34962,7 @@
         }
     },
     "2881": {
-        "name": "Разрывание",
+        "name": "Rupture",
         "refName": "Rupture",
         "namespace": "GEM",
         "class": 19,
@@ -34978,7 +34978,7 @@
         }
     },
     "2882": {
-        "name": "Оцепеняющий клич",
+        "name": "Dazing Cry",
         "refName": "Dazing Cry",
         "namespace": "GEM",
         "class": 19,
@@ -34994,7 +34994,7 @@
         }
     },
     "2883": {
-        "name": "Первозданное оружие",
+        "name": "Primal Armament",
         "refName": "Primal Armament",
         "namespace": "GEM",
         "class": 19,
@@ -35010,7 +35010,7 @@
         }
     },
     "2884": {
-        "name": "Живучесть",
+        "name": "Vitality",
         "refName": "Vitality",
         "namespace": "GEM",
         "class": 19,
@@ -35026,7 +35026,7 @@
         }
     },
     "2885": {
-        "name": "Травничество",
+        "name": "Herbalism",
         "refName": "Herbalism",
         "namespace": "GEM",
         "class": 19,
@@ -35042,7 +35042,7 @@
         }
     },
     "2886": {
-        "name": "Каннибализм",
+        "name": "Cannibalism",
         "refName": "Cannibalism",
         "namespace": "GEM",
         "class": 19,
@@ -35058,7 +35058,7 @@
         }
     },
     "2887": {
-        "name": "Остаточная волна",
+        "name": "Aftershock",
         "refName": "Aftershock",
         "namespace": "GEM",
         "class": 19,
@@ -35106,7 +35106,7 @@
         }
     },
     "2890": {
-        "name": "Залповый огонь",
+        "name": "Много дополнительных снарядов",
         "refName": "Scattershot",
         "namespace": "GEM",
         "class": 19,
@@ -35122,7 +35122,7 @@
         }
     },
     "2891": {
-        "name": "Воздушная волна",
+        "name": "Wind Wave",
         "refName": "Wind Wave",
         "namespace": "GEM",
         "class": 19,
@@ -35138,7 +35138,7 @@
         }
     },
     "2892": {
-        "name": "Отравление",
+        "name": "Шанс отравить",
         "refName": "Envenom",
         "namespace": "GEM",
         "class": 19,
@@ -35186,7 +35186,7 @@
         }
     },
     "2895": {
-        "name": "Ускорение",
+        "name": "Ускорение снарядов",
         "refName": "Acceleration",
         "namespace": "GEM",
         "class": 19,
@@ -35202,7 +35202,7 @@
         }
     },
     "2896": {
-        "name": "Замедление",
+        "name": "Замедленные снаряды",
         "refName": "Deceleration",
         "namespace": "GEM",
         "class": 19,
@@ -35218,7 +35218,7 @@
         }
     },
     "2897": {
-        "name": "Электризация",
+        "name": "Electrocute",
         "refName": "Electrocute",
         "namespace": "GEM",
         "class": 19,
@@ -35234,7 +35234,7 @@
         }
     },
     "2898": {
-        "name": "Переизбыток",
+        "name": "Overabundance",
         "refName": "Overabundance",
         "namespace": "GEM",
         "class": 19,
@@ -35250,7 +35250,7 @@
         }
     },
     "2899": {
-        "name": "Мобильность",
+        "name": "Mobility",
         "refName": "Mobility",
         "namespace": "GEM",
         "class": 19,
@@ -35282,7 +35282,7 @@
         }
     },
     "2901": {
-        "name": "Постоянный заряд",
+        "name": "Perpetual Charge",
         "refName": "Perpetual Charge",
         "namespace": "GEM",
         "class": 19,
@@ -35298,7 +35298,7 @@
         }
     },
     "2902": {
-        "name": "Пригвождение",
+        "name": "Pin",
         "refName": "Pin",
         "namespace": "GEM",
         "class": 19,
@@ -35346,7 +35346,7 @@
         }
     },
     "2905": {
-        "name": "Восприимчивость к молнии",
+        "name": "Lightning Exposure",
         "refName": "Lightning Exposure",
         "namespace": "GEM",
         "class": 19,
@@ -35378,7 +35378,7 @@
         }
     },
     "2907": {
-        "name": "Нейронная перегрузка",
+        "name": "Neural Overload",
         "refName": "Neural Overload",
         "namespace": "GEM",
         "class": 19,
@@ -35394,7 +35394,7 @@
         }
     },
     "2908": {
-        "name": "Вспышка чумы",
+        "name": "Bursting Plague",
         "refName": "Bursting Plague",
         "namespace": "GEM",
         "class": 19,
@@ -35410,7 +35410,7 @@
         }
     },
     "2909": {
-        "name": "Смертоносный вестник",
+        "name": "Deadly Herald",
         "refName": "Deadly Herald",
         "namespace": "GEM",
         "class": 19,
@@ -35426,7 +35426,7 @@
         }
     },
     "2910": {
-        "name": "Коррозия",
+        "name": "Corrosion",
         "refName": "Corrosion",
         "namespace": "GEM",
         "class": 19,
@@ -35442,7 +35442,7 @@
         }
     },
     "2911": {
-        "name": "Интенсивность",
+        "name": "Infusion",
         "refName": "Infusion",
         "namespace": "GEM",
         "class": 19,
@@ -35458,7 +35458,7 @@
         }
     },
     "2912": {
-        "name": "Обездвиживание",
+        "name": "Lockdown",
         "refName": "Lockdown",
         "namespace": "GEM",
         "class": 19,
@@ -35490,7 +35490,7 @@
         }
     },
     "2914": {
-        "name": "Дар маны",
+        "name": "Mana Bounty",
         "refName": "Mana Bounty",
         "namespace": "GEM",
         "class": 19,
@@ -35506,7 +35506,7 @@
         }
     },
     "2915": {
-        "name": "Дар жизни",
+        "name": "Life Bounty",
         "refName": "Life Bounty",
         "namespace": "GEM",
         "class": 19,
@@ -35522,7 +35522,7 @@
         }
     },
     "2916": {
-        "name": "Длительный шок",
+        "name": "Lasting Shock",
         "refName": "Lasting Shock",
         "namespace": "GEM",
         "class": 19,
@@ -35538,7 +35538,7 @@
         }
     },
     "2917": {
-        "name": "Власть молний",
+        "name": "Урон молнией",
         "refName": "Lightning Infusion",
         "namespace": "GEM",
         "class": 19,
@@ -35554,7 +35554,7 @@
         }
     },
     "2918": {
-        "name": "Вытягивание жизни",
+        "name": "Life Drain",
         "refName": "Life Drain",
         "namespace": "GEM",
         "class": 19,
@@ -35570,7 +35570,7 @@
         }
     },
     "2919": {
-        "name": "Вытягивание души",
+        "name": "Soul Drain",
         "refName": "Soul Drain",
         "namespace": "GEM",
         "class": 19,
@@ -35586,7 +35586,7 @@
         }
     },
     "2920": {
-        "name": "Боевой темп",
+        "name": "Ускорение атак",
         "refName": "Martial Tempo",
         "namespace": "GEM",
         "class": 19,
@@ -35618,7 +35618,7 @@
         }
     },
     "2922": {
-        "name": "Возбуждение",
+        "name": "Innervate",
         "refName": "Innervate",
         "namespace": "GEM",
         "class": 19,
@@ -35634,7 +35634,7 @@
         }
     },
     "2923": {
-        "name": "Изобилие",
+        "name": "Profusion",
         "refName": "Profusion",
         "namespace": "GEM",
         "class": 19,
@@ -35650,7 +35650,7 @@
         }
     },
     "2924": {
-        "name": "Коморбидность",
+        "name": "Comorbidity",
         "refName": "Comorbidity",
         "namespace": "GEM",
         "class": 19,
@@ -35666,7 +35666,7 @@
         }
     },
     "2925": {
-        "name": "Умышленное убийство",
+        "name": "Murderous Intent",
         "refName": "Murderous Intent",
         "namespace": "GEM",
         "class": 19,
@@ -35682,7 +35682,7 @@
         }
     },
     "2926": {
-        "name": "Разбег",
+        "name": "Импульс",
         "refName": "Momentum",
         "namespace": "GEM",
         "class": 19,
@@ -35698,7 +35698,7 @@
         }
     },
     "2927": {
-        "name": "Крещендо",
+        "name": "Crescendo",
         "refName": "Crescendo",
         "namespace": "GEM",
         "class": 19,
@@ -35714,7 +35714,7 @@
         }
     },
     "2928": {
-        "name": "Смертельный яд",
+        "name": "Deadly Poison",
         "refName": "Deadly Poison",
         "namespace": "GEM",
         "class": 19,
@@ -35730,7 +35730,7 @@
         }
     },
     "2929": {
-        "name": "Окно возможностей",
+        "name": "Window of Opportunity",
         "refName": "Window of Opportunity",
         "namespace": "GEM",
         "class": 19,
@@ -35746,7 +35746,7 @@
         }
     },
     "2930": {
-        "name": "Стремительный недуг",
+        "name": "Swift Affliction",
         "refName": "Swift Affliction",
         "namespace": "GEM",
         "class": 19,
@@ -35762,7 +35762,7 @@
         }
     },
     "2931": {
-        "name": "Обстрел",
+        "name": "Fusillade",
         "refName": "Fusillade",
         "namespace": "GEM",
         "class": 19,
@@ -35778,7 +35778,7 @@
         }
     },
     "2932": {
-        "name": "Финальный удар",
+        "name": "Combo Finisher",
         "refName": "Combo Finisher",
         "namespace": "GEM",
         "class": 19,
@@ -35794,7 +35794,7 @@
         }
     },
     "2933": {
-        "name": "Обременение",
+        "name": "Encumbrance",
         "refName": "Encumbrance",
         "namespace": "GEM",
         "class": 19,
@@ -35810,7 +35810,7 @@
         }
     },
     "2934": {
-        "name": "Дальний выстрел",
+        "name": "Longshot",
         "refName": "Longshot",
         "namespace": "GEM",
         "class": 19,
@@ -35826,7 +35826,7 @@
         }
     },
     "2935": {
-        "name": "Добивание",
+        "name": "Culling Strike",
         "refName": "Culling Strike",
         "namespace": "GEM",
         "class": 19,
@@ -35842,7 +35842,7 @@
         }
     },
     "2936": {
-        "name": "Замешательство",
+        "name": "Discombobulate",
         "refName": "Discombobulate",
         "namespace": "GEM",
         "class": 19,
@@ -35858,7 +35858,7 @@
         }
     },
     "2937": {
-        "name": "Вышибание",
+        "name": "Break Posture",
         "refName": "Break Posture",
         "namespace": "GEM",
         "class": 19,
@@ -35874,7 +35874,7 @@
         }
     },
     "2938": {
-        "name": "Искусность",
+        "name": "Ingenuity",
         "refName": "Ingenuity",
         "namespace": "GEM",
         "class": 19,
@@ -35890,7 +35890,7 @@
         }
     },
     "2939": {
-        "name": "Точность",
+        "name": "Precision",
         "refName": "Precision",
         "namespace": "GEM",
         "class": 19,
@@ -35906,7 +35906,7 @@
         }
     },
     "2940": {
-        "name": "Оледенение",
+        "name": "Переохлаждение",
         "refName": "Glaciation",
         "namespace": "GEM",
         "class": 19,
@@ -35922,7 +35922,7 @@
         }
     },
     "2941": {
-        "name": "Энергетический барьер",
+        "name": "Energy Barrier",
         "refName": "Energy Barrier",
         "namespace": "GEM",
         "class": 19,
@@ -35938,7 +35938,7 @@
         }
     },
     "2942": {
-        "name": "Пожар",
+        "name": "Распространение поджога",
         "refName": "Wildfire",
         "namespace": "GEM",
         "class": 19,
@@ -35954,7 +35954,7 @@
         }
     },
     "2943": {
-        "name": "Очаг холода",
+        "name": "Frost Nexus",
         "refName": "Frost Nexus",
         "namespace": "GEM",
         "class": 19,
@@ -35970,7 +35970,7 @@
         }
     },
     "2944": {
-        "name": "Скачущие разряды",
+        "name": "Coursing Current",
         "refName": "Coursing Current",
         "namespace": "GEM",
         "class": 19,
@@ -35986,7 +35986,7 @@
         }
     },
     "2945": {
-        "name": "Расширение",
+        "name": "Расширенная область действия",
         "refName": "Magnified Effect",
         "namespace": "GEM",
         "class": 19,
@@ -36066,7 +36066,7 @@
         }
     },
     "2950": {
-        "name": "Кусачий мороз",
+        "name": "Biting Frost",
         "refName": "Biting Frost",
         "namespace": "GEM",
         "class": 19,
@@ -36098,7 +36098,7 @@
         }
     },
     "2952": {
-        "name": "Песочные часы",
+        "name": "Hourglass",
         "refName": "Hourglass",
         "namespace": "GEM",
         "class": 19,
@@ -36114,7 +36114,7 @@
         }
     },
     "2953": {
-        "name": "Крепость",
+        "name": "Fortress",
         "refName": "Fortress",
         "namespace": "GEM",
         "class": 19,
@@ -36146,7 +36146,7 @@
         }
     },
     "2955": {
-        "name": "Восприимчивость к холоду",
+        "name": "Cold Exposure",
         "refName": "Cold Exposure",
         "namespace": "GEM",
         "class": 19,
@@ -36162,7 +36162,7 @@
         }
     },
     "2956": {
-        "name": "Пламенная смерть",
+        "name": "Fiery Death",
         "refName": "Fiery Death",
         "namespace": "GEM",
         "class": 19,
@@ -36178,7 +36178,7 @@
         }
     },
     "2957": {
-        "name": "Морозная пурга",
+        "name": "Frozen Vortex",
         "refName": "Frozen Vortex",
         "namespace": "GEM",
         "class": 19,
@@ -36194,7 +36194,7 @@
         }
     },
     "2958": {
-        "name": "Вбирание шока",
+        "name": "Shock Siphon",
         "refName": "Shock Siphon",
         "namespace": "GEM",
         "class": 19,
@@ -36210,7 +36210,7 @@
         }
     },
     "2959": {
-        "name": "Из холода в жар",
+        "name": "Frostfire",
         "refName": "Frostfire",
         "namespace": "GEM",
         "class": 19,
@@ -36226,7 +36226,7 @@
         }
     },
     "2960": {
-        "name": "Пламя бури",
+        "name": "Stormfire",
         "refName": "Stormfire",
         "namespace": "GEM",
         "class": 19,
@@ -36242,7 +36242,7 @@
         }
     },
     "2961": {
-        "name": "Неизбежное критическое попадание",
+        "name": "Inevitable Critical",
         "refName": "Inevitable Critical",
         "namespace": "GEM",
         "class": 19,
@@ -36258,7 +36258,7 @@
         }
     },
     "2962": {
-        "name": "Разряд стихий",
+        "name": "Elemental Discharge",
         "refName": "Elemental Discharge",
         "namespace": "GEM",
         "class": 19,
@@ -36274,7 +36274,7 @@
         }
     },
     "2963": {
-        "name": "Вспышка маны",
+        "name": "Mana Flare",
         "refName": "Mana Flare",
         "namespace": "GEM",
         "class": 19,
@@ -36306,7 +36306,7 @@
         }
     },
     "2965": {
-        "name": "Похититель души",
+        "name": "Вытягивание маны",
         "refName": "Soul Thief",
         "namespace": "GEM",
         "class": 19,
@@ -36354,7 +36354,7 @@
         }
     },
     "2968": {
-        "name": "Нестабильность приспешников",
+        "name": "Minion Instability",
         "refName": "Minion Instability",
         "namespace": "GEM",
         "class": 19,
@@ -36370,7 +36370,7 @@
         }
     },
     "2969": {
-        "name": "Глубокая заморозка",
+        "name": "Deep Freeze",
         "refName": "Deep Freeze",
         "namespace": "GEM",
         "class": 19,
@@ -36418,7 +36418,7 @@
         }
     },
     "2972": {
-        "name": "Возвышенное проклятие",
+        "name": "Heightened Curse",
         "refName": "Heightened Curse",
         "namespace": "GEM",
         "class": 19,
@@ -36434,7 +36434,7 @@
         }
     },
     "2973": {
-        "name": "Сохранение трупов",
+        "name": "Corpse Conservation",
         "refName": "Corpse Conservation",
         "namespace": "GEM",
         "class": 19,
@@ -36450,7 +36450,7 @@
         }
     },
     "2974": {
-        "name": "Власть холода",
+        "name": "Урон холодом",
         "refName": "Cold Infusion",
         "namespace": "GEM",
         "class": 19,
@@ -36466,7 +36466,7 @@
         }
     },
     "2975": {
-        "name": "Колдовской темп",
+        "name": "Ускоренное сотворение чар",
         "refName": "Arcane Tempo",
         "namespace": "GEM",
         "class": 19,
@@ -36482,7 +36482,7 @@
         }
     },
     "2976": {
-        "name": "Разлагающая порча",
+        "name": "Decaying Hex",
         "refName": "Decaying Hex",
         "namespace": "GEM",
         "class": 19,
@@ -36498,7 +36498,7 @@
         }
     },
     "2977": {
-        "name": "Наведённое проклятие",
+        "name": "Focused Curse",
         "refName": "Focused Curse",
         "namespace": "GEM",
         "class": 19,
@@ -36514,7 +36514,7 @@
         }
     },
     "2978": {
-        "name": "Ритуальное проклятие",
+        "name": "Ritualistic Curse",
         "refName": "Ritualistic Curse",
         "namespace": "GEM",
         "class": 19,
@@ -36530,7 +36530,7 @@
         }
     },
     "2979": {
-        "name": "Договор служения",
+        "name": "Minion Pact",
         "refName": "Minion Pact",
         "namespace": "GEM",
         "class": 19,
@@ -36546,7 +36546,7 @@
         }
     },
     "2980": {
-        "name": "Последний вздох",
+        "name": "Last Gasp",
         "refName": "Last Gasp",
         "namespace": "GEM",
         "class": 19,
@@ -36594,7 +36594,7 @@
         }
     },
     "2983": {
-        "name": "Сверхкритический удар",
+        "name": "Усиление критических ударов",
         "refName": "Supercritical",
         "namespace": "GEM",
         "class": 19,
@@ -36626,7 +36626,7 @@
         }
     },
     "2985": {
-        "name": "Власть хаоса",
+        "name": "Урон хаосом",
         "refName": "Chaos Infusion",
         "namespace": "GEM",
         "class": 19,
@@ -36642,7 +36642,7 @@
         }
     },
     "2986": {
-        "name": "Мастерство огня",
+        "name": "Fire Mastery",
         "refName": "Fire Mastery",
         "namespace": "GEM",
         "class": 19,
@@ -36658,7 +36658,7 @@
         }
     },
     "2987": {
-        "name": "Мастерство холода",
+        "name": "Cold Mastery",
         "refName": "Cold Mastery",
         "namespace": "GEM",
         "class": 19,
@@ -36674,7 +36674,7 @@
         }
     },
     "2988": {
-        "name": "Мастерство молнии",
+        "name": "Lightning Mastery",
         "refName": "Lightning Mastery",
         "namespace": "GEM",
         "class": 19,
@@ -36690,7 +36690,7 @@
         }
     },
     "2989": {
-        "name": "Мастерство хаоса",
+        "name": "Chaos Mastery",
         "refName": "Chaos Mastery",
         "namespace": "GEM",
         "class": 19,
@@ -36706,7 +36706,7 @@
         }
     },
     "2990": {
-        "name": "Мастерство физического урона",
+        "name": "Physical Mastery",
         "refName": "Physical Mastery",
         "namespace": "GEM",
         "class": 19,
@@ -36722,7 +36722,7 @@
         }
     },
     "2991": {
-        "name": "Мастерство приспешников",
+        "name": "Minion Mastery",
         "refName": "Minion Mastery",
         "namespace": "GEM",
         "class": 19,
@@ -36738,7 +36738,7 @@
         }
     },
     "2992": {
-        "name": "Хаотичная заморозка",
+        "name": "Chaotic Freeze",
         "refName": "Chaotic Freeze",
         "namespace": "GEM",
         "class": 19,
@@ -36754,7 +36754,7 @@
         }
     },
     "2993": {
-        "name": "Интенсивная агония",
+        "name": "Intense Agony",
         "refName": "Intense Agony",
         "namespace": "GEM",
         "class": 19,
@@ -36770,7 +36770,7 @@
         }
     },
     "2994": {
-        "name": "Поглощение состояний",
+        "name": "Drain Ailments",
         "refName": "Drain Ailments",
         "namespace": "GEM",
         "class": 19,
@@ -36786,7 +36786,7 @@
         }
     },
     "2995": {
-        "name": "Скованность",
+        "name": "Hinder",
         "refName": "Hinder",
         "namespace": "GEM",
         "class": 19,
@@ -36802,7 +36802,7 @@
         }
     },
     "2996": {
-        "name": "Каскад чар",
+        "name": "Spell Cascade",
         "refName": "Spell Cascade",
         "namespace": "GEM",
         "class": 19,
@@ -36818,7 +36818,7 @@
         }
     },
     "2997": {
-        "name": "Разрушитель душ",
+        "name": "Soulbreaker",
         "refName": "Soulbreaker",
         "namespace": "GEM",
         "class": 19,
@@ -36834,7 +36834,7 @@
         }
     },
     "2998": {
-        "name": "Проклятая земля",
+        "name": "Cursed Ground",
         "refName": "Cursed Ground",
         "namespace": "GEM",
         "class": 19,
@@ -36850,7 +36850,7 @@
         }
     },
     "2999": {
-        "name": "Ясность ума",
+        "name": "Clarity",
         "refName": "Clarity",
         "namespace": "GEM",
         "class": 19,
@@ -36866,7 +36866,7 @@
         }
     },
     "3000": {
-        "name": "Неистовые духи",
+        "name": "Raging Spirits",
         "refName": "Raging Spirits",
         "namespace": "GEM",
         "class": 18,
@@ -36882,7 +36882,7 @@
         }
     },
     "3001": {
-        "name": "Красный гриб",
+        "name": "Red Mushroom",
         "refName": "Red Mushroom",
         "namespace": "ITEM",
         "class": 31,
@@ -36894,7 +36894,7 @@
         }
     },
     "3002": {
-        "name": "Зелёный гриб",
+        "name": "Green Mushroom",
         "refName": "Green Mushroom",
         "namespace": "ITEM",
         "class": 31,
@@ -36906,7 +36906,7 @@
         }
     },
     "3003": {
-        "name": "Синий гриб",
+        "name": "Blue Mushroom",
         "refName": "Blue Mushroom",
         "namespace": "ITEM",
         "class": 31,
@@ -36929,7 +36929,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ef329c74d1/PinnacleKey1.png"
     },
     "3005": {
-        "name": "Истёртый переломный фрагмент",
+        "name": "Faded Crisis Fragment",
         "refName": "Faded Crisis Fragment",
         "namespace": "ITEM",
         "class": 107,
@@ -36940,7 +36940,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5709c39ee7/PinnacleKey2.png"
     },
     "3006": {
-        "name": "Выцветший переломный фрагмент",
+        "name": "Weathered Crisis Fragment",
         "refName": "Weathered Crisis Fragment",
         "namespace": "ITEM",
         "class": 107,
@@ -36951,7 +36951,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/32e6544250/PinnacleKey3.png"
     },
     "3007": {
-        "name": "Начертанный Ультиматум",
+        "name": "Inscribed Ultimatum",
         "refName": "Inscribed Ultimatum",
         "namespace": "ITEM",
         "class": 100,
@@ -36963,7 +36963,7 @@
         }
     },
     "3008": {
-        "name": "Начертанный Ультиматум из топей",
+        "name": "Chimeral Inscribed Ultimatum",
         "refName": "Chimeral Inscribed Ultimatum",
         "namespace": "ITEM",
         "class": 31,
@@ -36975,7 +36975,7 @@
         }
     },
     "3009": {
-        "name": "Трусливый конец",
+        "name": "Cowardly Fate",
         "refName": "Cowardly Fate",
         "namespace": "ITEM",
         "class": 38,
@@ -36989,7 +36989,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/661ab60074/TrialmasterKey1.png"
     },
     "3010": {
-        "name": "Смертельный конец",
+        "name": "Deadly Fate",
         "refName": "Deadly Fate",
         "namespace": "ITEM",
         "class": 38,
@@ -37003,7 +37003,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvU291bENvcmVzL1RyaWFsbWFzdGVyS2V5MiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/cccae44832/TrialmasterKey2.png"
     },
     "3011": {
-        "name": "Победный конец",
+        "name": "Victorious Fate",
         "refName": "Victorious Fate",
         "namespace": "ITEM",
         "class": 38,
@@ -37033,7 +37033,7 @@
         }
     },
     "3013": {
-        "name": "Взрыв приспешника",
+        "name": "Detonate Minion",
         "refName": "Detonate Minion",
         "namespace": "GEM",
         "class": 18,
@@ -37097,7 +37097,7 @@
         }
     },
     "3017": {
-        "name": "Грозовой всплеск",
+        "name": "Storm Surge",
         "refName": "Storm Surge",
         "namespace": "GEM",
         "class": 18,
@@ -37113,7 +37113,7 @@
         }
     },
     "3018": {
-        "name": "Танцующий с ветром",
+        "name": "Wind Dancer",
         "refName": "Wind Dancer",
         "namespace": "GEM",
         "class": 18,
@@ -37129,7 +37129,7 @@
         }
     },
     "3019": {
-        "name": "Нечестивый ритуал",
+        "name": "Profane Ritual",
         "refName": "Profane Ritual",
         "namespace": "GEM",
         "class": 18,
@@ -37145,7 +37145,7 @@
         }
     },
     "3020": {
-        "name": "Подношение души",
+        "name": "Soul Offering",
         "refName": "Soul Offering",
         "namespace": "GEM",
         "class": 18,
@@ -37161,7 +37161,7 @@
         }
     },
     "3021": {
-        "name": "Тёмное чучело",
+        "name": "Dark Effigy",
         "refName": "Dark Effigy",
         "namespace": "GEM",
         "class": 18,
@@ -37177,7 +37177,7 @@
         }
     },
     "3022": {
-        "name": "Приспешник скелет-воин",
+        "name": "Skeletal Warrior",
         "refName": "Skeletal Warrior",
         "namespace": "GEM",
         "class": 18,
@@ -37193,7 +37193,7 @@
         }
     },
     "3023": {
-        "name": "Неогранённый камень духа",
+        "name": "Uncut Spirit Gem",
         "refName": "Uncut Spirit Gem",
         "namespace": "ITEM",
         "class": 102,
@@ -37205,7 +37205,7 @@
         }
     },
     "3024": {
-        "name": "Мрачный пир",
+        "name": "Grim Feast",
         "refName": "Grim Feast",
         "namespace": "GEM",
         "class": 18,
@@ -37221,7 +37221,7 @@
         }
     },
     "3025": {
-        "name": "Сотворение чар при смерти приспешников",
+        "name": "Cast on Minion Death",
         "refName": "Cast on Minion Death",
         "namespace": "GEM",
         "class": 76,
@@ -37237,7 +37237,7 @@
         }
     },
     "3026": {
-        "name": "Переработанная броня",
+        "name": "Scavenged Plating",
         "refName": "Scavenged Plating",
         "namespace": "GEM",
         "class": 18,
@@ -37253,7 +37253,7 @@
         }
     },
     "3027": {
-        "name": "Ураганное пекло",
+        "name": "Spinning Inferno",
         "refName": "Spinning Inferno",
         "namespace": "GEM",
         "class": 18,
@@ -37301,7 +37301,7 @@
         }
     },
     "3030": {
-        "name": "Скачок",
+        "name": "Blink",
         "refName": "Blink",
         "namespace": "GEM",
         "class": 18,
@@ -37317,7 +37317,7 @@
         }
     },
     "3031": {
-        "name": "Магмовый взрыв",
+        "name": "Molten Blast",
         "refName": "Molten Blast",
         "namespace": "GEM",
         "class": 18,
@@ -37333,7 +37333,7 @@
         }
     },
     "3032": {
-        "name": "Злость",
+        "name": "Malice",
         "refName": "Malice",
         "namespace": "GEM",
         "class": 18,
@@ -37349,7 +37349,7 @@
         }
     },
     "3033": {
-        "name": "Фамильяр гидра",
+        "name": "Hydra Familiar",
         "refName": "Hydra Familiar",
         "namespace": "GEM",
         "class": 76,
@@ -37365,7 +37365,7 @@
         }
     },
     "3034": {
-        "name": "Молот богов",
+        "name": "Hammer of the Gods",
         "refName": "Hammer of the Gods",
         "namespace": "GEM",
         "class": 18,
@@ -37381,7 +37381,7 @@
         }
     },
     "3035": {
-        "name": "Живая бомба",
+        "name": "Living Bomb",
         "refName": "Living Bomb",
         "namespace": "GEM",
         "class": 18,
@@ -37397,7 +37397,7 @@
         }
     },
     "3036": {
-        "name": "Натиск",
+        "name": "Stampede",
         "refName": "Stampede",
         "namespace": "GEM",
         "class": 18,
@@ -37413,7 +37413,7 @@
         }
     },
     "3037": {
-        "name": "Стена щитов",
+        "name": "Shield Wall",
         "refName": "Shield Wall",
         "namespace": "GEM",
         "class": 18,
@@ -37429,7 +37429,7 @@
         }
     },
     "3038": {
-        "name": "Оборонительный клич",
+        "name": "Shielding Cry",
         "refName": "Shielding Cry",
         "namespace": "GEM",
         "class": 18,
@@ -37445,7 +37445,7 @@
         }
     },
     "3039": {
-        "name": "Янтарный шквал",
+        "name": "Ember Fusillade",
         "refName": "Ember Fusillade",
         "namespace": "GEM",
         "class": 18,
@@ -37477,7 +37477,7 @@
         }
     },
     "3041": {
-        "name": "Осколочные снаряды",
+        "name": "Fragmentation Rounds",
         "refName": "Fragmentation Rounds",
         "namespace": "GEM",
         "class": 18,
@@ -37493,7 +37493,7 @@
         }
     },
     "3042": {
-        "name": "Осадный залп",
+        "name": "Siege Cascade",
         "refName": "Siege Cascade",
         "namespace": "GEM",
         "class": 18,
@@ -37525,7 +37525,7 @@
         }
     },
     "3044": {
-        "name": "Взрывной выстрел",
+        "name": "Explosive Shot",
         "refName": "Explosive Shot",
         "namespace": "GEM",
         "class": 18,
@@ -37541,7 +37541,7 @@
         }
     },
     "3045": {
-        "name": "Поджигающий выстрел",
+        "name": "Incendiary Shot",
         "refName": "Incendiary Shot",
         "namespace": "GEM",
         "class": 18,
@@ -37557,7 +37557,7 @@
         }
     },
     "3046": {
-        "name": "Быстрый выстрел",
+        "name": "Rapid Shot",
         "refName": "Rapid Shot",
         "namespace": "GEM",
         "class": 18,
@@ -37573,7 +37573,7 @@
         }
     },
     "3047": {
-        "name": "Леденящий болт",
+        "name": "Glacial Bolt",
         "refName": "Glacial Bolt",
         "namespace": "GEM",
         "class": 18,
@@ -37589,7 +37589,7 @@
         }
     },
     "3048": {
-        "name": "Болты вечной мерзлоты",
+        "name": "Permafrost Bolts",
         "refName": "Permafrost Bolts",
         "namespace": "GEM",
         "class": 18,
@@ -37605,7 +37605,7 @@
         }
     },
     "3049": {
-        "name": "Град снарядов",
+        "name": "Hailstorm Rounds",
         "refName": "Hailstorm Rounds",
         "namespace": "GEM",
         "class": 18,
@@ -37621,7 +37621,7 @@
         }
     },
     "3050": {
-        "name": "Ледяные осколки",
+        "name": "Ice Shards",
         "refName": "Ice Shards",
         "namespace": "GEM",
         "class": 18,
@@ -37637,7 +37637,7 @@
         }
     },
     "3051": {
-        "name": "Плазменный заряд",
+        "name": "Plasma Blast",
         "refName": "Plasma Blast",
         "namespace": "GEM",
         "class": 18,
@@ -37653,7 +37653,7 @@
         }
     },
     "3052": {
-        "name": "Электризующие осколки",
+        "name": "Galvanic Shards",
         "refName": "Galvanic Shards",
         "namespace": "GEM",
         "class": 18,
@@ -37669,7 +37669,7 @@
         }
     },
     "3053": {
-        "name": "Штормовой болт",
+        "name": "Stormblast Bolts",
         "refName": "Stormblast Bolts",
         "namespace": "GEM",
         "class": 18,
@@ -37685,7 +37685,7 @@
         }
     },
     "3054": {
-        "name": "Электровспышечные снаряды",
+        "name": "Shockburst Rounds",
         "refName": "Shockburst Rounds",
         "namespace": "GEM",
         "class": 18,
@@ -37701,7 +37701,7 @@
         }
     },
     "3055": {
-        "name": "Удар",
+        "name": "Punch",
         "refName": "Punch",
         "namespace": "GEM",
         "class": 18,
@@ -37717,7 +37717,7 @@
         }
     },
     "3056": {
-        "name": "Удар посохом",
+        "name": "Quarterstaff Strike",
         "refName": "Quarterstaff Strike",
         "namespace": "GEM",
         "class": 18,
@@ -37733,7 +37733,7 @@
         }
     },
     "3057": {
-        "name": "Удар кистенем",
+        "name": "Flail Strike",
         "refName": "Flail Strike",
         "namespace": "GEM",
         "class": 18,
@@ -37749,7 +37749,7 @@
         }
     },
     "3058": {
-        "name": "Удар мечом",
+        "name": "Sword Slash",
         "refName": "Sword Slash",
         "namespace": "GEM",
         "class": 18,
@@ -37765,7 +37765,7 @@
         }
     },
     "3059": {
-        "name": "Удар мечом",
+        "name": "Sword Slash",
         "refName": "Sword Slash",
         "namespace": "GEM",
         "class": 18,
@@ -37781,7 +37781,7 @@
         }
     },
     "3060": {
-        "name": "Удар мечом",
+        "name": "Sword Slash",
         "refName": "Sword Slash",
         "namespace": "GEM",
         "class": 18,
@@ -37797,7 +37797,7 @@
         }
     },
     "3061": {
-        "name": "Удар топором",
+        "name": "Axe Slash",
         "refName": "Axe Slash",
         "namespace": "GEM",
         "class": 18,
@@ -37813,7 +37813,7 @@
         }
     },
     "3062": {
-        "name": "Удар топором",
+        "name": "Axe Slash",
         "refName": "Axe Slash",
         "namespace": "GEM",
         "class": 18,
@@ -37829,7 +37829,7 @@
         }
     },
     "3063": {
-        "name": "Удар топором",
+        "name": "Axe Slash",
         "refName": "Axe Slash",
         "namespace": "GEM",
         "class": 18,
@@ -37845,7 +37845,7 @@
         }
     },
     "3064": {
-        "name": "Удар булавой",
+        "name": "Mace Strike",
         "refName": "Mace Strike",
         "namespace": "GEM",
         "class": 18,
@@ -37861,7 +37861,7 @@
         }
     },
     "3065": {
-        "name": "Удар булавой",
+        "name": "Mace Strike",
         "refName": "Mace Strike",
         "namespace": "GEM",
         "class": 18,
@@ -37877,7 +37877,7 @@
         }
     },
     "3066": {
-        "name": "Удар булавой",
+        "name": "Mace Strike",
         "refName": "Mace Strike",
         "namespace": "GEM",
         "class": 18,
@@ -37893,7 +37893,7 @@
         }
     },
     "3067": {
-        "name": "Удар когтями",
+        "name": "Claw Stab",
         "refName": "Claw Stab",
         "namespace": "GEM",
         "class": 18,
@@ -37909,7 +37909,7 @@
         }
     },
     "3068": {
-        "name": "Удар когтями",
+        "name": "Claw Stab",
         "refName": "Claw Stab",
         "namespace": "GEM",
         "class": 18,
@@ -37925,7 +37925,7 @@
         }
     },
     "3069": {
-        "name": "Удар кинжалом",
+        "name": "Dagger Stab",
         "refName": "Dagger Stab",
         "namespace": "GEM",
         "class": 18,
@@ -37941,7 +37941,7 @@
         }
     },
     "3070": {
-        "name": "Удар кинжалом",
+        "name": "Dagger Stab",
         "refName": "Dagger Stab",
         "namespace": "GEM",
         "class": 18,
@@ -37957,7 +37957,7 @@
         }
     },
     "3071": {
-        "name": "Удар копьём",
+        "name": "Spear Stab",
         "refName": "Spear Stab",
         "namespace": "GEM",
         "class": 18,
@@ -37973,7 +37973,7 @@
         }
     },
     "3072": {
-        "name": "Выстрел из лука",
+        "name": "Bow Shot",
         "refName": "Bow Shot",
         "namespace": "GEM",
         "class": 18,
@@ -37989,7 +37989,7 @@
         }
     },
     "3073": {
-        "name": "Выстрел из самострела",
+        "name": "Crossbow Shot",
         "refName": "Crossbow Shot",
         "namespace": "GEM",
         "class": 18,
@@ -38053,7 +38053,7 @@
         }
     },
     "3077": {
-        "name": "Стрела цепной молнии",
+        "name": "Shockchain Arrow",
         "refName": "Shockchain Arrow",
         "namespace": "GEM",
         "class": 18,
@@ -38069,7 +38069,7 @@
         }
     },
     "3078": {
-        "name": "Удар в прыжке",
+        "name": "Vaulting Impact",
         "refName": "Vaulting Impact",
         "namespace": "GEM",
         "class": 18,
@@ -38085,7 +38085,7 @@
         }
     },
     "3079": {
-        "name": "Штормовая волна",
+        "name": "Storm Wave",
         "refName": "Storm Wave",
         "namespace": "GEM",
         "class": 18,
@@ -38101,7 +38101,7 @@
         }
     },
     "3080": {
-        "name": "Мантра разрушения",
+        "name": "Mantra of Destruction",
         "refName": "Mantra of Destruction",
         "namespace": "GEM",
         "class": 18,
@@ -38117,7 +38117,7 @@
         }
     },
     "3081": {
-        "name": "Сгустки жизни",
+        "name": "Life Remnants",
         "refName": "Life Remnants",
         "namespace": "GEM",
         "class": 18,
@@ -38133,7 +38133,7 @@
         }
     },
     "3082": {
-        "name": "Взрывная смесь",
+        "name": "Explosive Concoction",
         "refName": "Explosive Concoction",
         "namespace": "GEM",
         "class": 18,
@@ -38149,7 +38149,7 @@
         }
     },
     "3083": {
-        "name": "Гремучая смесь",
+        "name": "Fulminating Concoction",
         "refName": "Fulminating Concoction",
         "namespace": "GEM",
         "class": 18,
@@ -38165,7 +38165,7 @@
         }
     },
     "3084": {
-        "name": "Раскалывающая смесь",
+        "name": "Shattering Concoction",
         "refName": "Shattering Concoction",
         "namespace": "GEM",
         "class": 18,
@@ -38181,7 +38181,7 @@
         }
     },
     "3085": {
-        "name": "Ядовитая смесь",
+        "name": "Poisonous Concoction",
         "refName": "Poisonous Concoction",
         "namespace": "GEM",
         "class": 18,
@@ -38197,7 +38197,7 @@
         }
     },
     "3086": {
-        "name": "Кровопускающая смесь",
+        "name": "Bleeding Concoction",
         "refName": "Bleeding Concoction",
         "namespace": "GEM",
         "class": 18,
@@ -38213,7 +38213,7 @@
         }
     },
     "3087": {
-        "name": "Медитация",
+        "name": "Meditate",
         "refName": "Meditate",
         "namespace": "GEM",
         "class": 18,
@@ -38229,7 +38229,7 @@
         }
     },
     "3088": {
-        "name": "Стихийная буря",
+        "name": "Elemental Storm",
         "refName": "Elemental Storm",
         "namespace": "GEM",
         "class": 18,
@@ -38245,7 +38245,7 @@
         }
     },
     "3089": {
-        "name": "Воплощение безудержности",
+        "name": "Unbound Avatar",
         "refName": "Unbound Avatar",
         "namespace": "GEM",
         "class": 18,
@@ -38261,7 +38261,7 @@
         }
     },
     "3090": {
-        "name": "Призыв адской гончей",
+        "name": "Summon Infernal Hound",
         "refName": "Summon Infernal Hound",
         "namespace": "GEM",
         "class": 18,
@@ -38277,7 +38277,7 @@
         }
     },
     "3091": {
-        "name": "Остановка времени",
+        "name": "Time Freeze",
         "refName": "Time Freeze",
         "namespace": "GEM",
         "class": 18,
@@ -38293,7 +38293,7 @@
         }
     },
     "3092": {
-        "name": "Момент времени",
+        "name": "Time Snap",
         "refName": "Time Snap",
         "namespace": "GEM",
         "class": 18,
@@ -38309,7 +38309,7 @@
         }
     },
     "3093": {
-        "name": "Заключение в нефрите",
+        "name": "Encase in Jade",
         "refName": "Encase in Jade",
         "namespace": "GEM",
         "class": 18,
@@ -38325,7 +38325,7 @@
         }
     },
     "3094": {
-        "name": "Чародейский барьер",
+        "name": "Sorcery Ward",
         "refName": "Sorcery Ward",
         "namespace": "GEM",
         "class": 18,
@@ -38427,7 +38427,7 @@
         }
     },
     "3101": {
-        "name": "Выход стихии",
+        "name": "Elemental Expression",
         "refName": "Elemental Expression",
         "namespace": "GEM",
         "class": 18,
@@ -38443,7 +38443,7 @@
         }
     },
     "3102": {
-        "name": "Ледяной выстрел",
+        "name": "Ice Shot",
         "refName": "Ice Shot",
         "namespace": "GEM",
         "class": 18,
@@ -38459,7 +38459,7 @@
         }
     },
     "3103": {
-        "name": "Знамя войны",
+        "name": "War Banner",
         "refName": "War Banner",
         "namespace": "GEM",
         "class": 18,
@@ -38475,7 +38475,7 @@
         }
     },
     "3104": {
-        "name": "Знамя непокорности",
+        "name": "Defiance Banner",
         "refName": "Defiance Banner",
         "namespace": "GEM",
         "class": 18,
@@ -38491,7 +38491,7 @@
         }
     },
     "3105": {
-        "name": "Морозная метка",
+        "name": "Freezing Mark",
         "refName": "Freezing Mark",
         "namespace": "GEM",
         "class": 18,
@@ -38507,7 +38507,7 @@
         }
     },
     "3106": {
-        "name": "Громовая метка",
+        "name": "Voltaic Mark",
         "refName": "Voltaic Mark",
         "namespace": "GEM",
         "class": 18,
@@ -38523,7 +38523,7 @@
         }
     },
     "3107": {
-        "name": "Длань Чаюлы",
+        "name": "Hand of Chayula",
         "refName": "Hand of Chayula",
         "namespace": "GEM",
         "class": 76,
@@ -38539,7 +38539,7 @@
         }
     },
     "3108": {
-        "name": "Временной разрыв",
+        "name": "Temporal Rift",
         "refName": "Temporal Rift",
         "namespace": "GEM",
         "class": 18,
@@ -38555,7 +38555,7 @@
         }
     },
     "3109": {
-        "name": "Форма демона",
+        "name": "Demon Form",
         "refName": "Demon Form",
         "namespace": "GEM",
         "class": 18,
@@ -38571,7 +38571,7 @@
         }
     },
     "3110": {
-        "name": "Час нужды",
+        "name": "Time of Need",
         "refName": "Time of Need",
         "namespace": "GEM",
         "class": 18,
@@ -38587,7 +38587,7 @@
         }
     },
     "3111": {
-        "name": "Вызов стихии",
+        "name": "Elemental Invocation",
         "refName": "Elemental Invocation",
         "namespace": "GEM",
         "class": 76,
@@ -38603,7 +38603,7 @@
         }
     },
     "3112": {
-        "name": "Взрывная граната",
+        "name": "Explosive Grenade",
         "refName": "Explosive Grenade",
         "namespace": "GEM",
         "class": 18,
@@ -38619,7 +38619,7 @@
         }
     },
     "3113": {
-        "name": "Ослепляющая граната",
+        "name": "Flash Grenade",
         "refName": "Flash Grenade",
         "namespace": "GEM",
         "class": 18,
@@ -38635,7 +38635,7 @@
         }
     },
     "3114": {
-        "name": "Масляная граната",
+        "name": "Oil Grenade",
         "refName": "Oil Grenade",
         "namespace": "GEM",
         "class": 18,
@@ -38651,7 +38651,7 @@
         }
     },
     "3115": {
-        "name": "Газовая граната",
+        "name": "Gas Grenade",
         "refName": "Gas Grenade",
         "namespace": "GEM",
         "class": 18,
@@ -38667,7 +38667,7 @@
         }
     },
     "3116": {
-        "name": "Электрическая граната",
+        "name": "Voltaic Grenade",
         "refName": "Voltaic Grenade",
         "namespace": "GEM",
         "class": 18,
@@ -38683,7 +38683,7 @@
         }
     },
     "3117": {
-        "name": "Измор",
+        "name": "Attrition",
         "refName": "Attrition",
         "namespace": "GEM",
         "class": 18,
@@ -38699,7 +38699,7 @@
         }
     },
     "3118": {
-        "name": "Слияние стихий",
+        "name": "Elemental Conflux",
         "refName": "Elemental Conflux",
         "namespace": "GEM",
         "class": 18,
@@ -38715,7 +38715,7 @@
         }
     },
     "3119": {
-        "name": "Проход в Разлом",
+        "name": "Into the Breach",
         "refName": "Into the Breach",
         "namespace": "GEM",
         "class": 18,
@@ -38731,7 +38731,7 @@
         }
     },
     "3120": {
-        "name": "Духи предков",
+        "name": "Ancestral Spirits",
         "refName": "Ancestral Spirits",
         "namespace": "GEM",
         "class": 18,
@@ -38747,7 +38747,7 @@
         }
     },
     "3121": {
-        "name": "Экстренная перезарядка",
+        "name": "Emergency Reload",
         "refName": "Emergency Reload",
         "namespace": "GEM",
         "class": 18,
@@ -38811,7 +38811,7 @@
         }
     },
     "3125": {
-        "name": "Кластерная граната",
+        "name": "Cluster Grenade",
         "refName": "Cluster Grenade",
         "namespace": "GEM",
         "class": 18,
@@ -38827,7 +38827,7 @@
         }
     },
     "3126": {
-        "name": "Знамя страха",
+        "name": "Dread Banner",
         "refName": "Dread Banner",
         "namespace": "GEM",
         "class": 18,
@@ -38843,7 +38843,7 @@
         }
     },
     "3127": {
-        "name": "Вихрь стрел",
+        "name": "Tornado Shot",
         "refName": "Tornado Shot",
         "namespace": "GEM",
         "class": 18,
@@ -38859,7 +38859,7 @@
         }
     },
     "3128": {
-        "name": "Предзнаменование восполнения",
+        "name": "Omen of Refreshment",
         "refName": "Omen of Refreshment",
         "namespace": "ITEM",
         "class": 106,
@@ -38873,7 +38873,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/213474d1d5/VoodooOmens1Blue.png"
     },
     "3129": {
-        "name": "Предзнаменование возрождения",
+        "name": "Omen of Resurgence",
         "refName": "Omen of Resurgence",
         "namespace": "ITEM",
         "class": 106,
@@ -38887,7 +38887,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/044d5086da/VoodooOmens2Blue.png"
     },
     "3130": {
-        "name": "Предзнаменование избавления",
+        "name": "Omen of Amelioration",
         "refName": "Omen of Amelioration",
         "namespace": "ITEM",
         "class": 106,
@@ -38901,7 +38901,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzQmx1ZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b5ee965352/VoodooOmens3Blue.png"
     },
     "3131": {
-        "name": "Предзнаменование оттачивания",
+        "name": "Omen of Whittling",
         "refName": "Omen of Whittling",
         "namespace": "ITEM",
         "class": 106,
@@ -38915,7 +38915,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2dea0999d5/VoodooOmens1Dark.png"
     },
     "3132": {
-        "name": "Предзнаменование истирания левши",
+        "name": "Omen of Sinistral Erasure",
         "refName": "Omen of Sinistral Erasure",
         "namespace": "ITEM",
         "class": 106,
@@ -38929,7 +38929,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/0cfa6959be/VoodooOmens2Dark.png"
     },
     "3133": {
-        "name": "Предзнаменование истирания правши",
+        "name": "Omen of Dextral Erasure",
         "refName": "Omen of Dextral Erasure",
         "namespace": "ITEM",
         "class": 106,
@@ -38943,7 +38943,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzRGFyayIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6e2bb52963/VoodooOmens3Dark.png"
     },
     "3134": {
-        "name": "Предзнаменование алхимии левши",
+        "name": "Omen of Sinistral Alchemy",
         "refName": "Omen of Sinistral Alchemy",
         "namespace": "ITEM",
         "class": 106,
@@ -38957,7 +38957,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxR3JlZW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/11c49d2322/VoodooOmens1Green.png"
     },
     "3135": {
-        "name": "Предзнаменование алхимии правши",
+        "name": "Omen of Dextral Alchemy",
         "refName": "Omen of Dextral Alchemy",
         "namespace": "ITEM",
         "class": 106,
@@ -38971,7 +38971,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyR3JlZW4iLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0ff0cfbb93/VoodooOmens2Green.png"
     },
     "3136": {
-        "name": "Предзнаменование коронации левши",
+        "name": "Omen of Sinistral Coronation",
         "refName": "Omen of Sinistral Coronation",
         "namespace": "ITEM",
         "class": 106,
@@ -38985,7 +38985,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxUmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b8e2b8ed3f/VoodooOmens1Red.png"
     },
     "3137": {
-        "name": "Предзнаменование коронации правши",
+        "name": "Omen of Dextral Coronation",
         "refName": "Omen of Dextral Coronation",
         "namespace": "ITEM",
         "class": 106,
@@ -38999,7 +38999,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f1bbb78614/VoodooOmens2Red.png"
     },
     "3138": {
-        "name": "Предзнаменование осквернения",
+        "name": "Omen of Corruption",
         "refName": "Omen of Corruption",
         "namespace": "ITEM",
         "class": 106,
@@ -39027,7 +39027,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/22d9b6478d/VoodooOmens1Yellow.png"
     },
     "3140": {
-        "name": "Предзнаменование возвышения левши",
+        "name": "Omen of Sinistral Exaltation",
         "refName": "Omen of Sinistral Exaltation",
         "namespace": "ITEM",
         "class": 106,
@@ -39041,7 +39041,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6d316b47ee/VoodooOmens2Yellow.png"
     },
     "3141": {
-        "name": "Предзнаменование возвышения правши",
+        "name": "Omen of Dextral Exaltation",
         "refName": "Omen of Dextral Exaltation",
         "namespace": "ITEM",
         "class": 106,
@@ -39055,7 +39055,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzWWVsbG93Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ed7cf06fa4/VoodooOmens3Yellow.png"
     },
     "3142": {
-        "name": "Предзнаменование великого очищения",
+        "name": "Omen of Greater Annulment",
         "refName": "Omen of Greater Annulment",
         "namespace": "ITEM",
         "class": 106,
@@ -39069,7 +39069,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMxUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a6848dff1c/VoodooOmens1Purple.png"
     },
     "3143": {
-        "name": "Предзнаменование очищения левши",
+        "name": "Omen of Sinistral Annulment",
         "refName": "Omen of Sinistral Annulment",
         "namespace": "ITEM",
         "class": 106,
@@ -39083,7 +39083,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMyUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b9eaf38592/VoodooOmens2Purple.png"
     },
     "3144": {
-        "name": "Предзнаменование очищения правши",
+        "name": "Omen of Dextral Annulment",
         "refName": "Omen of Dextral Annulment",
         "namespace": "ITEM",
         "class": 106,
@@ -39097,7 +39097,7 @@
         "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvT21lbnMvVm9vZG9vT21lbnMzUHVycGxlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d901658529/VoodooOmens3Purple.png"
     },
     "3145": {
-        "name": "Скачок",
+        "name": "Blink",
         "refName": "Blink",
         "namespace": "GEM",
         "class": 18,
@@ -39113,7 +39113,7 @@
         }
     },
     "3146": {
-        "name": "Усиление зарядами",
+        "name": "Charge Infusion",
         "refName": "Charge Infusion",
         "namespace": "GEM",
         "class": 18,
@@ -39129,7 +39129,7 @@
         }
     },
     "3147": {
-        "name": "Священное сошествие",
+        "name": "Holy Descent",
         "refName": "Holy Descent",
         "namespace": "GEM",
         "class": 19,
@@ -39145,7 +39145,7 @@
         }
     },
     "3148": {
-        "name": "Пылающее начертание",
+        "name": "Burning Inscription",
         "refName": "Burning Inscription",
         "namespace": "GEM",
         "class": 19,
@@ -39161,7 +39161,7 @@
         }
     },
     "3149": {
-        "name": "Собиратель осколков",
+        "name": "Shard Scavenger",
         "refName": "Shard Scavenger",
         "namespace": "GEM",
         "class": 18,
@@ -39177,7 +39177,7 @@
         }
     },
     "3150": {
-        "name": "Два ствола",
+        "name": "Double Barrel",
         "refName": "Double Barrel",
         "namespace": "GEM",
         "class": 19,
@@ -39193,7 +39193,7 @@
         }
     },
     "3151": {
-        "name": "Автоматическая перезарядка",
+        "name": "Auto Reload",
         "refName": "Auto Reload",
         "namespace": "GEM",
         "class": 19,
@@ -39209,7 +39209,7 @@
         }
     },
     "3152": {
-        "name": "Сохранение боеприпаса",
+        "name": "Ammo Conservation",
         "refName": "Ammo Conservation",
         "namespace": "GEM",
         "class": 19,
@@ -39225,7 +39225,7 @@
         }
     },
     "3153": {
-        "name": "Ловкая перезарядка",
+        "name": "Nimble Reload",
         "refName": "Nimble Reload",
         "namespace": "GEM",
         "class": 19,
@@ -39241,7 +39241,7 @@
         }
     },
     "3154": {
-        "name": "Сменный магазин",
+        "name": "Fresh Clip",
         "refName": "Fresh Clip",
         "namespace": "GEM",
         "class": 19,
@@ -39257,7 +39257,7 @@
         }
     },
     "3155": {
-        "name": "Агнец на заклание",
+        "name": "Sacrificial Lamb",
         "refName": "Sacrificial Lamb",
         "namespace": "GEM",
         "class": 19,
@@ -39273,7 +39273,7 @@
         }
     },
     "3156": {
-        "name": "Подавляющее присутствие",
+        "name": "Overwhelming Presence",
         "refName": "Overwhelming Presence",
         "namespace": "GEM",
         "class": 18,
@@ -39289,7 +39289,7 @@
         }
     },
     "3157": {
-        "name": "Дар алхимика",
+        "name": "Alchemist's Boon",
         "refName": "Alchemist's Boon",
         "namespace": "GEM",
         "class": 18,
@@ -39305,7 +39305,7 @@
         }
     },
     "3158": {
-        "name": "Вызов жнеца",
+        "name": "Reaper's Invocation",
         "refName": "Reaper's Invocation",
         "namespace": "GEM",
         "class": 76,
@@ -39321,7 +39321,7 @@
         }
     },
     "3159": {
-        "name": "Принесение в жертву",
+        "name": "Sacrifice",
         "refName": "Sacrifice",
         "namespace": "GEM",
         "class": 18,
@@ -39337,7 +39337,7 @@
         }
     },
     "3160": {
-        "name": "Архимаг",
+        "name": "Archmage",
         "refName": "Archmage",
         "namespace": "GEM",
         "class": 18,
@@ -39353,7 +39353,7 @@
         }
     },
     "3161": {
-        "name": "Магнетический залп",
+        "name": "Magnetic Salvo",
         "refName": "Magnetic Salvo",
         "namespace": "GEM",
         "class": 18,
@@ -39369,7 +39369,7 @@
         }
     },
     "3162": {
-        "name": "Замораживающий залп",
+        "name": "Freezing Salvo",
         "refName": "Freezing Salvo",
         "namespace": "GEM",
         "class": 18,
@@ -39417,7 +39417,7 @@
         }
     },
     "3165": {
-        "name": "Берсерк",
+        "name": "Berserk",
         "refName": "Berserk",
         "namespace": "GEM",
         "class": 18,
@@ -39433,7 +39433,7 @@
         }
     },
     "3166": {
-        "name": "Вестник чумы",
+        "name": "Herald of Plague",
         "refName": "Herald of Plague",
         "namespace": "GEM",
         "class": 18,
@@ -39449,7 +39449,7 @@
         }
     },
     "3168": {
-        "name": "Истощающее присутствие",
+        "name": "Withering Presence",
         "refName": "Withering Presence",
         "namespace": "GEM",
         "class": 18,
@@ -39465,7 +39465,7 @@
         }
     },
     "3169": {
-        "name": "Начертанный Ультиматум",
+        "name": "Inscribed Ultimatum",
         "refName": "Inscribed Ultimatum",
         "namespace": "ITEM",
         "class": 100,
@@ -39477,7 +39477,7 @@
         }
     },
     "3170": {
-        "name": "Боевое бешенство",
+        "name": "Combat Frenzy",
         "refName": "Combat Frenzy",
         "namespace": "GEM",
         "class": 18,
@@ -39493,7 +39493,7 @@
         }
     },
     "3171": {
-        "name": "Сотворение чар при блоке",
+        "name": "Cast on Block",
         "refName": "Cast on Block",
         "namespace": "GEM",
         "class": 76,
@@ -39509,7 +39509,7 @@
         }
     },
     "3172": {
-        "name": "Грядущая буря",
+        "name": "Gathering Storm",
         "refName": "Gathering Storm",
         "namespace": "GEM",
         "class": 18,
@@ -39541,7 +39541,7 @@
         }
     },
     "3174": {
-        "name": "Разорение",
+        "name": "Despoiler",
         "refName": "Despoiler",
         "namespace": "GEM",
         "class": 19,
@@ -39557,7 +39557,7 @@
         }
     },
     "3175": {
-        "name": "Рикошет",
+        "name": "Ricochet",
         "refName": "Ricochet",
         "namespace": "GEM",
         "class": 19,
@@ -39573,7 +39573,7 @@
         }
     },
     "3176": {
-        "name": "Безотлагательность предков",
+        "name": "Ancestral Urgency",
         "refName": "Ancestral Urgency",
         "namespace": "GEM",
         "class": 19,
@@ -39589,7 +39589,7 @@
         }
     },
     "3177": {
-        "name": "Длинный запал",
+        "name": "Long Fuse",
         "refName": "Long Fuse",
         "namespace": "GEM",
         "class": 19,
@@ -39605,7 +39605,7 @@
         }
     },
     "3178": {
-        "name": "Боезаряд",
+        "name": "Payload",
         "refName": "Payload",
         "namespace": "GEM",
         "class": 19,
@@ -39621,7 +39621,7 @@
         }
     },
     "3179": {
-        "name": "Сдирание",
+        "name": "Strip Away",
         "refName": "Strip Away",
         "namespace": "GEM",
         "class": 19,
@@ -39637,7 +39637,7 @@
         }
     },
     "3180": {
-        "name": "Железное дерево",
+        "name": "Ironwood",
         "refName": "Ironwood",
         "namespace": "GEM",
         "class": 19,
@@ -39653,7 +39653,7 @@
         }
     },
     "3181": {
-        "name": "Вдумчивое сотворение",
+        "name": "Considered Casting",
         "refName": "Considered Casting",
         "namespace": "GEM",
         "class": 19,
@@ -39669,7 +39669,7 @@
         }
     },
     "3182": {
-        "name": "Шальные осколки",
+        "name": "Wildshards",
         "refName": "Wildshards",
         "namespace": "GEM",
         "class": 19,
@@ -39685,7 +39685,7 @@
         }
     },
     "3183": {
-        "name": "Сосулька",
+        "name": "Icicle",
         "refName": "Icicle",
         "namespace": "GEM",
         "class": 19,
@@ -39701,7 +39701,7 @@
         }
     },
     "3184": {
-        "name": "Ледник",
+        "name": "Glacier",
         "refName": "Glacier",
         "namespace": "GEM",
         "class": 19,
@@ -39717,7 +39717,7 @@
         }
     },
     "3185": {
-        "name": "Тяжесть",
+        "name": "Heft",
         "refName": "Heft",
         "namespace": "GEM",
         "class": 19,
@@ -39733,7 +39733,7 @@
         }
     },
     "3186": {
-        "name": "Поднимающийся шквал",
+        "name": "Rising Tempest",
         "refName": "Rising Tempest",
         "namespace": "GEM",
         "class": 19,
@@ -39749,7 +39749,7 @@
         }
     },
     "3187": {
-        "name": "Извлечение",
+        "name": "Extraction",
         "refName": "Extraction",
         "namespace": "GEM",
         "class": 19,
@@ -39765,7 +39765,7 @@
         }
     },
     "3188": {
-        "name": "Астральная проекция",
+        "name": "Astral Projection",
         "refName": "Astral Projection",
         "namespace": "GEM",
         "class": 19,
@@ -39781,7 +39781,7 @@
         }
     },
     "3189": {
-        "name": "Отработанный приём",
+        "name": "Practiced Combo",
         "refName": "Practiced Combo",
         "namespace": "GEM",
         "class": 19,
@@ -39797,7 +39797,7 @@
         }
     },
     "3190": {
-        "name": "Перевес",
+        "name": "Leverage",
         "refName": "Leverage",
         "namespace": "GEM",
         "class": 19,
@@ -39813,7 +39813,7 @@
         }
     },
     "3191": {
-        "name": "Кульминация",
+        "name": "Culmination",
         "refName": "Culmination",
         "namespace": "GEM",
         "class": 19,
@@ -39829,7 +39829,7 @@
         }
     },
     "3192": {
-        "name": "Потенциал",
+        "name": "Potential",
         "refName": "Potential",
         "namespace": "GEM",
         "class": 19,
@@ -39845,7 +39845,7 @@
         }
     },
     "3193": {
-        "name": "Распространение",
+        "name": "Expanse",
         "refName": "Expanse",
         "namespace": "GEM",
         "class": 19,
@@ -39861,7 +39861,7 @@
         }
     },
     "3194": {
-        "name": "Рассечение",
+        "name": "Excise",
         "refName": "Excise",
         "namespace": "GEM",
         "class": 19,
@@ -39877,7 +39877,7 @@
         }
     },
     "3195": {
-        "name": "Расправа",
+        "name": "Execrate",
         "refName": "Execrate",
         "namespace": "GEM",
         "class": 19,
@@ -39893,7 +39893,7 @@
         }
     },
     "3196": {
-        "name": "Сохранение энергии",
+        "name": "Energy Retention",
         "refName": "Energy Retention",
         "namespace": "GEM",
         "class": 19,
@@ -39909,7 +39909,7 @@
         }
     },
     "3197": {
-        "name": "Дикость",
+        "name": "Ferocity",
         "refName": "Ferocity",
         "namespace": "GEM",
         "class": 19,
@@ -39925,7 +39925,7 @@
         }
     },
     "3198": {
-        "name": "Самоотдача",
+        "name": "Ablation",
         "refName": "Ablation",
         "namespace": "GEM",
         "class": 19,
@@ -39941,7 +39941,7 @@
         }
     },
     "3199": {
-        "name": "Пляска смерти",
+        "name": "Danse Macabre",
         "refName": "Danse Macabre",
         "namespace": "GEM",
         "class": 19,
@@ -39957,7 +39957,7 @@
         }
     },
     "3200": {
-        "name": "Накопитель",
+        "name": "Capacitor",
         "refName": "Capacitor",
         "namespace": "GEM",
         "class": 19,
@@ -39973,7 +39973,7 @@
         }
     },
     "3201": {
-        "name": "Импульс",
+        "name": "Impetus",
         "refName": "Impetus",
         "namespace": "GEM",
         "class": 19,
@@ -39989,7 +39989,7 @@
         }
     },
     "3202": {
-        "name": "Приказание",
+        "name": "Bidding",
         "refName": "Bidding",
         "namespace": "GEM",
         "class": 19,
@@ -40021,7 +40021,7 @@
         }
     },
     "3204": {
-        "name": "Янтарный шквал",
+        "name": "Ember Fusillade",
         "refName": "Ember Fusillade",
         "namespace": "GEM",
         "class": 18,
@@ -40037,7 +40037,7 @@
         }
     },
     "3205": {
-        "name": "Искра",
+        "name": "Spark",
         "refName": "Spark",
         "namespace": "GEM",
         "class": 18,
@@ -40053,7 +40053,7 @@
         }
     },
     "3206": {
-        "name": "Вздымающаяся земля",
+        "name": "Expanding Ground",
         "refName": "Expanding Ground",
         "namespace": "GEM",
         "class": 19,
@@ -40069,7 +40069,7 @@
         }
     },
     "3207": {
-        "name": "Удар грома",
+        "name": "Lightning Bolt",
         "refName": "Lightning Bolt",
         "namespace": "GEM",
         "class": 18,

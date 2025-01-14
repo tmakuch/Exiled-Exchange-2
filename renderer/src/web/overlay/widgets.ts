@@ -44,7 +44,7 @@ export interface PriceCheckWidget extends Widget {
   builtinBrowser: boolean;
   usePseudo: boolean;
   rememberCurrency: boolean;
-  defaultAllSelected: boolean;
+  showSuggestWarning: "none" | "warn" | "help";
 }
 
 export interface StopwatchWidget extends Widget {

@@ -25,7 +25,7 @@ export default {
   ATTACK_SPEED: 'Атак в секунду: ',
   ARMOUR: 'Броня: ',
   EVASION: 'Уклонение: ',
-  ENERGY_SHIELD: 'Энергетический щит: ',
+  ENERGY_SHIELD: 'Энерг. щит: ',
   BLOCK_CHANCE: 'Шанс заблокировать удар: ',
   CORRUPTED: 'Осквернено',
   UNIDENTIFIED: 'Неопознано',
@@ -144,8 +144,5 @@ export default {
   CHARM_HELP_TEXT: 'Используется автоматически при определённых условиях',
   FIRE_DAMAGE: 'Урон от огня:',
   LIGHTNING_DAMAGE: 'Урон от молнии:',
-  COLD_DAMAGE: 'Урон от холода:',
-  PRICE_NOTE: 'Примечание: ',
-  WAYSTONE_TIER: 'Путевой камень Ур.:',
-  WAYSTONE_HELP: 'Можно использовать в Машине картоходца,'
+  COLD_DAMAGE: 'Урон от холода:'
 }

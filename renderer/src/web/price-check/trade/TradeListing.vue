@@ -11,15 +11,39 @@
         :by-time="true"
         :filters="filters"
         :currency-ratio="true"
+        :suggest="suggest"
       />
       <div class="flex-1"></div>
-      <trade-links
-        v-if="list && showPseudoLink"
-        :get-link="makeTradeLinkPseudo"
-        text="filters.tag_pseudo"
-        class="mr-1"
-      />
       <trade-links v-if="list" :get-link="makeTradeLink" />
+    </div>
+    <ui-popover
+      :delay="[150, null]"
+      placement="bottom-end"
+      boundary="#price-window"
+      v-if="suggest && showSuggestWarning === 'help'"
+    >
+      <template #target>
+        <div v-if="suggest" class="mb-4 text-center bg-orange-800 rounded-xl">
+          <div class="font-bold" v-if="suggest.confidenceLevel === 'High'">
+            {{ t(":results_warn_title") }}
+          </div>
+          {{ suggest.text }}
+        </div>
+      </template>
+      <template #content>
+        <div style="max-width: 18.5rem" class="text-xs">
+          {{ t(":results_warn_tooltip") }}
+        </div>
+      </template>
+    </ui-popover>
+    <div
+      v-if="suggest && showSuggestWarning === 'warn'"
+      class="mb-4 text-center bg-orange-800 rounded-xl"
+    >
+      <div class="font-bold" v-if="suggest.confidenceLevel === 'High'">
+        {{ t(":results_warn_title") }}
+      </div>
+      {{ suggest.text }}
     </div>
 
     <div class="layout-column overflow-y-auto overflow-x-hidden">
@@ -151,6 +175,7 @@ import {
   inject,
   shallowReactive,
   shallowRef,
+  ref,
 } from "vue";
 import { useI18nNs } from "@/web/i18n";
 import UiPopover from "@/web/ui/Popover.vue";
@@ -169,14 +194,13 @@ import {
   ItemFilters,
   RuneFilter,
   StatFilter,
-  WeightStatGroup,
+  Suggestion,
 } from "../filters/interfaces";
 import { ParsedItem } from "@/parser";
 import { artificialSlowdown } from "./artificial-slowdown";
 import OnlineFilter from "./OnlineFilter.vue";
 import TradeLinks from "./TradeLinks.vue";
 import { Host } from "@/web/background/IPC";
-import { CURRENCY_RATIO } from "@/web/price-check/filters/create-item-filters";
 
 const slowdown = artificialSlowdown(900);
 
@@ -270,7 +294,7 @@ function useTradeApi() {
         await Promise.all([r1, r2]);
       }
 
-      if (filters.trade.currencyRatio !== CURRENCY_RATIO) {
+      if (filters.trade.currencyRatio) {
         // Check if there exists any entry with priceCurrency "DIVINE"
         const hasDivine = fetchResults.value.some(
           (result) => result.priceCurrency === "divine",
@@ -353,10 +377,6 @@ export default defineComponent({
       type: Array as PropType<RuneFilter[]>,
       required: true,
     },
-    weightFilters: {
-      type: Array as PropType<WeightStatGroup[]>,
-      required: true,
-    },
   },
   setup(props) {
     const widget = computed(() => AppConfig<PriceCheckWidget>("price-check")!);
@@ -372,6 +392,7 @@ export default defineComponent({
 
     const showBrowser = inject<(url: string) => void>("builtin-browser")!;
 
+    const suggest = ref<Suggestion | undefined>(undefined);
     const { t } = useI18nNs("trade_result");
 
     function makeTradeLink() {
@@ -380,13 +401,86 @@ export default defineComponent({
         : `https://${getTradeEndpoint()}/trade2/search/poe2/${props.filters.trade.league}?q=${JSON.stringify(createTradeRequest(props.filters, props.stats, props.item, props.runeFilters))}`;
     }
 
-    function makeTradeLinkPseudo() {
-      return `https://${getTradeEndpoint()}/trade2/search/poe2/${props.filters.trade.league}?q=${JSON.stringify(createTradeRequest(props.filters, props.stats, props.item, props.runeFilters, props.weightFilters))}`;
-    }
+    watch(groupedResults, (values) => {
+      if (
+        widget.value.showSuggestWarning !== "none" &&
+        !props.filters.trade.currency
+      ) {
+        if (!values.length) return;
+        const totalResults = values.length;
+        const divineResults = values.filter(
+          (result) => result.priceCurrency === "divine",
+        );
+        const divineCount = divineResults.length;
+        if (!divineCount) return;
+        const exaltResults = values.filter(
+          (result) => result.priceCurrency === "exalted",
+        );
+        const exaltCount = exaltResults.length;
+        const maxDivine = divineResults.reduce(
+          (max, result) => Math.max(max, result.priceAmount),
+          0,
+        );
+        const maxExalt = exaltResults.reduce(
+          (max, result) => Math.max(max, result.priceAmount),
+          0,
+        );
+        const oneDivCount = divineResults.filter(
+          (result) => result.priceAmount === 1,
+        ).length;
+        const text = t(":results_warn_message", [
+          maxDivine * 7.5,
+          props.filters.trade.currencyRatio ?? 100 * maxDivine,
+        ]);
+        if (oneDivCount === totalResults) {
+          // console.log("Condition only one div");
+          suggest.value = {
+            type: "exalted",
+            text,
+            confidenceLevel: "High",
+          };
+        } else if (
+          divineCount === totalResults &&
+          divineResults.every((result) => result.priceAmount <= 3)
+        ) {
+          // console.log("All divs and less than 3 max");
+          suggest.value = {
+            type: "exalted",
+            text,
+            confidenceLevel: "Low",
+          };
+        } else if (
+          divineCount > (totalResults / 3) * 2 &&
+          divineCount < totalResults &&
+          maxDivine <= 3
+        ) {
+          // console.log("divs more than 2/3 of results and less than 3 max");
+          suggest.value = {
+            type: "exalted",
+            text,
+            confidenceLevel: "Medium",
+          };
+        } else if (
+          divineCount > totalResults / 2 &&
+          exaltCount > 0 &&
+          maxExalt <= 30
+        ) {
+          // console.log("Exalted and less than 30 max");
+          suggest.value = {
+            type: "exalted",
+            text,
+            confidenceLevel: "Medium",
+          };
+        } else {
+          suggest.value = undefined;
+        }
+      }
+    });
 
     return {
       t,
       list: searchResult,
+      suggest,
       groupedResults: computed(() => {
         if (!slowdown.isReady.value) {
           return Array<undefined>(SHOW_RESULTS);
@@ -404,8 +498,8 @@ export default defineComponent({
       },
       error,
       showSeller: computed(() => widget.value.showSeller),
+      showSuggestWarning: computed(() => widget.value.showSuggestWarning),
       makeTradeLink,
-      makeTradeLinkPseudo,
       openTradeLink() {
         if (widget.value.builtinBrowser && Host.isElectron) {
           showBrowser(makeTradeLink());
@@ -413,14 +507,6 @@ export default defineComponent({
           window.open(makeTradeLink());
         }
       },
-      showPseudoLink: computed(
-        () =>
-          props.weightFilters.length &&
-          !(
-            widget.value.usePseudo &&
-            ["en", "ru", "ko", "cmn-Hant"].includes(AppConfig().language)
-          ),
-      ),
     };
   },
 });

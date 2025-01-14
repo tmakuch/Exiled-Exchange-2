@@ -1,6 +1,5 @@
-import { ItemRarity, ParsedItem } from "@/parser";
+import { ParsedItem } from "@/parser";
 import { RuneFilter } from "./interfaces";
-import { Rune } from "@/parser/ParsedItem";
 
 export function createRuneFilters(
   item: ParsedItem,
@@ -23,19 +22,11 @@ export function createRuneFilters(
         rune: rune.rune,
         isEmpty: rune.isEmpty,
         text: rune.text,
-        disabled: shouldRuneBeDisabled(rune, item.rarity),
+        disabled: rune.isEmpty && !(rune.isFake ?? false),
         isFake: rune.isFake ?? false,
       });
     }
   }
 
   return filters;
-}
-
-function shouldRuneBeDisabled(rune: Rune, rarity?: ItemRarity) {
-  if (rarity === ItemRarity.Unique) {
-    return false;
-  } else {
-    return rune.isEmpty && !(rune.isFake ?? false);
-  }
 }

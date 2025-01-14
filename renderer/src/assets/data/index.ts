@@ -9,7 +9,6 @@ import type {
   StatMatcher,
   TranslationDict,
 } from "./interfaces";
-import { loadClientStrings } from "../client-string-loader";
 
 export * from "./interfaces";
 
@@ -110,7 +109,7 @@ function itemNamesFromLines(items: Generator<BaseType>) {
   };
 }
 
-async function loadItems(language: string, isTest = false) {
+async function loadItems(language: string) {
   const ndjson = await (
     await fetch(`${import.meta.env.BASE_URL}data/${language}/items.ndjson`)
   ).text();
@@ -172,7 +171,7 @@ async function loadItems(language: string, isTest = false) {
   RUNE_LIST = Array.from(ITEMS_ITERATOR('Rune", "namespace": "ITEM",'));
 }
 
-async function loadStats(language: string, isTest = false) {
+async function loadStats(language: string) {
   const ndjson = await (
     await fetch(`${import.meta.env.BASE_URL}data/${language}/stats.ndjson`)
   ).text();
@@ -237,8 +236,12 @@ export function stat(text: string) {
   return text;
 }
 
-export async function init(lang: string, isTest = false) {
-  CLIENT_STRINGS_REF = await loadClientStrings("en");
+export async function init(lang: string) {
+  CLIENT_STRINGS_REF = (
+    await import(
+      /* @vite-ignore */ `${import.meta.env.BASE_URL}data/en/client_strings.js`
+    )
+  ).default;
   ITEM_DROP = await (
     await fetch(`${import.meta.env.BASE_URL}data/item-drop.json`)
   ).json();
@@ -256,7 +259,7 @@ export async function init(lang: string, isTest = false) {
 
   RUNE_DATA_BY_RUNE = convertRuneSingleValueToRuneDataByRune(RUNE_SINGLE_VALUE);
 
-  await loadForLang(lang, isTest);
+  await loadForLang(lang);
 
   let failed = false;
   const missing = [];
@@ -279,8 +282,12 @@ export async function init(lang: string, isTest = false) {
   DELAYED_STAT_VALIDATION.clear();
 }
 
-export async function loadForLang(lang: string, isTest = false) {
-  CLIENT_STRINGS = await loadClientStrings(lang);
+export async function loadForLang(lang: string) {
+  CLIENT_STRINGS = (
+    await import(
+      /* @vite-ignore */ `${import.meta.env.BASE_URL}data/${lang}/client_strings.js`
+    )
+  ).default;
   await loadItems(lang);
   await loadStats(lang);
 }
