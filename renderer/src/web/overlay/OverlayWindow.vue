@@ -98,7 +98,7 @@ export default defineComponent({
     WidgetItemSearch,
     WidgetSettings,
     LoadingAnimation,
-    WidgetFilterGenerator
+    WidgetFilterGenerator,
   },
   setup() {
     usePoeninja();
@@ -327,13 +327,16 @@ export default defineComponent({
       setFlag,
     });
 
-    function handleBackgroundClick () {
+    function handleBackgroundClick() {
       if (AppConfig().overlayAlwaysClose) {
-        Host.sendEvent({ name: 'OVERLAY->MAIN::focus-game', payload: undefined })
+        Host.sendEvent({
+          name: "OVERLAY->MAIN::focus-game",
+          payload: undefined,
+        });
       } else if (!Host.isElectron) {
-        const widget = topmostOrExclusiveWidget.value
-        if (widget.wmZorder === 'exclusive') {
-          hide(widget.wmId)
+        const widget = topmostOrExclusiveWidget.value;
+        if (widget.wmZorder === "exclusive") {
+          hide(widget.wmId);
         }
       } else if (AppConfig().overlayBackgroundClose) {
         Host.sendEvent({

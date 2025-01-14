@@ -31,35 +31,38 @@
           >
             <i class="fas fa-times text-gray-400" />
           </button>
-          <select v-model="entry.action" class="p-1 rounded bg-gray-700 col-start-2">
+          <select
+            v-model="entry.action"
+            class="p-1 rounded bg-gray-700 col-start-2"
+          >
             <option value="interesting">Show as interesting item</option>
             <option value="exalt">Show as Exalted Orb</option>
             <option value="hide">Hide</option>
           </select>
           <div
-              v-for="(identifier, identifierIdx) in entry.identifiers"
-              :class="$style.identifiers"
+            v-for="(identifier, identifierIdx) in entry.identifiers"
+            :class="$style.identifiers"
           >
             <input
-                v-model="identifier.key"
-                :placeholder="t('filter_generator.identifier_key')"
-                class="bg-gray-700 px-1 col-start-1 rounded"
+              v-model="identifier.key"
+              :placeholder="t('filter_generator.identifier_key')"
+              class="bg-gray-700 px-1 col-start-1 rounded"
             />
             <input
-                v-model="identifier.value"
-                :placeholder="t('filter_generator.identifier_value')"
-                class="bg-gray-700 px-1 col-start-2 rounded"
+              v-model="identifier.value"
+              :placeholder="t('filter_generator.identifier_value')"
+              class="bg-gray-700 px-1 col-start-2 rounded"
             />
             <button
-                class="rounded-r bg-gray-700 w-6 h-6 col-start-3"
-                @click="removeIdentifier(entry, identifierIdx)"
+              class="rounded-r bg-gray-700 w-6 h-6 col-start-3"
+              @click="removeIdentifier(entry, identifierIdx)"
             >
               <i class="fas fa-times text-gray-400" />
             </button>
           </div>
           <button
-              class="rounded-r bg-gray-900 px-2 col-start-2 leading-6"
-              @click="addIdentifier(entry)"
+            class="rounded-r bg-gray-900 px-2 col-start-2 leading-6"
+            @click="addIdentifier(entry)"
           >
             {{ t("filter_generator.identifier_add") }}
           </button>
@@ -92,31 +95,32 @@ export default defineComponent({
       title: configModelValue(() => props.configWidget, "wmTitle"),
       entries: configModelValue(() => props.configWidget, "entries"),
       removeEntry(id: number) {
-        console.log(props.configWidget.entries)
+        console.log(props.configWidget.entries);
         props.configWidget.entries = props.configWidget.entries.filter(
           (_) => _.id !== id,
         );
       },
       addEntry() {
-        console.log(...props.configWidget.entries.map((_) => _.id))
+        console.log(...props.configWidget.entries.map((_) => _.id));
         props.configWidget.entries.push({
           id: Math.max(0, ...props.configWidget.entries.map((_) => _.id)) + 1,
           name: "",
-          identifiers: [
-            { key: "", value: ""}
-          ],
-          action: "interesting"
+          identifiers: [{ key: "", value: "" }],
+          action: "interesting",
         });
       },
       addIdentifier(entry: FilterGeneratorWidget["entries"][number]) {
         entry.identifiers.push({
           key: "",
           value: "",
-        })
+        });
       },
-      removeIdentifier(entry: FilterGeneratorWidget["entries"][number], identifierIdx: number) {
-        entry.identifiers.splice(identifierIdx, 1)
-      }
+      removeIdentifier(
+        entry: FilterGeneratorWidget["entries"][number],
+        identifierIdx: number,
+      ) {
+        entry.identifiers.splice(identifierIdx, 1);
+      },
     };
   },
 });

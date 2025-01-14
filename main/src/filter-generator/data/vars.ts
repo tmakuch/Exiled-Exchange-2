@@ -10,7 +10,7 @@ export const FONT_SIZE = {
   T1: 24, //default
   T2: 36, //interesting stuff
   T3: 44, //important stuff
-}
+};
 
 export const RARITY = {
   NORMAL: "Normal",
@@ -38,7 +38,7 @@ export const BASE_TYPES = {
     T15: "Waystone (Tier 15)",
     T16: "Waystone (Tier 16)",
   },
-}
+};
 
 const colors = {
   WHITE: { r: 255, g: 255, b: 255 },
@@ -114,13 +114,19 @@ const colors = {
   },
 };
 
-export const RGBA: Record<keyof typeof colors, (overides?: number | Partial<Color>) => string> =
-  Object.entries(colors).reduce((result, [key, value]) => {
-    result[key as keyof typeof colors] = (overrides?: number | Partial<Color>) => {
-      overrides =
-        typeof overrides === "number" ? {a: overrides} : overrides || {};
-      const overridden = Object.assign({}, value, overrides);
-      return `${overridden.r} ${overridden.g} ${overridden.b} ${overridden.a ?? 255}`;
-    }
-    return result;
-  }, {} as Record<keyof typeof colors, (overides?: number | Partial<Color>) => string>);
+export const RGBA: Record<
+  keyof typeof colors,
+  (overides?: number | Partial<Color>) => string
+> = Object.entries(colors).reduce((result, [key, value]) => {
+  result[key as keyof typeof colors] = (
+    overrides?: number | Partial<Color>
+  ) => {
+    overrides =
+      typeof overrides === "number" ? { a: overrides } : overrides || {};
+    const overridden = Object.assign({}, value, overrides);
+    return `${overridden.r} ${overridden.g} ${overridden.b} ${
+      overridden.a ?? 255
+    }`;
+  };
+  return result;
+}, {} as Record<keyof typeof colors, (overides?: number | Partial<Color>) => string>);

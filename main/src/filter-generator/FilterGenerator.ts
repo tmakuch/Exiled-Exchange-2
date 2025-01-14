@@ -23,7 +23,14 @@ export class FilterGenerator {
     this.server.onEventAnyClient("CLIENT->MAIN::user-action", (e) => {
       switch (e.action) {
         case "filter-generator:update": {
-          this.updateFilterFile(JSON.parse(e.text) as { folder: string, file: string, strategy: 'before' | 'after',  rules: Array<IRawFilter> });
+          this.updateFilterFile(
+            JSON.parse(e.text) as {
+              folder: string;
+              file: string;
+              strategy: "before" | "after";
+              rules: Array<IRawFilter>;
+            }
+          );
           return;
         }
         case "filter-generator:list": {
@@ -34,7 +41,12 @@ export class FilterGenerator {
     });
   }
 
-  async updateFilterFile(event: { folder: string, file: string, strategy: 'before' | 'after', rules: Array<IRawFilter> }) {
+  async updateFilterFile(event: {
+    folder: string;
+    file: string;
+    strategy: "before" | "after";
+    rules: Array<IRawFilter>;
+  }) {
     this.logger.write(
       "info  [FilterGenerator] Received filter generation request"
     );
@@ -43,7 +55,8 @@ export class FilterGenerator {
 
     if (!path.isAbsolute(targetPath)) {
       this.logger.write(
-        "error [FilterGenerator] Target filter paths could not be properly resolved, received: " + targetPath
+        "error [FilterGenerator] Target filter paths could not be properly resolved, received: " +
+          targetPath
       );
       return;
     }
@@ -52,16 +65,22 @@ export class FilterGenerator {
     let newFilterFileContent;
 
     try {
-      oldFilterFileContent = await fs.readFile(targetPath, 'utf-8');
+      oldFilterFileContent = await fs.readFile(targetPath, "utf-8");
     } catch (e) {
-      const errMsg = (e as Error)?.message || e as string;
-      this.logger.write(`error [FilterGenerator] Could not read selected file: ${errMsg}`);
+      const errMsg = (e as Error)?.message || (e as string);
+      this.logger.write(
+        `error [FilterGenerator] Could not read selected file: ${errMsg}`
+      );
       return;
     }
 
     try {
       const customFilters = getFilters(event.rules);
-      newFilterFileContent = getFiltersContent(event.strategy, oldFilterFileContent, customFilters);
+      newFilterFileContent = getFiltersContent(
+        event.strategy,
+        oldFilterFileContent,
+        customFilters
+      );
     } catch (e) {
       const errMsg = (e as Error)?.message || (e as string);
       this.logger.write(
@@ -85,13 +104,15 @@ export class FilterGenerator {
 
   async sendListOfFilters(folder: string) {
     try {
-      const listOfFilters = (await fs.readdir(folder || this.docsPath)).filter((fileName: string) => fileName.endsWith('.filter'));
-      this.server.sendEventTo('last-active', {
+      const listOfFilters = (await fs.readdir(folder || this.docsPath)).filter(
+        (fileName: string) => fileName.endsWith(".filter")
+      );
+      this.server.sendEventTo("last-active", {
         name: "MAIN->CLIENT::filter-generator:list",
         payload: {
           folder: folder || this.docsPath,
           files: listOfFilters,
-        }
+        },
       });
     } catch (e) {
       const errMsg = (e as Error)?.message || (e as string);

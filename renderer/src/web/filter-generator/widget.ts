@@ -11,7 +11,7 @@ export interface FilterGeneratorWidget extends Widget {
     identifiers: Array<{
       key: string;
       value: string;
-    }>,
+    }>;
     action: "interesting" | "exalt" | "hide";
   }>;
 }

@@ -283,7 +283,7 @@ export default defineComponent({
 function menuByType(type?: string) {
   switch (type) {
     case "filter-generator":
-      return [[SettingsFilterGeneratorAbout, SettingsFilterGeneratorEditor]]
+      return [[SettingsFilterGeneratorAbout, SettingsFilterGeneratorEditor]];
     case "stash-search":
       return [[SettingsStashSearch]];
     case "timer":

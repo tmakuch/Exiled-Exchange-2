@@ -8,10 +8,7 @@
         <span class="truncate">{{ config.wmTitle || "Untitled" }}</span>
       </div>
       <div class="flex flex-col gap-y-1 overflow-y-auto min-h-0">
-        <button
-            @click="openSettings()"
-            :class="$style.btn"
-        >
+        <button @click="openSettings()" :class="$style.btn">
           {{ t("filter_generator.open_settings") }}
         </button>
 
@@ -20,11 +17,15 @@
           @click="regenerateFilter()"
           :class="$style.btn"
         >
-          {{ t("filter_generator.update_filter") }} <br/>
+          {{ t("filter_generator.update_filter") }} <br />
           {{ config.selectedFilterFile }}
         </button>
-        <span v-if="config.selectedFilterFile?.length">{{ t("filter_generator.update_disclaimer") }}</span>
-        <span v-if="!(config.selectedFilterFile?.length)">First select a file you want to be updated with your rules.</span>
+        <span v-if="config.selectedFilterFile?.length">{{
+          t("filter_generator.update_disclaimer")
+        }}</span>
+        <span v-if="!config.selectedFilterFile?.length"
+          >First select a file you want to be updated with your rules.</span
+        >
       </div>
     </div>
   </Widget>
@@ -57,26 +58,23 @@ if (props.config.wmFlags[0] === "uninitialized") {
 }
 
 function openSettings() {
-  const settings = wm.widgets.value.find(
-      (w) => w.wmType === "settings",
-  )!;
-  wm.setFlag(
-      settings.wmId,
-      `settings:widget:${props.config.wmId}`,
-      true,
-  );
+  const settings = wm.widgets.value.find((w) => w.wmType === "settings")!;
+  wm.setFlag(settings.wmId, `settings:widget:${props.config.wmId}`, true);
   wm.show(settings.wmId);
 }
 
 function regenerateFilter() {
   MainProcess.sendEvent({
     name: "CLIENT->MAIN::user-action",
-    payload: { action: "filter-generator:update", text: JSON.stringify({
-      folder: props.config.filtersFolder,
-      file: props.config.selectedFilterFile,
-      strategy: props.config.filterStrategy,
-      rules: props.config.entries,
-    }) },
+    payload: {
+      action: "filter-generator:update",
+      text: JSON.stringify({
+        folder: props.config.filtersFolder,
+        file: props.config.selectedFilterFile,
+        strategy: props.config.filterStrategy,
+        rules: props.config.entries,
+      }),
+    },
   });
 }
 
