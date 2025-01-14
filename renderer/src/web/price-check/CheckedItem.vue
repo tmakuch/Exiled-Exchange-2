@@ -11,6 +11,7 @@
       :item="item"
       :presets="presets"
       :runes="runeFilters"
+      :weightFilters="weightFilters"
       :change-item="changeItem"
       @preset="selectPreset"
       @submit="doSearch = true"
@@ -23,6 +24,7 @@
       :stats="itemStats"
       :item="item"
       :runeFilters="runeFilters"
+      :weightFilters="weightFilters"
     />
     <trade-bulk
       v-if="tradeAPI === 'bulk' && doSearch"
@@ -36,7 +38,14 @@
           {{ t("Search") }}
         </button>
       </div>
-      <trade-links v-if="tradeAPI === 'trade'" :get-link="makeTradeLink" />
+      <div class="flex flex-row gap-1">
+        <trade-links
+          v-if="tradeAPI === 'trade' && showPseudoLink"
+          :get-link="makeTradeLinkPseudo"
+          text="filters.tag_pseudo"
+        />
+        <trade-links v-if="tradeAPI === 'trade'" :get-link="makeTradeLink" />
+      </div>
     </div>
     <stack-value :filters="itemFilters" :item="item" />
     <div v-if="showSupportLinks" class="mt-auto border border-dashed p-2">
@@ -154,6 +163,12 @@ export default defineComponent({
           (preset) => preset.id === presets.value.active,
         )!.runeFilters,
     );
+    const weightFilters = computed(
+      () =>
+        presets.value.presets.find(
+          (preset) => preset.id === presets.value.active,
+        )!.weightFilters,
+    );
     const doSearch = ref(false);
     const tradeAPI = ref<"trade" | "bulk">("bulk");
 
@@ -187,6 +202,7 @@ export default defineComponent({
           usePseudo:
             widget.value.usePseudo &&
             ["en", "ru", "ko", "cmn-Hant"].includes(lang.value),
+          defaultAllSelected: widget.value.defaultAllSelected,
         });
 
         if (
@@ -340,6 +356,7 @@ export default defineComponent({
       itemFilters,
       itemStats,
       runeFilters,
+      weightFilters,
       doSearch,
       tradeAPI,
       tradeService,
@@ -357,8 +374,19 @@ export default defineComponent({
       selectPreset(id: string) {
         presets.value.active = id;
       },
+      showPseudoLink: computed(
+        () =>
+          weightFilters.value.length &&
+          !(
+            widget.value.usePseudo &&
+            ["en", "ru", "ko", "cmn-Hant"].includes(AppConfig().language)
+          ),
+      ),
       makeTradeLink() {
         return `https://${getTradeEndpoint()}/trade2/search/poe2/${itemFilters.value.trade.league}?q=${JSON.stringify(createTradeRequest(itemFilters.value, itemStats.value, props.item, runeFilters.value))}`;
+      },
+      makeTradeLinkPseudo() {
+        return `https://${getTradeEndpoint()}/trade2/search/poe2/${itemFilters.value.trade.league}?q=${JSON.stringify(createTradeRequest(itemFilters.value, itemStats.value, props.item, runeFilters.value, weightFilters.value))}`;
       },
     };
   },

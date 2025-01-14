@@ -8,6 +8,22 @@ export interface StatMatcher {
   oils?: string; // Amulet anointment
 }
 
+export interface StatTier {
+  ilvl: number;
+  id: string;
+  name: string;
+  values: number[][];
+  items: string[];
+}
+
+export interface StatTierMod {
+  id: string;
+  items: {
+    [type: string]: number;
+  };
+  mods: StatTier[];
+}
+
 export enum StatBetter {
   NegativeRoll = -1,
   PositiveRoll = 1,
@@ -29,6 +45,26 @@ export interface Stat {
     ids: {
       [type: string]: string[];
     };
+  };
+  tiers?: {
+    [key: string]:
+      | StatTierMod[]
+      | { [type: string]: StatTierMod }
+      | {
+          [type: string]: number[][];
+        };
+    explicit: StatTierMod[];
+    implicit: {
+      [type: string]: StatTierMod;
+    };
+    unique: {
+      [type: string]: number[][];
+    };
+    corruption: StatTierMod[];
+    crafted: StatTierMod[];
+    jewel: StatTierMod[];
+    corruptionjewel: StatTierMod[];
+    uniquejewel: StatTierMod[];
   };
   // isFakePseudo?: true;
 }
@@ -194,6 +230,9 @@ export interface TranslationDict {
   FIRE_DAMAGE: string;
   LIGHTNING_DAMAGE: string;
   COLD_DAMAGE: string;
+  PRICE_NOTE: string;
+  WAYSTONE_TIER: string;
+  WAYSTONE_HELP: string;
 }
 
 export interface Filter {
