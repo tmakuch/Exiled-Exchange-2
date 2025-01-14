@@ -6,7 +6,7 @@ import type * as widget from "./overlay/widgets";
 import type { StashSearchWidget } from "./stash-search/widget";
 import type { ItemCheckWidget } from "./item-check/widget";
 import type { ItemSearchWidget } from "./item-search/widget";
-import type {FilterGeneratorWidget} from "./filter-generator/widget";
+import type { FilterGeneratorWidget } from "./filter-generator/widget";
 
 const _config = shallowRef<Config | null>(null);
 let _lastSavedConfig: Config | null = null;
@@ -136,7 +136,7 @@ export interface Config {
 }
 
 export const defaultConfig = (): Config => ({
-  configVersion: 19,
+  configVersion: 20,
   overlayKey: "Shift + Space",
   overlayBackground: "rgba(129, 139, 149, 0.15)",
   overlayBackgroundClose: true,
@@ -372,18 +372,14 @@ export const defaultConfig = (): Config => ({
         {
           id: 1,
           name: "Scroll of Wisdom",
-          identifiers: [
-            { key: "BaseType", value: "Scroll of Wisdom" },
-          ],
-          action: "hide"
+          identifiers: [{ key: "BaseType", value: "Scroll of Wisdom" }],
+          action: "hide",
         },
         {
           id: 2,
           name: "Flasks",
-          identifiers: [
-            { key: "BaseType", value: "Life Flask,Mana Flask" },
-          ],
-          action: "hide"
+          identifiers: [{ key: "BaseType", value: "Life Flask,Mana Flask" }],
+          action: "hide",
         },
         {
           id: 3,
@@ -393,7 +389,7 @@ export const defaultConfig = (): Config => ({
             { key: "BaseType", value: "Heavy Belt" },
             { key: "Rarity", value: "Normal" },
           ],
-          action: "interesting"
+          action: "interesting",
         },
         {
           id: 4,
@@ -401,15 +397,19 @@ export const defaultConfig = (): Config => ({
           identifiers: [
             { key: "Class", value: "Amulets" },
             { key: "BaseType", value: "Stellar Amulet" },
-            { key:  "Rarity", value: "Normal" },
+            { key: "Rarity", value: "Normal" },
           ],
-          action: "interesting"
+          action: "interesting",
         },
         {
           id: 5,
           name: "Low level area items",
           identifiers: [
-            { key: "Class", value: "Body Armours,Helmets,Boots,Gloves,Shields,Foci,One Hand Maces,Two Hand Maces,Quarterstaves,Bows,Crossbows" },
+            {
+              key: "Class",
+              value:
+                "Body Armours,Helmets,Boots,Gloves,Shields,Foci,One Hand Maces,Two Hand Maces,Quarterstaves,Bows,Crossbows",
+            },
             { key: "AreaLevel", value: "< 65" },
             { key: "Rarity", value: "Normal,Magic,Rare" },
             { key: "Quality", value: "= 0" },
@@ -680,18 +680,18 @@ function upgradeConfig(_config: Config): Config {
     config.configVersion = 19;
   }
 
-  if (config.logKeys === undefined) {
-    config.logKeys = false;
-  }
-
-  if (config.configVersion < 19) {
+  if (config.configVersion < 20) {
     config.widgets.push({
       ...defaultConfig().widgets.find((w) => w.wmType === "filter-generator")!,
       wmId: Math.max(0, ...config.widgets.map((_) => _.wmId)) + 1,
       wmZorder: null,
     });
 
-    config.configVersion = 19;
+    config.configVersion = 20;
+  }
+
+  if (config.logKeys === undefined) {
+    config.logKeys = false;
   }
 
   const priceCheck = config.widgets.find(
