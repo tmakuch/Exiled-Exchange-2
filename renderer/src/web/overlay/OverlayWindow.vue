@@ -12,11 +12,20 @@
     ></div>
     <template v-for="widget of widgets" :key="widget.wmId">
       <component
+        v-if="widget.wmType !== 'chat-messages'"
         v-show="isVisible(widget.wmId)"
         :config="widget"
         :id="`widget-${widget.wmId}`"
         :is="`widget-${widget.wmType}`"
       />
+      <component
+        v-if="widget.wmType === 'chat-messages'"
+        v-show="isVisible(widget.wmId)"
+        :config="widget"
+        :commands="hotkeyCommands"
+        :id="`widget-${widget.wmId}`"
+        :is="`widget-${widget.wmType}`"
+        />
     </template>
     <pre
       v-if="showLogs"
@@ -79,6 +88,7 @@ import WidgetSettings from "../settings/SettingsWindow.vue";
 import { AppConfig, saveConfig, pushHostConfig } from "@/web/Config";
 import LoadingAnimation from "./LoadingAnimation.vue";
 import WidgetFilterGenerator from "../filter-generator/WidgetFilterGenerator.vue";
+import WidgetChatMessages from "../chat-messages/WidgetChatMessages.vue";
 // ---
 import { usePoeninja } from "@/web/background/Prices";
 import { useLeagues } from "@/web/background/Leagues";
@@ -99,6 +109,7 @@ export default defineComponent({
     WidgetSettings,
     LoadingAnimation,
     WidgetFilterGenerator,
+    WidgetChatMessages
   },
   setup() {
     usePoeninja();
@@ -377,6 +388,7 @@ export default defineComponent({
       poePanelWidth,
       overlayBackground,
       widgets: computed(() => AppConfig().widgets),
+      hotkeyCommands: computed(() => AppConfig().commands),
       handleBackgroundClick,
       isVisible,
       overlayKey: computed(() => AppConfig().overlayKey),

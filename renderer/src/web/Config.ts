@@ -7,6 +7,7 @@ import type { StashSearchWidget } from "./stash-search/widget";
 import type { ItemCheckWidget } from "./item-check/widget";
 import type { ItemSearchWidget } from "./item-search/widget";
 import type { FilterGeneratorWidget } from "./filter-generator/widget";
+import type { ChatMessagesWidget } from "./chat-messages/widget";
 
 const _config = shallowRef<Config | null>(null);
 let _lastSavedConfig: Config | null = null;
@@ -119,6 +120,7 @@ export interface Config {
   restoreClipboard: boolean;
   commands: Array<{
     text: string;
+    friendlyName?: string;
     hotkey: string | null;
     send: boolean;
   }>;
@@ -140,7 +142,7 @@ export interface Config {
 }
 
 export const defaultConfig = (): Config => ({
-  configVersion: 21,
+  configVersion: 22,
   overlayKey: "Shift + Space",
   overlayBackground: "rgba(129, 139, 149, 0.15)",
   overlayBackgroundClose: true,
@@ -424,6 +426,19 @@ export const defaultConfig = (): Config => ({
         },
       ],
     } as FilterGeneratorWidget,
+    {
+      wmId: 105,
+      wmType: "chat-messages",
+      wmTitle: "Chat Messages",
+      wmWants: "hide",
+      wmZorder: 105,
+      wmFlags: ["invisible-on-blur"],
+      anchor: {
+        pos: "tl",
+        x: 10,
+        y: 60,
+      },
+    } as ChatMessagesWidget,
   ],
 });
 
@@ -702,6 +717,16 @@ function upgradeConfig(_config: Config): Config {
     config.alphas = [];
 
     config.configVersion = 21;
+  }
+
+  if (config.configVersion < 22) {
+    config.widgets.push({
+      ...defaultConfig().widgets.find((w) => w.wmType === "chat-messages")!,
+      wmId: Math.max(0, ...config.widgets.map((_) => _.wmId)) + 1,
+      wmZorder: null,
+    });
+
+    config.configVersion = 22;
   }
 
   if (config.logKeys === undefined) {
