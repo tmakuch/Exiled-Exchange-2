@@ -45,7 +45,6 @@ if (props.config.wmFlags[0] === "uninitialized") {
     x: 10,
     y: Math.random() * (40 - 30) + 30,
   };
-  props.config.entries = [];
   wm.show(props.config.wmId);
 }
 

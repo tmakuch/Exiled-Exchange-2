@@ -120,8 +120,8 @@ export interface Config {
   restoreClipboard: boolean;
   commands: Array<{
     text: string;
-    showInWidget?: boolean;
-    friendlyName?: string;
+    showInWidget: boolean;
+    friendlyName: string;
     hotkey: string | null;
     send: boolean;
   }>;
@@ -154,31 +154,43 @@ export const defaultConfig = (): Config => ({
     {
       text: "/hideout",
       hotkey: "F5",
+      showInWidget: false,
+      friendlyName: "",
       send: true,
     },
     {
       text: "/exit",
       hotkey: "F9",
+      showInWidget: false,
+      friendlyName: "",
       send: true,
     },
     {
       text: "@last ty",
       hotkey: null,
+      showInWidget: false,
+      friendlyName: "",
       send: true,
     },
     {
       text: "/invite @last",
       hotkey: null,
+      showInWidget: false,
+      friendlyName: "",
       send: true,
     },
     {
       text: "/tradewith @last",
       hotkey: null,
+      showInWidget: false,
+      friendlyName: "",
       send: true,
     },
     {
       text: "/hideout @last",
       hotkey: null,
+      showInWidget: false,
+      friendlyName: "",
       send: true,
     },
   ],
@@ -726,6 +738,12 @@ function upgradeConfig(_config: Config): Config {
       wmId: Math.max(0, ...config.widgets.map((_) => _.wmId)) + 1,
       wmZorder: null,
     });
+
+    config.commands = config.commands.map(command => ({
+      ...command,
+      showInWidget: false,
+      friendlyName: "",
+    }))
 
     config.configVersion = 22;
   }

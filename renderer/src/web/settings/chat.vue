@@ -60,6 +60,7 @@ export default defineComponent({
       addComand() {
         props.config.commands.push({
           text: "",
+          showInWidget: false,
           friendlyName: "",
           hotkey: null,
           send: true,
