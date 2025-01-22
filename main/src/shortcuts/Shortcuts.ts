@@ -74,6 +74,9 @@ export class Shortcuts {
       if (e.action === "stash-search") {
         stashSearch(e.text, this.clipboard, this.overlay);
       }
+      if (e.action === "paste-in-chat") {
+        typeInChat(e.text, e.send, this.clipboard, this.overlay);
+      }
     });
 
     uIOhook.on("keydown", (e) => {
@@ -200,7 +203,7 @@ export class Shortcuts {
             this.areaTracker.removeListeners();
             this.overlay.toggleActiveState();
           } else if (entry.action.type === "paste-in-chat") {
-            typeInChat(entry.action.text, entry.action.send, this.clipboard);
+            typeInChat(entry.action.text, entry.action.send, this.clipboard, this.overlay);
           } else if (entry.action.type === "trigger-event") {
             this.server.sendEventTo("broadcast", {
               name: "MAIN->CLIENT::widget-action",

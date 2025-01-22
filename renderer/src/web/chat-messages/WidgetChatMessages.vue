@@ -9,7 +9,7 @@
       </div>
       <div class="flex flex-col gap-y-1 overflow-y-auto min-h-0">
         <span v-if="!commands.some(c => c.showInWidget)">No commands are selected to show in widget</span>
-        <button v-for="command in commands.filter(c => c.showInWidget)" :class="$style.btn">
+        <button v-for="command in commands.filter(c => c.showInWidget)" :class="$style.btn" @click="sendChatEvent(command)">
           {{ command.friendlyName || command.text }}
         </button>
       </div>
@@ -23,16 +23,13 @@ import { useI18n } from "vue-i18n";
 import { MainProcess } from "@/web/background/IPC";
 import type { WidgetManager } from "../overlay/interfaces.js";
 import type { ChatMessagesWidget } from "./widget.js";
+import type { Config } from "../Config"
 
 import Widget from "../overlay/Widget.vue";
 
 const props = defineProps<{
   config: ChatMessagesWidget;
-  commands: Array<{
-    text: "string";
-    friendlyName: string;
-    send: boolean;
-  }>
+  commands: Array<Config["commands"][number]>,
 }>();
 
 const wm = inject<WidgetManager>("wm")!;
@@ -48,17 +45,13 @@ if (props.config.wmFlags[0] === "uninitialized") {
   wm.show(props.config.wmId);
 }
 
-function regenerateFilter() {
+function sendChatEvent(command: Config["commands"][number]) {
   MainProcess.sendEvent({
     name: "CLIENT->MAIN::user-action",
     payload: {
-      action: "filter-generator:update",
-      text: JSON.stringify({
-        folder: props.config.filtersFolder,
-        file: props.config.selectedFilterFile,
-        strategy: props.config.filterStrategy,
-        rules: props.config.entries,
-      }),
+      action: "paste-in-chat",
+      text: command.text,
+      send: command.send,
     },
   });
 }
