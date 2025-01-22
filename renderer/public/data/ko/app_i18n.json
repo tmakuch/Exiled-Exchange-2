@@ -257,6 +257,12 @@
     "examples_complex": "Filtering by amulets that dropped on map under level 50 (map level, not waystone tier)",
     "base_type_note": "Note: Keys are case-sensitive, ei: BaseType"
   },
+  "chat_messages": {
+    "name": "채팅으로 보내기",
+    "friendly_name": "약칭",
+    "show_in_widget": "위젯에 표시",
+    "empty": "위젯에 표시할 명령어가 선택되지 않았습니다"
+  },
   "image_strip": {
     "name": "이미지"
   },

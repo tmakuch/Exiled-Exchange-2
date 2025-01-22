@@ -11,12 +11,12 @@
           class="rounded bg-gray-900 px-1 block w-full font-poe"
         />
         <div class="flex gap-x-2">
-          <ui-toggle v-model="command.showInWidget" class="ml-1 w-1/3">
-              Show in widget
-            </ui-toggle>
+          <ui-toggle v-model="command.showInWidget" class="ml-1 w-1/3">{{
+            t('chat_messages.show_in_widget')
+          }}</ui-toggle>
           <input
             v-model.trim="command.friendlyName"
-            :placeholder="'Friendly name'"
+            :placeholder="t('chat_messages.friendly_name')"
             class="rounded bg-gray-900 px-1 block font-poe grow"
           />
         </div>

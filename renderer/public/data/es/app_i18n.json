@@ -265,6 +265,12 @@
     "examples_complex": "Filtrar por amuletos que cayeron en el mapa bajo el nivel 50 (nivel del mapa, no nivel del altar)",
     "base_type_note": "Nota: Las claves distinguen entre mayúsculas y minúsculas, ej: BaseType"
   },
+  "chat_messages": {
+    "name": "Enviar al chat",
+    "friendly_name": "nombre amigable",
+    "show_in_widget": "Mostrar en el widget",
+    "empty": "No se han seleccionado comandos para mostrar en el widget"
+  },
   "image_strip": {
     "name": "Franja de imagen"
   },

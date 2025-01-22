@@ -436,8 +436,8 @@ export const defaultConfig = (): Config => ({
       wmFlags: ["invisible-on-blur"],
       anchor: {
         pos: "tl",
-        x: 10,
-        y: 60,
+        x: 18,
+        y: 45,
       },
     } as ChatMessagesWidget,
   ],

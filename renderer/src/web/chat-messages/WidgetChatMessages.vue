@@ -1,14 +1,14 @@
 <template>
-  <Widget :config="config" :commands="commands" move-handles="corners" :inline-edit="false">
+  <Widget :config="config" :commands="commands" move-handles="corners" readonly :inline-edit="false">
     <div
-      class="widget-default-style p-1 flex flex-col overflow-y-auto min-h-0 w-72"
+      class="widget-default-style p-1 flex flex-col overflow-y-auto min-h-0 min-w-32"
       style="min-width: 5rem"
     >
       <div class="text-gray-100 p-1 flex items-center justify-between gap-4">
         <span class="truncate">{{ config.wmTitle || "Untitled" }}</span>
       </div>
       <div class="flex flex-col gap-y-1 overflow-y-auto min-h-0">
-        <span v-if="!commands.some(c => c.showInWidget)">No commands are selected to show in widget</span>
+        <span class="p-2" v-if="!commands.some(c => c.showInWidget)">{{ t("chat_messages.empty") }}</span>
         <button v-for="command in commands.filter(c => c.showInWidget)" :class="$style.btn" @click="sendChatEvent(command)">
           {{ command.friendlyName || command.text }}
         </button>
@@ -27,12 +27,16 @@ import type { Config } from "../Config"
 
 import Widget from "../overlay/Widget.vue";
 
+const { t } = useI18n();
+
 const props = defineProps<{
   config: ChatMessagesWidget;
   commands: Array<Config["commands"][number]>,
 }>();
 
 const wm = inject<WidgetManager>("wm")!;
+
+props.config.wmTitle = t("chat_messages.name");
 
 if (props.config.wmFlags[0] === "uninitialized") {
   props.config.wmFlags = ["invisible-on-blur"];
@@ -56,7 +60,6 @@ function sendChatEvent(command: Config["commands"][number]) {
   });
 }
 
-const { t } = useI18n();
 </script>
 
 <style lang="postcss" module>
