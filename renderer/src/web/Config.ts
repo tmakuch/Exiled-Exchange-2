@@ -120,6 +120,7 @@ export interface Config {
   restoreClipboard: boolean;
   commands: Array<{
     text: string;
+    showInWidget?: boolean;
     friendlyName?: string;
     hotkey: string | null;
     send: boolean;

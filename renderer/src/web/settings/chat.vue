@@ -11,6 +11,16 @@
           class="rounded bg-gray-900 px-1 block w-full font-poe"
         />
         <div class="flex gap-x-2">
+          <ui-toggle v-model="command.showInWidget" class="ml-1 w-1/3">
+              Show in widget
+            </ui-toggle>
+          <input
+            v-model.trim="command.friendlyName"
+            :placeholder="'Friendly name'"
+            class="rounded bg-gray-900 px-1 block font-poe grow"
+          />
+        </div>
+        <div class="flex gap-x-2">
           <ui-toggle v-model="command.send" class="ml-1">{{
             t("settings.chat_cmd_send")
           }}</ui-toggle>
@@ -50,6 +60,7 @@ export default defineComponent({
       addComand() {
         props.config.commands.push({
           text: "",
+          friendlyName: "",
           hotkey: null,
           send: true,
         });

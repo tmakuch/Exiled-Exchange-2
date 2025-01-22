@@ -8,8 +8,8 @@
         <span class="truncate">{{ config.wmTitle || "Untitled" }}</span>
       </div>
       <div class="flex flex-col gap-y-1 overflow-y-auto min-h-0">
-        <span v-if="!commands.some(c => c.friendlyName)">There's no commands to show</span>
-        <button v-for="command in commands.filter(c => c.friendlyName)" :class="$style.btn">
+        <span v-if="!commands.some(c => c.showInWidget)">No commands are selected to show in widget</span>
+        <button v-for="command in commands.filter(c => c.showInWidget)" :class="$style.btn">
           {{ command.friendlyName || command.text }}
         </button>
       </div>
