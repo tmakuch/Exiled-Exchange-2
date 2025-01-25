@@ -159,7 +159,7 @@ export function createExactStatFilters(
     statsByType: statsByType.filter((calc) => keepByType.includes(calc.type)),
   };
 
-  filterBasePercentile(ctx);
+  // filterBasePercentile(ctx);
 
   ctx.filters.push(
     ...ctx.statsByType.map((mod) =>
