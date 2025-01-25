@@ -98,6 +98,18 @@
       t(":cursor_pos")
     }}</ui-checkbox>
 
+    <div class="mb-4">
+      <select
+        v-model="autoFillEmptyRuneSockets"
+        class="p-1 rounded bg-gray-700 w-24"
+      >
+        <!-- This is true since it will be assigned to "disabled" in the code -->
+        <option :value="false">No</option>
+        <option value="Iron Rune">Iron Rune</option>
+      </select>
+      Automatically fill empty rune sockets
+    </div>
+
     <ui-checkbox class="mb-4" v-model="usePseudo">{{
       t(":use_pseudo")
     }}</ui-checkbox>
@@ -279,6 +291,10 @@ export default defineComponent({
       tooltipHover: configModelValue(
         () => configWidget.value,
         "itemHoverTooltip",
+      ),
+      autoFillEmptyRuneSockets: configModelValue(
+        () => configWidget.value,
+        "autoFillEmptyRuneSockets",
       ),
     };
   },
