@@ -11,13 +11,19 @@
         <div
           v-for="trade in activeTrades"
           :key="trade.id"
+          class="rounded p-2 leading-4 text-gray-100 border-b-gray-800 border-b-2 last:border-b-0"
         >
-          <span>{{ trade.item }}</span>
-          for
-          <span>{{ trade.price }}</span>
-          from
-          <span v-if="trade.buyers.length === 1">{{ trade.buyers[0] }}</span>
-          <span v-if="trade.buyers.length > 1">multiple people: {{ trade.buyers.join(', ') }}</span>
+          <div>{{ trade.item }} ({{ trade.price }})</div>
+          <div>Tab: {{ trade.stashName }} ({{ trade.stashLocation }})</div>
+          <div v-for="buyer in trade.buyers" class="flex flex-row gap-1 items-center mt-1">
+            <div class="flex-grow">{{ buyer }}</div>
+
+            <button class="flex-grow-0 rounded p-1 text-gray-100 bg-gray-800"><i class="fas fa-paper-plane text-gray-400 w-4 h-4" /></button>
+            <button class="flex-grow-0 rounded p-1 text-gray-100 bg-gray-800"><i class="fas fa-map-marker-alt text-gray-400 w-4 h-4" /></button>
+            <button class="flex-grow-0 rounded p-1 text-gray-100 bg-gray-800"><i class="fas fa-user-plus text-gray-400 w-4 h-4" /></button>
+            <button class="flex-grow-0 rounded p-1 text-gray-100 bg-gray-800"><i class="fas fa-thumbs-up text-gray-400 w-4 h-4" /></button>
+            <button class="flex-grow-0 rounded p-1 text-gray-100 bg-gray-800"><i class="fas fa-times text-gray-400 w-4 h-4" /></button>
+          </div>
         </div>
       </div>
     </div>
@@ -39,7 +45,35 @@ const props = defineProps<{
 
 const wm = inject<WidgetManager>("wm")!;
 const { t } = useI18n();
-const activeTrades: Array<TradeRequest> = ref([]);
+const activeTrades: Array<TradeRequest> = ref([
+    {
+      id: "server-test-0-from-ego",
+      item: "Astramentalis Stellar Amulet",
+      price: "1 div",
+      league: "hardcore",
+      stashName: "sale",
+      stashLocation: "top 1, left 1",
+      buyers: [
+        "ego-2513",
+        "ego-1514",
+        "ego-101c",
+        "ego-a8e with a very long name to test it",
+        "ego-1e18"
+      ]
+    },
+    {
+      id: "server-test-1-from-ego",
+      item: "Ingenuity, Utility Belt",
+      price: "1 div",
+      league: "hardcore",
+      stashName: "sale",
+      stashLocation: "top 1, left 1",
+      buyers: [
+        "ego-26bd",
+        // "ego-1c51"
+      ]
+    }
+]);
 
 if (props.config.wmFlags[0] === "uninitialized") {
   props.config.wmFlags = ["invisible-on-blur"];
@@ -52,10 +86,7 @@ if (props.config.wmFlags[0] === "uninitialized") {
   wm.show(props.config.wmId);
 }
 
-props.activeTrades = {};
-
 MainProcess.onEvent("MAIN->CLIENT::trade-viewer", (entry: TradeViewerRawEntry) => {
-  console.log(entry);
   const existingTrade = activeTrades.value.find(trade => trade.id === entry.itemId);
 
   if (existingTrade) {
