@@ -322,7 +322,8 @@
     "getting_price": "Получение цены {0}",
     "getting_price_from": "с poe.ninja \u2026",
     "you_have": "В наличии",
-    "stack": "Стак"
+    "stack": "Стак",
+    "fix_complex_query": "Disable \"Use pseudo mods\" in settings or log in with builtin browser"
   },
   "settings": {
     "title": "Настройки - Exiled Exchange 2",
