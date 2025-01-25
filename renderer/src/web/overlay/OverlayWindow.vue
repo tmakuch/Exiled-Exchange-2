@@ -83,7 +83,6 @@ import WidgetTradeViewer from "../client-log/WidgetTradeViewer.vue";
 // ---
 import { usePoeninja } from "@/web/background/Prices";
 import { useLeagues } from "@/web/background/Leagues";
-import { handleLine } from "@/web/client-log/client-log";
 
 type WMID = Widget["wmId"];
 

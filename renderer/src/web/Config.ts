@@ -7,7 +7,7 @@ import type { StashSearchWidget } from "./stash-search/widget";
 import type { ItemCheckWidget } from "./item-check/widget";
 import type { ItemSearchWidget } from "./item-search/widget";
 import type { FilterGeneratorWidget } from "./filter-generator/widget";
-import type { Widget } from "./overlay/widgets";
+import type { TradeViewerWidget } from "./client-log/widget";
 
 const _config = shallowRef<Config | null>(null);
 let _lastSavedConfig: Config | null = null;
@@ -436,9 +436,9 @@ export const defaultConfig = (): Config => ({
       anchor: {
         pos: "tl",
         x: 88,
-        y: 26,
+        y: 26
       },
-    } as Widget
+    } as TradeViewerWidget
   ],
 });
 
