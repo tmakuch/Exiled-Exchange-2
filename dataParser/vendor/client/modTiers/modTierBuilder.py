@@ -83,14 +83,22 @@ def modTierBuilder(mod_data):
     return by_id
 
 
+def get_tier_number_id(id):
+    if "shield" in id:
+        return "shield"
+    elif "armour" in id:
+        if "armour" == id:
+            return "armour"
+        else:
+            return "body_armour"
+    else:
+        return id
+
+
 def modTierBuilderB(mod_data, base_item_types, gold_mod_prices, tags):
     gold_with_readable_tags = {
         mod_data[gold_row["Mod"]]["Id"]: {
-            tags[tag]["Id"]
-            if "armour" not in tags[tag]["Id"] or "armour" == tags[tag]["Id"]
-            else "body_armour"
-            for tag in gold_row["Tags"]
-            if tag
+            get_tier_number_id(tags[tag]["Id"]) for tag in gold_row["Tags"] if tag
         }
         for gold_row in gold_mod_prices
     }
