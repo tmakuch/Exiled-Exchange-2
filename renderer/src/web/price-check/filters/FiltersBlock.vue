@@ -140,7 +140,12 @@
     </div> -->
     <!-- Handled parse error -->
     <div
-      v-if="!hasStats && item.rarity !== undefined && item.rarity !== 'Normal'"
+      v-if="
+        !hasStats &&
+        item.rarity !== undefined &&
+        item.rarity !== 'Normal' &&
+        !item.isUnidentified
+      "
       class="mb-4 text-center bg-purple-800 rounded-xl"
       :class="presets.length > 1 ? 'mt-1' : 'mt-4'"
     >
