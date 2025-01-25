@@ -298,7 +298,8 @@
     "getting_price": "가격 불러오는 중 {0}",
     "getting_price_from": "from poe.ninja \u2026",
     "you_have": "가진 갯수",
-    "stack": "스택"
+    "stack": "스택",
+    "fix_complex_query": "Disable \"Use pseudo mods\" in settings or log in with builtin browser"
   },
   "settings": {
     "title": "세팅 - Exiled Exchange 2",

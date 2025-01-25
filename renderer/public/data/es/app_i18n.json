@@ -310,7 +310,8 @@
     "stack": "Pila",
     "results_warn_tooltip": "Habilitar solo Exaltados en el Filtro en línea. Puedes desactivar esta alerta en configuración.",
     "results_warn_title": "Precio probablemente demasiado alto",
-    "results_warn_message": "El sitio de comercio oculta resultados entre {0} y {1} ex"
+    "results_warn_message": "El sitio de comercio oculta resultados entre {0} y {1} ex",
+    "fix_complex_query": "Disable \"Use pseudo mods\" in settings or log in with builtin browser"
   },
   "settings": {
     "title": "Configuración - Exiled Exchange 2",

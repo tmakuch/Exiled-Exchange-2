@@ -283,7 +283,8 @@
     "stack": "Stapel",
     "results_warn_tooltip": "Aktivieren Sie nur 'Exalted' im Online-Filter. Sie können diese Warnung in den Einstellungen deaktivieren.",
     "results_warn_title": "Preis wahrscheinlich zu hoch",
-    "results_warn_message": "Handelsseite blendet Ergebnisse zwischen {0} und {1} Ex aus"
+    "results_warn_message": "Handelsseite blendet Ergebnisse zwischen {0} und {1} Ex aus",
+    "fix_complex_query": "Disable \"Use pseudo mods\" in settings or log in with builtin browser"
   },
   "settings": {
     "title": "Einstellungen - Exiled Exchange 2",
