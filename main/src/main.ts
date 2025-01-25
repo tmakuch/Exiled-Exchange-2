@@ -64,7 +64,7 @@ app.on("ready", async () => {
         gameConfig,
         eventPipe
       );
-      new TradeViewer();
+      const tradeViewer = new TradeViewer(logger, eventPipe);
       eventPipe.onEventAnyClient("CLIENT->MAIN::update-host-config", (cfg) => {
         overlay.updateOpts(cfg.overlayKey, cfg.windowTitle);
         shortcuts.updateActions(
@@ -77,6 +77,7 @@ app.on("ready", async () => {
         gameLogWatcher.restart(cfg.clientLog ?? "");
         gameConfig.readConfig(cfg.gameConfig ?? "");
         appUpdater.checkAtStartup();
+        tradeViewer.startListening();
         tray.overlayKey = cfg.overlayKey;
       });
       uIOhook.start();
