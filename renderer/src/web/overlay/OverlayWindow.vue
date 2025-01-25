@@ -79,6 +79,7 @@ import WidgetSettings from "../settings/SettingsWindow.vue";
 import { AppConfig, saveConfig, pushHostConfig } from "@/web/Config";
 import LoadingAnimation from "./LoadingAnimation.vue";
 import WidgetFilterGenerator from "../filter-generator/WidgetFilterGenerator.vue";
+import WidgetTradeViewer from "../client-log/WidgetTradeViewer.vue";
 // ---
 import { usePoeninja } from "@/web/background/Prices";
 import { useLeagues } from "@/web/background/Leagues";
@@ -99,6 +100,7 @@ export default defineComponent({
     WidgetSettings,
     LoadingAnimation,
     WidgetFilterGenerator,
+    WidgetTradeViewer,
   },
   setup() {
     usePoeninja();
@@ -163,12 +165,6 @@ export default defineComponent({
     });
     Host.onEvent("MAIN->OVERLAY::visibility", (e) => {
       hideUI.value = !e.isVisible;
-    });
-
-    Host.onEvent("MAIN->CLIENT::game-log", (e) => {
-      for (const line of e.lines) {
-        handleLine(line);
-      }
     });
 
     onMounted(() => {
