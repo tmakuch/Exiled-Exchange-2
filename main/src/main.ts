@@ -16,6 +16,7 @@ import { GameLogWatcher } from "./host-files/GameLogWatcher";
 import { HttpProxy } from "./proxy";
 import { installExtension, VUEJS_DEVTOOLS } from "electron-devtools-installer";
 import { FilterGenerator } from "./filter-generator/FilterGenerator";
+import TradeViewer from "./trade-viewer/TradeViewer";
 
 if (!app.requestSingleInstanceLock()) {
   app.exit();
@@ -58,11 +59,12 @@ app.on("ready", async () => {
         gameConfig,
         eventPipe
       );
-      const filterGenerator = new FilterGenerator(
+      new FilterGenerator(
         logger,
         gameConfig,
         eventPipe
       );
+      new TradeViewer();
       eventPipe.onEventAnyClient("CLIENT->MAIN::update-host-config", (cfg) => {
         overlay.updateOpts(cfg.overlayKey, cfg.windowTitle);
         shortcuts.updateActions(
