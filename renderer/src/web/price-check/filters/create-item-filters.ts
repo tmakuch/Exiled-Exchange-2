@@ -286,12 +286,16 @@ export function createFilters(
       value: "magic",
     };
   } else if (
-    item.rarity === ItemRarity.Normal ||
     item.rarity === ItemRarity.Magic ||
     item.rarity === ItemRarity.Rare
   ) {
     filters.rarity = {
       value: "nonunique",
+    };
+  } else if (item.rarity === ItemRarity.Normal) {
+    // Sinc chance orbs only work on normal items
+    filters.rarity = {
+      value: "normal",
     };
   }
 
