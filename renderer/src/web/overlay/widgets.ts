@@ -46,6 +46,7 @@ export interface PriceCheckWidget extends Widget {
   rememberCurrency: boolean;
   defaultAllSelected: boolean;
   itemHoverTooltip: "off" | "keybind" | "always";
+  autoFillEmptyRuneSockets: "Iron Rune" | false;
 }
 
 export interface StopwatchWidget extends Widget {

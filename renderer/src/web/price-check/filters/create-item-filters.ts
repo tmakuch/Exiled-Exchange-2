@@ -5,6 +5,7 @@ import { ModifierType } from "@/parser/modifiers";
 // import { BaseType, ITEM_BY_REF } from "@/assets/data";
 import { BaseType, ITEM_BY_TRANSLATED } from "@/assets/data";
 import { CATEGORY_TO_TRADE_ID } from "../trade/pathofexile-trade";
+import { PriceCheckWidget } from "@/web/overlay/widgets";
 
 export const SPECIAL_SUPPORT_GEM = [
   "Empower Support",
@@ -21,6 +22,7 @@ interface CreateOptions {
   activateStockFilter: boolean;
   exact: boolean;
   useEn: boolean;
+  autoFillEmptyRuneSockets: PriceCheckWidget["autoFillEmptyRuneSockets"];
 }
 
 export function createFilters(
@@ -245,9 +247,18 @@ export function createFilters(
       };
     }
     if (item.runeSockets.empty > 0) {
-      filters.fillEmptyRuneSockets = {
-        disabled: true,
-      };
+      if (
+        opts.autoFillEmptyRuneSockets &&
+        (item.rarity === ItemRarity.Magic || item.rarity === ItemRarity.Rare)
+      ) {
+        filters.fillEmptyRuneSockets = {
+          disabled: false,
+        };
+      } else {
+        filters.fillEmptyRuneSockets = {
+          disabled: true,
+        };
+      }
     }
   }
 

@@ -143,7 +143,7 @@ export interface Config {
 }
 
 export const defaultConfig = (): Config => ({
-  configVersion: 22,
+  configVersion: 23,
   overlayKey: "Shift + Space",
   overlayBackground: "rgba(129, 139, 149, 0.15)",
   overlayBackgroundClose: true,
@@ -247,6 +247,7 @@ export const defaultConfig = (): Config => ({
       rememberCurrency: false,
       defaultAllSelected: false,
       itemHoverTooltip: "keybind",
+      autoFillEmptyRuneSockets: "Iron Rune",
     } as widget.PriceCheckWidget,
     {
       wmId: 3,
@@ -733,6 +734,14 @@ function upgradeConfig(_config: Config): Config {
   }
 
   if (config.configVersion < 22) {
+    config.widgets.find(
+      (w) => w.wmType === "price-check",
+    )!.autoFillEmptyRuneSockets = "Iron Rune";
+
+    config.configVersion = 22;
+  }
+
+  if (config.configVersion < 23) {
     config.widgets.push({
       ...defaultConfig().widgets.find((w) => w.wmType === "chat-messages")!,
       wmId: Math.max(0, ...config.widgets.map((_) => _.wmId)) + 1,
@@ -745,7 +754,7 @@ function upgradeConfig(_config: Config): Config {
       friendlyName: "",
     }))
 
-    config.configVersion = 22;
+    config.configVersion = 23;
   }
 
   if (config.logKeys === undefined) {

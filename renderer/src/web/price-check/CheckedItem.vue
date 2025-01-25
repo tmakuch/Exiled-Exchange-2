@@ -195,6 +195,7 @@ export default defineComponent({
             widget.value.usePseudo &&
             ["en", "ru", "ko", "cmn-Hant"].includes(lang.value),
           defaultAllSelected: widget.value.defaultAllSelected,
+          autoFillEmptyRuneSockets: widget.value.autoFillEmptyRuneSockets,
         });
 
         if (
