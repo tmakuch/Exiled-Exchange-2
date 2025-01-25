@@ -88,7 +88,8 @@ export type IpcEvent =
   | IpcOcrText
   | IpcConfigChanged
   | IpcUserAction
-  | FilterGeneratorListEvent;
+  | FilterGeneratorListEvent
+  | TradeViewerEvent;
 
 export type IpcEventPayload<
   Name extends IpcEvent["name"],
@@ -222,6 +223,19 @@ type FilterGeneratorListEvent = Event<
   {
     folder: string;
     files: string[];
+  }
+>;
+
+type TradeViewerEvent = Event<
+  "MAIN->CLIENT::trade-viewer",
+  {
+    from: string;
+    item: string;
+    price: string;
+    league: string;
+    stashName: string;
+    stashLocation: string;
+    itemId: string;
   }
 >;
 
