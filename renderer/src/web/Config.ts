@@ -8,6 +8,7 @@ import type { ItemCheckWidget } from "./item-check/widget";
 import type { ItemSearchWidget } from "./item-search/widget";
 import type { FilterGeneratorWidget } from "./filter-generator/widget";
 import type { ChatMessagesWidget } from "./chat-messages/widget";
+import type { TradeViewerWidget } from "./trade-viewer/widget";
 
 const _config = shallowRef<Config | null>(null);
 let _lastSavedConfig: Config | null = null;
@@ -453,6 +454,20 @@ export const defaultConfig = (): Config => ({
         y: 45,
       },
     } as ChatMessagesWidget,
+    {
+      wmId: 106,
+      wmType: "trade-viewer",
+      wmTitle: "Trade Viewer",
+      wmWants: "show",
+      wmZorder: 106,
+      wmFlags: [],
+      gameFolderLocation: "",
+      anchor: {
+        pos: "tl",
+        x: 85,
+        y: 20,
+      },
+    } as TradeViewerWidget,
   ],
 });
 
@@ -744,6 +759,11 @@ function upgradeConfig(_config: Config): Config {
   if (config.configVersion < 23) {
     config.widgets.push({
       ...defaultConfig().widgets.find((w) => w.wmType === "chat-messages")!,
+      wmId: Math.max(0, ...config.widgets.map((_) => _.wmId)) + 1,
+      wmZorder: null,
+    });
+    config.widgets.push({
+      ...defaultConfig().widgets.find((w) => w.wmType === "trade-viewer")!,
       wmId: Math.max(0, ...config.widgets.map((_) => _.wmId)) + 1,
       wmZorder: null,
     });
