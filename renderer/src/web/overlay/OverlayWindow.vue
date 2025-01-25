@@ -79,6 +79,7 @@ import WidgetSettings from "../settings/SettingsWindow.vue";
 import { AppConfig, saveConfig, pushHostConfig } from "@/web/Config";
 import LoadingAnimation from "./LoadingAnimation.vue";
 import WidgetFilterGenerator from "../filter-generator/WidgetFilterGenerator.vue";
+import WidgetTradeViewer from "../trade-viewer/WidgetTradeViewer.vue";
 // ---
 import { usePoeninja } from "@/web/background/Prices";
 import { useLeagues } from "@/web/background/Leagues";
@@ -99,6 +100,7 @@ export default defineComponent({
     WidgetSettings,
     LoadingAnimation,
     WidgetFilterGenerator,
+    WidgetTradeViewer,
   },
   setup() {
     usePoeninja();

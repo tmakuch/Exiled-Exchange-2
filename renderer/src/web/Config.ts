@@ -7,6 +7,7 @@ import type { StashSearchWidget } from "./stash-search/widget";
 import type { ItemCheckWidget } from "./item-check/widget";
 import type { ItemSearchWidget } from "./item-search/widget";
 import type { FilterGeneratorWidget } from "./filter-generator/widget";
+import type { TradeViewerWidget } from "@/web/trade-viewer/widget";
 
 const _config = shallowRef<Config | null>(null);
 let _lastSavedConfig: Config | null = null;
@@ -140,7 +141,7 @@ export interface Config {
 }
 
 export const defaultConfig = (): Config => ({
-  configVersion: 22,
+  configVersion: 24,
   overlayKey: "Shift + Space",
   overlayBackground: "rgba(129, 139, 149, 0.15)",
   overlayBackgroundClose: true,
@@ -425,6 +426,20 @@ export const defaultConfig = (): Config => ({
         },
       ],
     } as FilterGeneratorWidget,
+    {
+      wmId: 105,
+      wmType: "trade-viewer",
+      wmTitle: "Trade Viewer",
+      wmWants: "show",
+      wmZorder: 105,
+      wmFlags: [],
+      gameFolderLocation: "",
+      anchor: {
+        pos: "tl",
+        x: 85,
+        y: 20,
+      },
+    } as TradeViewerWidget,
   ],
 });
 
@@ -711,6 +726,16 @@ function upgradeConfig(_config: Config): Config {
     )!.autoFillEmptyRuneSockets = "Iron Rune";
 
     config.configVersion = 22;
+  }
+
+  if (config.configVersion < 24) {
+    config.widgets.push({
+      ...defaultConfig().widgets.find((w) => w.wmType === "trade-viewer")!,
+      wmId: Math.max(0, ...config.widgets.map((_) => _.wmId)) + 1,
+      wmZorder: null,
+    });
+
+    config.configVersion = 24;
   }
 
   if (config.logKeys === undefined) {
