@@ -110,7 +110,7 @@ export default defineComponent({
     WidgetSettings,
     LoadingAnimation,
     WidgetFilterGenerator,
-    WidgetChatMessages
+    WidgetChatMessages,
     WidgetTradeViewer,
   },
   setup() {
